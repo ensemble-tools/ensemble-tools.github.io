@@ -1,5 +1,5 @@
 // songs.js — Voltage Predictor 곡 데이터 & 모델 파라미터
-// 총 308곡 | R²=0.9688 | MAE=2.65콤보
+// 총 307곡 | R²=0.9688 | MAE=2.65콤보
 // ※ enstars_regression_v3.py 로 자동 생성 — 직접 수정 비권장
 
 const SONGS = [
@@ -266,7 +266,7 @@ const SONGS = [
   {
     "type": "All",
     "unit": "트릭스타",
-    "title": "키세키",
+    "title": "키세키(キセキ)",
     "totalNotes": 165,
     "duration": "2:35",
     "etStart": null,
@@ -951,19 +951,6 @@ const SONGS = [
     "category": "cosmic",
     "video": null,
     "predicted": 99.0
-  },
-  {
-    "type": "All",
-    "unit": "Eden",
-    "title": "키세키(キセキ)",
-    "totalNotes": 165,
-    "duration": "2:35",
-    "etStart": null,
-    "etEnd": null,
-    "measured": null,
-    "category": "cosmic",
-    "video": null,
-    "predicted": 90.0
   },
   {
     "type": "Sparkle",

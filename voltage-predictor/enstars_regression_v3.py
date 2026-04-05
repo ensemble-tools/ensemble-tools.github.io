@@ -358,7 +358,7 @@ def main():
                 default_js = out_path
                 js_in = input(f"저장 경로 [{default_js}]: ").strip()
                 js_out = js_in if js_in else default_js
-                export_songs_js(df_pred, result, js_out1)
+                export_songs_js(df_pred, result, js_out)
 
             elif cmd == "2":
                 default_csv = path.rsplit(".", 1)[0] + "_result_v3.csv"
