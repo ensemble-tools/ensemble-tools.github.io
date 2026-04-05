@@ -14,8 +14,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 86.0,
-    "clearNotes": 96.0
+    "predicted": 86.0
   },
   {
     "type": "Brilliant",
@@ -28,8 +27,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 75.0,
-    "clearNotes": 85.0
+    "predicted": 75.0
   },
   {
     "type": "Glitter",
@@ -42,8 +40,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 66.0,
-    "clearNotes": 76.0
+    "predicted": 66.0
   },
   {
     "type": "Sparkle",
@@ -56,8 +53,7 @@ const SONGS = [
     "measured": 88,
     "category": "starmaker",
     "video": "https://youtu.be/w43HDVmTbgY?si=uVSQaOXt3hyTAUgF",
-    "predicted": 88.0,
-    "clearNotes": 98.0
+    "predicted": 88.0
   },
   {
     "type": "Flash",
@@ -70,8 +66,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 55.0,
-    "clearNotes": 65.0
+    "predicted": 55.0
   },
   {
     "type": "Flash",
@@ -84,8 +79,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 76.0,
-    "clearNotes": 86.0
+    "predicted": 76.0
   },
   {
     "type": "Sparkle",
@@ -98,8 +92,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 68.0,
-    "clearNotes": 78.0
+    "predicted": 68.0
   },
   {
     "type": "Brilliant",
@@ -112,8 +105,7 @@ const SONGS = [
     "measured": 76,
     "category": "starmaker",
     "video": "https://youtu.be/8BBx4GHIDG0?si=B_RB4pLW2elj2mMA",
-    "predicted": 75.0,
-    "clearNotes": 85.0
+    "predicted": 75.0
   },
   {
     "type": "Brilliant",
@@ -126,8 +118,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 95.0,
-    "clearNotes": 105.0
+    "predicted": 95.0
   },
   {
     "type": "Sparkle",
@@ -140,8 +131,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 75.0,
-    "clearNotes": 85.0
+    "predicted": 75.0
   },
   {
     "type": "Flash",
@@ -154,8 +144,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 60.0,
-    "clearNotes": 70.0
+    "predicted": 60.0
   },
   {
     "type": "Sparkle",
@@ -168,8 +157,7 @@ const SONGS = [
     "measured": 67,
     "category": "starmaker",
     "video": "https://youtu.be/_FWZ9hdzcAc?si=3pAErtZR7uV_DLUU",
-    "predicted": 67.0,
-    "clearNotes": 77.0
+    "predicted": 67.0
   },
   {
     "type": "Glitter",
@@ -182,8 +170,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 95.0,
-    "clearNotes": 105.0
+    "predicted": 95.0
   },
   {
     "type": "Brilliant",
@@ -196,8 +183,7 @@ const SONGS = [
     "measured": 100,
     "category": "starmaker",
     "video": "https://youtu.be/6LsFhiMT7L8?si=bIVV2vwi9g5MmTm1",
-    "predicted": 94.0,
-    "clearNotes": 104.0
+    "predicted": 94.0
   },
   {
     "type": "Glitter",
@@ -210,8 +196,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 69.0,
-    "clearNotes": 79.0
+    "predicted": 69.0
   },
   {
     "type": "Flash",
@@ -224,8 +209,7 @@ const SONGS = [
     "measured": 79,
     "category": "starmaker",
     "video": "https://youtu.be/lBlFMcZZDYo?si=Yfb4-LnhlMOMrsap",
-    "predicted": 83.0,
-    "clearNotes": 93.0
+    "predicted": 83.0
   },
   {
     "type": "Glitter",
@@ -238,8 +222,7 @@ const SONGS = [
     "measured": 79,
     "category": "starmaker",
     "video": "https://youtu.be/i_9X3lDctpQ?si=cvcudSJnNbmK4U0E",
-    "predicted": 80.0,
-    "clearNotes": 90.0
+    "predicted": 80.0
   },
   {
     "type": "Brilliant",
@@ -252,8 +235,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 53.0,
-    "clearNotes": 63.0
+    "predicted": 53.0
   },
   {
     "type": "Sparkle",
@@ -266,8 +248,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 61.0,
-    "clearNotes": 71.0
+    "predicted": 61.0
   },
   {
     "type": "Glitter",
@@ -280,8 +261,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 64.0,
-    "clearNotes": 74.0
+    "predicted": 64.0
   },
   {
     "type": "All",
@@ -294,8 +274,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 90.0,
-    "clearNotes": 100.0
+    "predicted": 90.0
   },
   {
     "type": "Brilliant",
@@ -308,8 +287,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 68.0,
-    "clearNotes": 78.0
+    "predicted": 68.0
   },
   {
     "type": "Sparkle",
@@ -322,8 +300,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 116.0,
-    "clearNotes": 126.0
+    "predicted": 116.0
   },
   {
     "type": "Flash",
@@ -336,8 +313,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 85.0,
-    "clearNotes": 95.0
+    "predicted": 85.0
   },
   {
     "type": "Sparkle",
@@ -350,8 +326,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 80.0,
-    "clearNotes": 90.0
+    "predicted": 80.0
   },
   {
     "type": "Glitter",
@@ -364,8 +339,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 59.0,
-    "clearNotes": 69.0
+    "predicted": 59.0
   },
   {
     "type": "Glitter",
@@ -378,8 +352,7 @@ const SONGS = [
     "measured": 93,
     "category": "starmaker",
     "video": "https://youtu.be/kdWHcVWhbOE?si=qpTCHv7CueVuHAxr",
-    "predicted": 91.0,
-    "clearNotes": 101.0
+    "predicted": 91.0
   },
   {
     "type": "Flash",
@@ -392,8 +365,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 89.0,
-    "clearNotes": 99.0
+    "predicted": 89.0
   },
   {
     "type": "Brilliant",
@@ -406,8 +378,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 100.0,
-    "clearNotes": 110.0
+    "predicted": 100.0
   },
   {
     "type": "Flash",
@@ -420,8 +391,7 @@ const SONGS = [
     "measured": 58,
     "category": "starmaker",
     "video": "https://youtu.be/5H7bJ5ANRXU?si=CTWoFM6vJI78uz4D",
-    "predicted": 61.0,
-    "clearNotes": 71.0
+    "predicted": 61.0
   },
   {
     "type": "Glitter",
@@ -434,8 +404,7 @@ const SONGS = [
     "measured": 68,
     "category": "starmaker",
     "video": "https://youtu.be/AJkCL1amVks?si=chIYI3I3qK9YWfk0",
-    "predicted": 72.0,
-    "clearNotes": 82.0
+    "predicted": 72.0
   },
   {
     "type": "Brilliant",
@@ -448,8 +417,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 94.0,
-    "clearNotes": 104.0
+    "predicted": 94.0
   },
   {
     "type": "Sparkle",
@@ -462,8 +430,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 86.0,
-    "clearNotes": 96.0
+    "predicted": 86.0
   },
   {
     "type": "Glitter",
@@ -476,8 +443,7 @@ const SONGS = [
     "measured": 84,
     "category": "starmaker",
     "video": "https://youtu.be/sTQfBtuHjHQ?si=vuFBXaVP20egtg4h",
-    "predicted": 88.0,
-    "clearNotes": 98.0
+    "predicted": 88.0
   },
   {
     "type": "Sparkle",
@@ -490,8 +456,7 @@ const SONGS = [
     "measured": 91,
     "category": "starmaker",
     "video": "https://youtu.be/RHqdIxWxgNA?si=AEi41bRsrNOyshAj",
-    "predicted": 90.0,
-    "clearNotes": 100.0
+    "predicted": 90.0
   },
   {
     "type": "Flash",
@@ -504,8 +469,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 92.0,
-    "clearNotes": 102.0
+    "predicted": 92.0
   },
   {
     "type": "Sparkle",
@@ -518,8 +482,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Glitter",
@@ -532,8 +495,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 74.0,
-    "clearNotes": 84.0
+    "predicted": 74.0
   },
   {
     "type": "Sparkle",
@@ -546,8 +508,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Flash",
@@ -560,8 +521,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 100.0,
-    "clearNotes": 110.0
+    "predicted": 100.0
   },
   {
     "type": "Brilliant",
@@ -574,8 +534,7 @@ const SONGS = [
     "measured": 133,
     "category": "starmaker",
     "video": "https://youtu.be/Y1qHQvEATuk?si=rRwJSbZ_y9NlJeG5",
-    "predicted": 125.0,
-    "clearNotes": 135.0
+    "predicted": 125.0
   },
   {
     "type": "Glitter",
@@ -588,8 +547,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 58.0,
-    "clearNotes": 68.0
+    "predicted": 58.0
   },
   {
     "type": "Brilliant",
@@ -602,8 +560,7 @@ const SONGS = [
     "measured": 101,
     "category": "starmaker",
     "video": "https://youtu.be/LnbOJVHwMY4?si=TNJFVTd2sPgKlYpu",
-    "predicted": 97.0,
-    "clearNotes": 107.0
+    "predicted": 97.0
   },
   {
     "type": "Sparkle",
@@ -616,8 +573,7 @@ const SONGS = [
     "measured": 85,
     "category": "starmaker",
     "video": "https://youtu.be/BilzVweD09E?si=IFXLT82pvK3VtFfe",
-    "predicted": 83.0,
-    "clearNotes": 93.0
+    "predicted": 83.0
   },
   {
     "type": "Brilliant",
@@ -630,8 +586,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 89.0,
-    "clearNotes": 99.0
+    "predicted": 89.0
   },
   {
     "type": "Glitter",
@@ -644,8 +599,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 47.0,
-    "clearNotes": 57.0
+    "predicted": 47.0
   },
   {
     "type": "Brilliant",
@@ -658,8 +612,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 84.0,
-    "clearNotes": 94.0
+    "predicted": 84.0
   },
   {
     "type": "Sparkle",
@@ -672,8 +625,7 @@ const SONGS = [
     "measured": 115,
     "category": "starmaker",
     "video": "https://youtu.be/PQPsI-R5hqQ?si=AFXBCy2MtwIzWB4B",
-    "predicted": 109.0,
-    "clearNotes": 119.0
+    "predicted": 109.0
   },
   {
     "type": "Flash",
@@ -686,8 +638,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 111.0,
-    "clearNotes": 121.0
+    "predicted": 111.0
   },
   {
     "type": "Brilliant",
@@ -700,8 +651,7 @@ const SONGS = [
     "measured": 109,
     "category": "starmaker",
     "video": "https://youtu.be/XTpbKX-HEN0?si=b9msXZh4VC0_C7ss",
-    "predicted": 109.0,
-    "clearNotes": 119.0
+    "predicted": 109.0
   },
   {
     "type": "Glitter",
@@ -714,8 +664,7 @@ const SONGS = [
     "measured": 78,
     "category": "starmaker",
     "video": "https://youtu.be/C6glaT_nRp4?si=a-270axm7x7O3utV",
-    "predicted": 78.0,
-    "clearNotes": 88.0
+    "predicted": 78.0
   },
   {
     "type": "Brilliant",
@@ -728,8 +677,7 @@ const SONGS = [
     "measured": 50,
     "category": "starmaker",
     "video": "https://youtu.be/uFJyBU4DbOI?si=2CSyGuTsGVT8FJeH",
-    "predicted": 53.0,
-    "clearNotes": 63.0
+    "predicted": 53.0
   },
   {
     "type": "Glitter",
@@ -742,8 +690,7 @@ const SONGS = [
     "measured": 103,
     "category": "starmaker",
     "video": "https://youtu.be/kqELo6ZQHx8",
-    "predicted": 99.0,
-    "clearNotes": 109.0
+    "predicted": 99.0
   },
   {
     "type": "Sparkle",
@@ -756,8 +703,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 77.0,
-    "clearNotes": 87.0
+    "predicted": 77.0
   },
   {
     "type": "Brilliant",
@@ -770,8 +716,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 60.0,
-    "clearNotes": 70.0
+    "predicted": 60.0
   },
   {
     "type": "Glitter",
@@ -784,8 +729,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 109.0,
-    "clearNotes": 119.0
+    "predicted": 109.0
   },
   {
     "type": "Brilliant",
@@ -798,8 +742,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 102.0,
-    "clearNotes": 112.0
+    "predicted": 102.0
   },
   {
     "type": "Glitter",
@@ -812,8 +755,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 93.0,
-    "clearNotes": 103.0
+    "predicted": 93.0
   },
   {
     "type": "Flash",
@@ -826,8 +768,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 88.0,
-    "clearNotes": 98.0
+    "predicted": 88.0
   },
   {
     "type": "Glitter",
@@ -840,8 +781,7 @@ const SONGS = [
     "measured": 111,
     "category": "starmaker",
     "video": "https://youtu.be/a2cGfyx96Jg?si=uolJkqE1f82g48MH",
-    "predicted": 113.0,
-    "clearNotes": 123.0
+    "predicted": 113.0
   },
   {
     "type": "Brilliant",
@@ -854,8 +794,7 @@ const SONGS = [
     "measured": 65,
     "category": "starmaker",
     "video": "https://youtu.be/0jLzTGFVl4Y?si=b-QDAVP7v4J2eB1J",
-    "predicted": 62.0,
-    "clearNotes": 72.0
+    "predicted": 62.0
   },
   {
     "type": "Glitter",
@@ -868,8 +807,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 75.0,
-    "clearNotes": 85.0
+    "predicted": 75.0
   },
   {
     "type": "Flash",
@@ -882,8 +820,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 102.0,
-    "clearNotes": 112.0
+    "predicted": 102.0
   },
   {
     "type": "Sparkle",
@@ -896,8 +833,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 79.0,
-    "clearNotes": 89.0
+    "predicted": 79.0
   },
   {
     "type": "Flash",
@@ -910,8 +846,7 @@ const SONGS = [
     "measured": 96,
     "category": "starmaker",
     "video": "https://youtu.be/SHlgs0qGqUs?si=JYdJVbStRgwwPG8f",
-    "predicted": 97.0,
-    "clearNotes": 107.0
+    "predicted": 97.0
   },
   {
     "type": "Sparkle",
@@ -924,8 +859,7 @@ const SONGS = [
     "measured": 91,
     "category": "starmaker",
     "video": "https://youtu.be/3ZaWkpmu8co?si=h0LhzG8_q0GhKT6W",
-    "predicted": 86.0,
-    "clearNotes": 96.0
+    "predicted": 86.0
   },
   {
     "type": "Flash",
@@ -938,8 +872,7 @@ const SONGS = [
     "measured": 99,
     "category": "starmaker",
     "video": "https://youtu.be/xZ8zgJmMjEY?si=3psYxq3c6zn8YLQD",
-    "predicted": 101.0,
-    "clearNotes": 111.0
+    "predicted": 101.0
   },
   {
     "type": "Sparkle",
@@ -952,8 +885,7 @@ const SONGS = [
     "measured": 71,
     "category": "starmaker",
     "video": "https://youtu.be/Sfd-1SMuVsM?si=u7TQr70fSsLhWtjF",
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Sparkle",
@@ -966,8 +898,7 @@ const SONGS = [
     "measured": null,
     "category": "starmaker",
     "video": null,
-    "predicted": 69.0,
-    "clearNotes": 79.0
+    "predicted": 69.0
   },
   {
     "type": "Flash",
@@ -980,8 +911,7 @@ const SONGS = [
     "measured": 83,
     "category": "starmaker",
     "video": "https://youtu.be/50kz0jhNNZY",
-    "predicted": 85.0,
-    "clearNotes": 95.0
+    "predicted": 85.0
   },
   {
     "type": "Flash",
@@ -994,8 +924,7 @@ const SONGS = [
     "measured": 124,
     "category": "starmaker",
     "video": "https://youtu.be/x54i9zUFLAA?si=rUnzY6MRD5uxtPH0",
-    "predicted": 117.0,
-    "clearNotes": 127.0
+    "predicted": 117.0
   },
   {
     "type": "Glitter",
@@ -1008,8 +937,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 78.0,
-    "clearNotes": 88.0
+    "predicted": 78.0
   },
   {
     "type": "Sparkle",
@@ -1022,8 +950,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 99.0,
-    "clearNotes": 109.0
+    "predicted": 99.0
   },
   {
     "type": "All",
@@ -1036,8 +963,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 90.0,
-    "clearNotes": 100.0
+    "predicted": 90.0
   },
   {
     "type": "Sparkle",
@@ -1050,8 +976,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 94.0,
-    "clearNotes": 104.0
+    "predicted": 94.0
   },
   {
     "type": "Glitter",
@@ -1064,8 +989,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 109.0,
-    "clearNotes": 119.0
+    "predicted": 109.0
   },
   {
     "type": "Glitter",
@@ -1078,8 +1002,7 @@ const SONGS = [
     "measured": 124,
     "category": "cosmic",
     "video": "https://youtu.be/pfVXpX1aV4I?si=G8NZNZ9Z5Qd48ok1",
-    "predicted": 126.0,
-    "clearNotes": 136.0
+    "predicted": 126.0
   },
   {
     "type": "Sparkle",
@@ -1092,8 +1015,7 @@ const SONGS = [
     "measured": 96,
     "category": "cosmic",
     "video": "https://youtu.be/4ifRZCs4jsA?si=Uz_Fps3GG7G0PLEl",
-    "predicted": 95.0,
-    "clearNotes": 105.0
+    "predicted": 95.0
   },
   {
     "type": "Brilliant",
@@ -1106,8 +1028,7 @@ const SONGS = [
     "measured": 76,
     "category": "cosmic",
     "video": "https://youtu.be/NgUj9Obrllk?si=QyZJ4NxiZMwAT-8g",
-    "predicted": 77.0,
-    "clearNotes": 87.0
+    "predicted": 77.0
   },
   {
     "type": "Flash",
@@ -1120,8 +1041,7 @@ const SONGS = [
     "measured": 114,
     "category": "cosmic",
     "video": "https://youtu.be/xQGLhtIgjYc?si=Oo-kP3k4u-kbGYu6",
-    "predicted": 117.0,
-    "clearNotes": 127.0
+    "predicted": 117.0
   },
   {
     "type": "Flash",
@@ -1134,8 +1054,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "Brilliant",
@@ -1148,8 +1067,7 @@ const SONGS = [
     "measured": 87,
     "category": "cosmic",
     "video": "https://youtu.be/F9-sXx1Q7YU?si=1mwAtQ6cleLxRjdg",
-    "predicted": 87.0,
-    "clearNotes": 97.0
+    "predicted": 87.0
   },
   {
     "type": "Glitter",
@@ -1162,8 +1080,7 @@ const SONGS = [
     "measured": 87,
     "category": "cosmic",
     "video": "https://youtu.be/q8VFnfYCVV4?si=xWot2jbWbANgp010",
-    "predicted": 88.0,
-    "clearNotes": 98.0
+    "predicted": 88.0
   },
   {
     "type": "Flash",
@@ -1176,8 +1093,7 @@ const SONGS = [
     "measured": 108,
     "category": "cosmic",
     "video": "https://youtu.be/xxHW9ymTQm8?si=abDChT9U7Y-LarIN",
-    "predicted": 105.0,
-    "clearNotes": 115.0
+    "predicted": 105.0
   },
   {
     "type": "Flash",
@@ -1190,8 +1106,7 @@ const SONGS = [
     "measured": 72,
     "category": "cosmic",
     "video": "https://youtu.be/-DwLLdPSAZM?si=3aiIr2M94EkyZy9D",
-    "predicted": 74.0,
-    "clearNotes": 84.0
+    "predicted": 74.0
   },
   {
     "type": "Brilliant",
@@ -1204,8 +1119,7 @@ const SONGS = [
     "measured": 91,
     "category": "cosmic",
     "video": "https://youtu.be/o4WK5110vY4?si=N3thKNrAzMye_HLm",
-    "predicted": 90.0,
-    "clearNotes": 100.0
+    "predicted": 90.0
   },
   {
     "type": "Sparkle",
@@ -1218,8 +1132,7 @@ const SONGS = [
     "measured": 106,
     "category": "cosmic",
     "video": "https://youtu.be/5gd7Qh1DOwQ?si=2_p63RqU-nnNRS0j",
-    "predicted": 104.0,
-    "clearNotes": 114.0
+    "predicted": 104.0
   },
   {
     "type": "Glitter",
@@ -1232,8 +1145,7 @@ const SONGS = [
     "measured": 112,
     "category": "cosmic",
     "video": "https://youtu.be/WxT9n_aB8B8?si=ov3SlhyFUThDI0AJ",
-    "predicted": 115.0,
-    "clearNotes": 125.0
+    "predicted": 115.0
   },
   {
     "type": "Sparkle",
@@ -1246,8 +1158,7 @@ const SONGS = [
     "measured": 93,
     "category": "cosmic",
     "video": "https://youtu.be/--ND22eAXbs?si=N1-qxGNPwiul6Gw6",
-    "predicted": 95.0,
-    "clearNotes": 105.0
+    "predicted": 95.0
   },
   {
     "type": "Brilliant",
@@ -1260,8 +1171,7 @@ const SONGS = [
     "measured": 105,
     "category": "cosmic",
     "video": "https://youtu.be/mxHmoh0IUww?si=WkwyfV92PE5cQnZQ",
-    "predicted": 102.0,
-    "clearNotes": 112.0
+    "predicted": 102.0
   },
   {
     "type": "Brilliant",
@@ -1274,8 +1184,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Glitter",
@@ -1288,8 +1197,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 66.0,
-    "clearNotes": 76.0
+    "predicted": 66.0
   },
   {
     "type": "Flash",
@@ -1302,8 +1210,7 @@ const SONGS = [
     "measured": 61,
     "category": "cosmic",
     "video": "https://youtu.be/5FeV2Qqwl34?si=99Hzg47XFiktAoFI",
-    "predicted": 60.0,
-    "clearNotes": 70.0
+    "predicted": 60.0
   },
   {
     "type": "Flash",
@@ -1316,8 +1223,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 107.0,
-    "clearNotes": 117.0
+    "predicted": 107.0
   },
   {
     "type": "Sparkle",
@@ -1330,8 +1236,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Brilliant",
@@ -1344,8 +1249,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 67.0,
-    "clearNotes": 77.0
+    "predicted": 67.0
   },
   {
     "type": "Sparkle",
@@ -1358,8 +1262,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "Brilliant",
@@ -1372,8 +1275,7 @@ const SONGS = [
     "measured": 66,
     "category": "cosmic",
     "video": "https://youtu.be/qzX_1S2Jh2s?si=r02Jq0Fy7dJpNygU",
-    "predicted": 66.0,
-    "clearNotes": 76.0
+    "predicted": 66.0
   },
   {
     "type": "Sparkle",
@@ -1386,8 +1288,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 84.0,
-    "clearNotes": 94.0
+    "predicted": 84.0
   },
   {
     "type": "Glitter",
@@ -1400,8 +1301,7 @@ const SONGS = [
     "measured": 68,
     "category": "cosmic",
     "video": "https://youtu.be/bziktRLR0iU?si=bvRbJTSwyZpt939H",
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Flash",
@@ -1414,8 +1314,7 @@ const SONGS = [
     "measured": 82,
     "category": "cosmic",
     "video": "https://youtu.be/YtC9FUS6HFM?si=ZRQptDv4Mlm2Znl7",
-    "predicted": 83.0,
-    "clearNotes": 93.0
+    "predicted": 83.0
   },
   {
     "type": "Glitter",
@@ -1428,8 +1327,7 @@ const SONGS = [
     "measured": 76,
     "category": "cosmic",
     "video": "https://youtu.be/R4DsM3TFwxs?si=x12g6alKsftJT_fe",
-    "predicted": 77.0,
-    "clearNotes": 87.0
+    "predicted": 77.0
   },
   {
     "type": "Flash",
@@ -1442,8 +1340,7 @@ const SONGS = [
     "measured": 74,
     "category": "cosmic",
     "video": "https://youtu.be/AUsKGj2Fzw8?si=flJrASOwqXPMNrjd",
-    "predicted": 74.0,
-    "clearNotes": 84.0
+    "predicted": 74.0
   },
   {
     "type": "Flash",
@@ -1456,8 +1353,7 @@ const SONGS = [
     "measured": 90,
     "category": "cosmic",
     "video": "https://youtu.be/DiaxIJbyf34?si=RB65ei8PFi0F41CQ",
-    "predicted": 88.0,
-    "clearNotes": 98.0
+    "predicted": 88.0
   },
   {
     "type": "Glitter",
@@ -1470,8 +1366,7 @@ const SONGS = [
     "measured": 74,
     "category": "cosmic",
     "video": "https://youtu.be/Adxx0A2kdjM?si=O5FvfplTEmNM5ozJ",
-    "predicted": 73.0,
-    "clearNotes": 83.0
+    "predicted": 73.0
   },
   {
     "type": "Flash",
@@ -1484,8 +1379,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "Glitter",
@@ -1498,8 +1392,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 83.0,
-    "clearNotes": 93.0
+    "predicted": 83.0
   },
   {
     "type": "Sparkle",
@@ -1512,8 +1405,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 90.0,
-    "clearNotes": 100.0
+    "predicted": 90.0
   },
   {
     "type": "Brilliant",
@@ -1526,8 +1418,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Glitter",
@@ -1540,8 +1431,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 67.0,
-    "clearNotes": 77.0
+    "predicted": 67.0
   },
   {
     "type": "Flash",
@@ -1554,8 +1444,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 87.0,
-    "clearNotes": 97.0
+    "predicted": 87.0
   },
   {
     "type": "Glitter",
@@ -1568,8 +1457,7 @@ const SONGS = [
     "measured": 83,
     "category": "cosmic",
     "video": "https://youtu.be/ueARJH0lOpo",
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "Brilliant",
@@ -1582,8 +1470,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 99.0,
-    "clearNotes": 109.0
+    "predicted": 99.0
   },
   {
     "type": "Brilliant",
@@ -1596,8 +1483,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 98.0,
-    "clearNotes": 108.0
+    "predicted": 98.0
   },
   {
     "type": "Brilliant",
@@ -1610,8 +1496,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 93.0,
-    "clearNotes": 103.0
+    "predicted": 93.0
   },
   {
     "type": "Sparkle",
@@ -1624,8 +1509,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "Flash",
@@ -1638,8 +1522,7 @@ const SONGS = [
     "measured": 73,
     "category": "cosmic",
     "video": "https://youtu.be/7Z90uJrZ6hE?si=pO4-opLZiJ-x4hMc",
-    "predicted": 72.0,
-    "clearNotes": 82.0
+    "predicted": 72.0
   },
   {
     "type": "Sparkle",
@@ -1652,8 +1535,7 @@ const SONGS = [
     "measured": 90,
     "category": "cosmic",
     "video": "https://youtu.be/qkNuxf18RuI?si=5sTvCN81PP7Gac_C",
-    "predicted": 97.0,
-    "clearNotes": 107.0
+    "predicted": 97.0
   },
   {
     "type": "Flash",
@@ -1666,8 +1548,7 @@ const SONGS = [
     "measured": 99,
     "category": "cosmic",
     "video": "https://youtu.be/xZ8zgJmMjEY?si=o2PAmywwvB5TIhSq",
-    "predicted": 101.0,
-    "clearNotes": 111.0
+    "predicted": 101.0
   },
   {
     "type": "Flash",
@@ -1680,8 +1561,7 @@ const SONGS = [
     "measured": 79,
     "category": "cosmic",
     "video": "https://youtu.be/KKOmwmcLAJc?si=rCPw5XBjTdNEdANm",
-    "predicted": 81.0,
-    "clearNotes": 91.0
+    "predicted": 81.0
   },
   {
     "type": "Glitter",
@@ -1694,8 +1574,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 117.0,
-    "clearNotes": 127.0
+    "predicted": 117.0
   },
   {
     "type": "Brilliant",
@@ -1708,8 +1587,7 @@ const SONGS = [
     "measured": 104,
     "category": "cosmic",
     "video": "https://youtu.be/iay7pagyxjU?si=VMR_M1XZY8mszB2R",
-    "predicted": 106.0,
-    "clearNotes": 116.0
+    "predicted": 106.0
   },
   {
     "type": "Sparkle",
@@ -1722,8 +1600,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Flash",
@@ -1736,8 +1613,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 100.0,
-    "clearNotes": 110.0
+    "predicted": 100.0
   },
   {
     "type": "Glitter",
@@ -1750,8 +1626,7 @@ const SONGS = [
     "measured": 69,
     "category": "cosmic",
     "video": "https://youtu.be/VHeL3Sqkato?si=-f06LAiDWw4_qlVZ",
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Brilliant",
@@ -1764,8 +1639,7 @@ const SONGS = [
     "measured": 111,
     "category": "cosmic",
     "video": "https://youtu.be/8igMnhpcuh0?si=aSSG9db_pQlY21zp",
-    "predicted": 111.0,
-    "clearNotes": 121.0
+    "predicted": 111.0
   },
   {
     "type": "Brilliant",
@@ -1778,8 +1652,7 @@ const SONGS = [
     "measured": 105,
     "category": "cosmic",
     "video": "https://youtu.be/n2Rk_IoB5zM?si=R1HA1Qx8yBzlADKV",
-    "predicted": 106.0,
-    "clearNotes": 116.0
+    "predicted": 106.0
   },
   {
     "type": "Glitter",
@@ -1792,8 +1665,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 67.0,
-    "clearNotes": 77.0
+    "predicted": 67.0
   },
   {
     "type": "Glitter",
@@ -1806,8 +1678,7 @@ const SONGS = [
     "measured": 97,
     "category": "cosmic",
     "video": "https://youtu.be/Cg2Fk383B4E?si=9b6iAO2LnkMwtRMs",
-    "predicted": 96.0,
-    "clearNotes": 106.0
+    "predicted": 96.0
   },
   {
     "type": "Brilliant",
@@ -1820,8 +1691,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 129.0,
-    "clearNotes": 139.0
+    "predicted": 129.0
   },
   {
     "type": "Glitter",
@@ -1834,8 +1704,7 @@ const SONGS = [
     "measured": 74,
     "category": "cosmic",
     "video": "https://youtu.be/JXRfwxSW2uM?si=GKeAlZB7lIBj5jc5",
-    "predicted": 73.0,
-    "clearNotes": 83.0
+    "predicted": 73.0
   },
   {
     "type": "Flash",
@@ -1848,8 +1717,7 @@ const SONGS = [
     "measured": 102,
     "category": "cosmic",
     "video": "https://youtu.be/PuRUA2vcJ1A?si=UWOJjOYtOgK_akES",
-    "predicted": 98.0,
-    "clearNotes": 108.0
+    "predicted": 98.0
   },
   {
     "type": "Flash",
@@ -1862,8 +1730,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 63.0,
-    "clearNotes": 73.0
+    "predicted": 63.0
   },
   {
     "type": "Flash",
@@ -1876,8 +1743,7 @@ const SONGS = [
     "measured": 76,
     "category": "cosmic",
     "video": "https://youtu.be/lxzSzDkWGzc?si=6GaDYUesvrfU3tO3",
-    "predicted": 75.0,
-    "clearNotes": 85.0
+    "predicted": 75.0
   },
   {
     "type": "Sparkle",
@@ -1890,8 +1756,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 85.0,
-    "clearNotes": 95.0
+    "predicted": 85.0
   },
   {
     "type": "Sparkle",
@@ -1904,8 +1769,7 @@ const SONGS = [
     "measured": null,
     "category": "cosmic",
     "video": null,
-    "predicted": 80.0,
-    "clearNotes": 90.0
+    "predicted": 80.0
   },
   {
     "type": "Flash",
@@ -1918,8 +1782,7 @@ const SONGS = [
     "measured": 116,
     "category": "cosmic",
     "video": "https://youtu.be/C853sWzXfWI?si=ad2MiORPV0daDFAR",
-    "predicted": 119.0,
-    "clearNotes": 129.0
+    "predicted": 119.0
   },
   {
     "type": "Flash",
@@ -1932,8 +1795,7 @@ const SONGS = [
     "measured": 57,
     "category": "cosmic",
     "video": "https://youtu.be/OvVvv1qL6mA?si=iOjtGIA8H3mWQJpU",
-    "predicted": 58.0,
-    "clearNotes": 68.0
+    "predicted": 58.0
   },
   {
     "type": "Flash",
@@ -1946,8 +1808,7 @@ const SONGS = [
     "measured": 99,
     "category": "cosmic",
     "video": "https://youtu.be/Sag56BWbyBM?si=cQOEFl2-KAFcKEjf",
-    "predicted": 99.0,
-    "clearNotes": 109.0
+    "predicted": 99.0
   },
   {
     "type": "Flash",
@@ -1960,8 +1821,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": "https://youtu.be/eoQE_n5ITSU?si=rdxhHahQ6kgSC5mi",
-    "predicted": 83.0,
-    "clearNotes": 93.0
+    "predicted": 83.0
   },
   {
     "type": "Glitter",
@@ -1974,8 +1834,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": "https://youtu.be/OMv6CprdegM?si=20wVqjLyD_tJ_aBg",
-    "predicted": 89.0,
-    "clearNotes": 99.0
+    "predicted": 89.0
   },
   {
     "type": "Brilliant",
@@ -1988,8 +1847,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": "https://youtu.be/FXtZNEwGTNM?si=B1FQOqAc1My09wi8",
-    "predicted": 72.0,
-    "clearNotes": 82.0
+    "predicted": 72.0
   },
   {
     "type": "Glitter",
@@ -2002,8 +1860,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": "https://youtu.be/AEadVvbIDTs?si=7EB3HtgDU2T4aXPM",
-    "predicted": 65.0,
-    "clearNotes": 75.0
+    "predicted": 65.0
   },
   {
     "type": "Brilliant",
@@ -2016,8 +1873,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": "https://youtu.be/5ibK0HTyCqE",
-    "predicted": 69.0,
-    "clearNotes": 79.0
+    "predicted": 69.0
   },
   {
     "type": "Sparkle",
@@ -2030,8 +1886,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": "https://youtu.be/XpS8WT--GMA?si=WC61RpYpJ5Md186S",
-    "predicted": 105.0,
-    "clearNotes": 115.0
+    "predicted": 105.0
   },
   {
     "type": "Flash",
@@ -2044,8 +1899,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": "https://youtu.be/e2zo1oC_ouE?si=pXVOHxaCM-T51DyL",
-    "predicted": 84.0,
-    "clearNotes": 94.0
+    "predicted": 84.0
   },
   {
     "type": "Flash",
@@ -2058,8 +1912,7 @@ const SONGS = [
     "measured": 106,
     "category": "rhythm_link",
     "video": "https://youtu.be/VfIUZw1CkrE?si=qarf0WyZqsIVIcar",
-    "predicted": 99.0,
-    "clearNotes": 109.0
+    "predicted": 99.0
   },
   {
     "type": "Brilliant",
@@ -2072,8 +1925,7 @@ const SONGS = [
     "measured": 98,
     "category": "rhythm_link",
     "video": "https://youtu.be/VjQw-7CczQY?si=fAWVQfIi3NFds-hw",
-    "predicted": 93.0,
-    "clearNotes": 103.0
+    "predicted": 93.0
   },
   {
     "type": "Brilliant",
@@ -2086,8 +1938,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": "https://youtu.be/f1QLJm01eJg?si=xWj4yhalHluzvXnU",
-    "predicted": 58.0,
-    "clearNotes": 68.0
+    "predicted": 58.0
   },
   {
     "type": "Sparkle",
@@ -2100,8 +1951,7 @@ const SONGS = [
     "measured": 57,
     "category": "rhythm_link",
     "video": "https://youtu.be/U9qxWETQMDE?si=7Tu0qSDB0-I-rI26",
-    "predicted": 61.0,
-    "clearNotes": 71.0
+    "predicted": 61.0
   },
   {
     "type": "Sparkle",
@@ -2114,8 +1964,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 65.0,
-    "clearNotes": 75.0
+    "predicted": 65.0
   },
   {
     "type": "Glitter",
@@ -2128,8 +1977,7 @@ const SONGS = [
     "measured": 71,
     "category": "rhythm_link",
     "video": "https://youtu.be/7U1RsunFOc8?si=l9aqJXkrTgCHCE57",
-    "predicted": 73.0,
-    "clearNotes": 83.0
+    "predicted": 73.0
   },
   {
     "type": "Glitter",
@@ -2142,8 +1990,7 @@ const SONGS = [
     "measured": 108,
     "category": "rhythm_link",
     "video": "https://youtu.be/2QRK5t-U_F0?si=11m1UzWIRi4isplT",
-    "predicted": 111.0,
-    "clearNotes": 121.0
+    "predicted": 111.0
   },
   {
     "type": "Sparkle",
@@ -2156,8 +2003,7 @@ const SONGS = [
     "measured": 85,
     "category": "rhythm_link",
     "video": "https://youtu.be/u21aGJ2glLs?si=-Y2tKw3cwpKPAczL",
-    "predicted": 89.0,
-    "clearNotes": 99.0
+    "predicted": 89.0
   },
   {
     "type": "Flash",
@@ -2170,8 +2016,7 @@ const SONGS = [
     "measured": 114,
     "category": "rhythm_link",
     "video": "https://youtu.be/kkncT21bzKo?si=13QU37Tcg7dQd-RE",
-    "predicted": 113.0,
-    "clearNotes": 123.0
+    "predicted": 113.0
   },
   {
     "type": "Brilliant",
@@ -2184,8 +2029,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 55.0,
-    "clearNotes": 65.0
+    "predicted": 55.0
   },
   {
     "type": "Flash",
@@ -2198,8 +2042,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 76.0,
-    "clearNotes": 86.0
+    "predicted": 76.0
   },
   {
     "type": "Sparkle",
@@ -2212,8 +2055,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 77.0,
-    "clearNotes": 87.0
+    "predicted": 77.0
   },
   {
     "type": "Glitter",
@@ -2226,8 +2068,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 77.0,
-    "clearNotes": 87.0
+    "predicted": 77.0
   },
   {
     "type": "Brilliant",
@@ -2240,8 +2081,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Glitter",
@@ -2254,8 +2094,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 87.0,
-    "clearNotes": 97.0
+    "predicted": 87.0
   },
   {
     "type": "Sparkle",
@@ -2268,8 +2107,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 68.0,
-    "clearNotes": 78.0
+    "predicted": 68.0
   },
   {
     "type": "Brilliant",
@@ -2282,8 +2120,7 @@ const SONGS = [
     "measured": 93,
     "category": "rhythm_link",
     "video": "https://youtu.be/4TBnL26Tv6c?si=ASXdvkO7M4yv_rWD",
-    "predicted": 90.0,
-    "clearNotes": 100.0
+    "predicted": 90.0
   },
   {
     "type": "Sparkle",
@@ -2296,8 +2133,7 @@ const SONGS = [
     "measured": 89,
     "category": "rhythm_link",
     "video": "https://youtu.be/D6X5kz65g6g?si=YmzByWmUP_MqsUdN",
-    "predicted": 84.0,
-    "clearNotes": 94.0
+    "predicted": 84.0
   },
   {
     "type": "Brilliant",
@@ -2310,8 +2146,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 61.0,
-    "clearNotes": 71.0
+    "predicted": 61.0
   },
   {
     "type": "Flash",
@@ -2324,8 +2159,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 90.0,
-    "clearNotes": 100.0
+    "predicted": 90.0
   },
   {
     "type": "Flash",
@@ -2338,8 +2172,7 @@ const SONGS = [
     "measured": 106,
     "category": "rhythm_link",
     "video": "https://youtu.be/C4CCRKRYMT0?si=9y4q4Y30JaTguMW6",
-    "predicted": 104.0,
-    "clearNotes": 114.0
+    "predicted": 104.0
   },
   {
     "type": "Sparkle",
@@ -2352,8 +2185,7 @@ const SONGS = [
     "measured": 88,
     "category": "rhythm_link",
     "video": "https://youtu.be/x0EDfvN_BSk?si=_LyBPi_2gLvZgyHJ",
-    "predicted": 87.0,
-    "clearNotes": 97.0
+    "predicted": 87.0
   },
   {
     "type": "Glitter",
@@ -2366,8 +2198,7 @@ const SONGS = [
     "measured": 90,
     "category": "rhythm_link",
     "video": "https://youtu.be/uZfLdLld0YM",
-    "predicted": 90.0,
-    "clearNotes": 100.0
+    "predicted": 90.0
   },
   {
     "type": "Brilliant",
@@ -2380,8 +2211,7 @@ const SONGS = [
     "measured": 126,
     "category": "rhythm_link",
     "video": "https://youtu.be/jpr4ob5gjfA?si=dPY8ei2TGtRMquao",
-    "predicted": 117.0,
-    "clearNotes": 127.0
+    "predicted": 117.0
   },
   {
     "type": "Brilliant",
@@ -2394,8 +2224,7 @@ const SONGS = [
     "measured": 106,
     "category": "rhythm_link",
     "video": "https://youtu.be/R7FmVIDgs_w",
-    "predicted": 103.0,
-    "clearNotes": 113.0
+    "predicted": 103.0
   },
   {
     "type": "Brilliant",
@@ -2408,8 +2237,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 108.0,
-    "clearNotes": 118.0
+    "predicted": 108.0
   },
   {
     "type": "Flash",
@@ -2422,8 +2250,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 72.0,
-    "clearNotes": 82.0
+    "predicted": 72.0
   },
   {
     "type": "Glitter",
@@ -2436,8 +2263,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 74.0,
-    "clearNotes": 84.0
+    "predicted": 74.0
   },
   {
     "type": "Sparkle",
@@ -2450,8 +2276,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 91.0,
-    "clearNotes": 101.0
+    "predicted": 91.0
   },
   {
     "type": "Flash",
@@ -2464,8 +2289,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 103.0,
-    "clearNotes": 113.0
+    "predicted": 103.0
   },
   {
     "type": "Brilliant",
@@ -2478,8 +2302,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 78.0,
-    "clearNotes": 88.0
+    "predicted": 78.0
   },
   {
     "type": "Flash",
@@ -2492,8 +2315,7 @@ const SONGS = [
     "measured": 89,
     "category": "rhythm_link",
     "video": "https://youtu.be/11C7MwwRWMw?si=eP8rjwufD6VBbDat",
-    "predicted": 91.0,
-    "clearNotes": 101.0
+    "predicted": 91.0
   },
   {
     "type": "Brilliant",
@@ -2506,8 +2328,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 62.0,
-    "clearNotes": 72.0
+    "predicted": 62.0
   },
   {
     "type": "Brilliant",
@@ -2520,8 +2341,7 @@ const SONGS = [
     "measured": 117,
     "category": "rhythm_link",
     "video": "https://youtu.be/lqf2x1GKkVg?si=rLLmjwR7Etv-CCk0",
-    "predicted": 112.0,
-    "clearNotes": 122.0
+    "predicted": 112.0
   },
   {
     "type": "Sparkle",
@@ -2534,8 +2354,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 84.0,
-    "clearNotes": 94.0
+    "predicted": 84.0
   },
   {
     "type": "Glitter",
@@ -2548,8 +2367,7 @@ const SONGS = [
     "measured": 95,
     "category": "rhythm_link",
     "video": "https://youtu.be/TE9kO9CtHZY?si=LH0kVRGBhb1fCYtf",
-    "predicted": 92.0,
-    "clearNotes": 102.0
+    "predicted": 92.0
   },
   {
     "type": "Glitter",
@@ -2562,8 +2380,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 84.0,
-    "clearNotes": 94.0
+    "predicted": 84.0
   },
   {
     "type": "Glitter",
@@ -2576,8 +2393,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 77.0,
-    "clearNotes": 87.0
+    "predicted": 77.0
   },
   {
     "type": "Sparkle",
@@ -2590,8 +2406,7 @@ const SONGS = [
     "measured": null,
     "category": "rhythm_link",
     "video": null,
-    "predicted": 117.0,
-    "clearNotes": 127.0
+    "predicted": 117.0
   },
   {
     "type": "Sparkle",
@@ -2604,8 +2419,7 @@ const SONGS = [
     "measured": 106,
     "category": "rhythm_link",
     "video": "https://youtu.be/iI7IE1ZbDUg?si=N3jxe0eHlE8JPqwL",
-    "predicted": 107.0,
-    "clearNotes": 117.0
+    "predicted": 107.0
   },
   {
     "type": "Glitter",
@@ -2618,8 +2432,7 @@ const SONGS = [
     "measured": 115,
     "category": "rhythm_link",
     "video": "https://youtu.be/mqMkkKZJDSA?si=ETeu8rR1mFg0JRLj",
-    "predicted": 119.0,
-    "clearNotes": 129.0
+    "predicted": 119.0
   },
   {
     "type": "Sparkle",
@@ -2632,8 +2445,7 @@ const SONGS = [
     "measured": 102,
     "category": "rhythm_link",
     "video": "https://youtu.be/6OgHDJn3iPE?si=MThi_08vZH1ffs7q",
-    "predicted": 98.0,
-    "clearNotes": 108.0
+    "predicted": 98.0
   },
   {
     "type": "Sparkle",
@@ -2646,8 +2458,7 @@ const SONGS = [
     "measured": 87,
     "category": "rhythm_link",
     "video": "https://youtu.be/VPpQsQ4DYF4?si=ilsluz4VPIhgCK5E",
-    "predicted": 86.0,
-    "clearNotes": 96.0
+    "predicted": 86.0
   },
   {
     "type": "Flash",
@@ -2660,8 +2471,7 @@ const SONGS = [
     "measured": 84,
     "category": "rhythm_link",
     "video": "https://youtu.be/-9ozN9GEx4I?si=EgQ4ceHvqMFK-RiA",
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "Sparkle",
@@ -2674,8 +2484,7 @@ const SONGS = [
     "measured": 110,
     "category": "rhythm_link",
     "video": "https://youtu.be/-gtAqdLXUnA?si=usSk2BkRptKbsvGo",
-    "predicted": 108.0,
-    "clearNotes": 118.0
+    "predicted": 108.0
   },
   {
     "type": "Glitter",
@@ -2688,8 +2497,7 @@ const SONGS = [
     "measured": 75,
     "category": "new_dimension",
     "video": "https://youtu.be/Y_dfB-rMwAI?si=dvrZtDh0k9CVKzi7",
-    "predicted": 73.0,
-    "clearNotes": 83.0
+    "predicted": 73.0
   },
   {
     "type": "Brilliant",
@@ -2702,8 +2510,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 58.0,
-    "clearNotes": 68.0
+    "predicted": 58.0
   },
   {
     "type": "Sparkle",
@@ -2716,8 +2523,7 @@ const SONGS = [
     "measured": 53,
     "category": "new_dimension",
     "video": "https://youtu.be/Mt-aFDzGxeo?si=SsXIJ93sfdVntKuH",
-    "predicted": 54.0,
-    "clearNotes": 64.0
+    "predicted": 54.0
   },
   {
     "type": "Flash",
@@ -2730,8 +2536,7 @@ const SONGS = [
     "measured": 85,
     "category": "new_dimension",
     "video": "https://youtu.be/OnR5oh8N_Rw?si=lbXe3Yie2sTODL70",
-    "predicted": 86.0,
-    "clearNotes": 96.0
+    "predicted": 86.0
   },
   {
     "type": "Glitter",
@@ -2744,8 +2549,7 @@ const SONGS = [
     "measured": 88,
     "category": "new_dimension",
     "video": "https://youtu.be/VMLQm7BKu4c?si=EcvAURc3Mpfjm99G",
-    "predicted": 93.0,
-    "clearNotes": 103.0
+    "predicted": 93.0
   },
   {
     "type": "Brilliant",
@@ -2758,8 +2562,7 @@ const SONGS = [
     "measured": 80,
     "category": "new_dimension",
     "video": "https://youtu.be/bljn1rmENg0?si=PLuOYXy1R_irARCe",
-    "predicted": 80.0,
-    "clearNotes": 90.0
+    "predicted": 80.0
   },
   {
     "type": "Flash",
@@ -2772,8 +2575,7 @@ const SONGS = [
     "measured": 96,
     "category": "new_dimension",
     "video": "https://youtu.be/Kgi-GfMs9dc",
-    "predicted": 96.0,
-    "clearNotes": 106.0
+    "predicted": 96.0
   },
   {
     "type": "Glitter",
@@ -2786,8 +2588,7 @@ const SONGS = [
     "measured": 89,
     "category": "new_dimension",
     "video": "https://youtu.be/oZB7A0CkQt8?si=DYp4d7xGgDZD8KAP",
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "Sparkle",
@@ -2800,8 +2601,7 @@ const SONGS = [
     "measured": 67,
     "category": "new_dimension",
     "video": "https://youtu.be/IPTEOEH7LcE?si=hDLlPj-ILaqI-6Bk",
-    "predicted": 64.0,
-    "clearNotes": 74.0
+    "predicted": 64.0
   },
   {
     "type": "Sparkle",
@@ -2814,8 +2614,7 @@ const SONGS = [
     "measured": 71,
     "category": "new_dimension",
     "video": "https://youtu.be/hXvSF8dbEfk?si=LGwVnyJ2wOzUTql0",
-    "predicted": 76.0,
-    "clearNotes": 86.0
+    "predicted": 76.0
   },
   {
     "type": "Flash",
@@ -2828,8 +2627,7 @@ const SONGS = [
     "measured": 83,
     "category": "new_dimension",
     "video": "https://youtu.be/6Q0cZ3sxJaQ?si=croDhuyG7Jrs-4jd",
-    "predicted": 81.0,
-    "clearNotes": 91.0
+    "predicted": 81.0
   },
   {
     "type": "Glitter",
@@ -2842,8 +2640,7 @@ const SONGS = [
     "measured": 79,
     "category": "new_dimension",
     "video": "https://youtu.be/W_hPeGRVwdY?si=ORyljHeY0ax9uoEC",
-    "predicted": 78.0,
-    "clearNotes": 88.0
+    "predicted": 78.0
   },
   {
     "type": "Brilliant",
@@ -2856,8 +2653,7 @@ const SONGS = [
     "measured": 100,
     "category": "new_dimension",
     "video": "https://youtu.be/tNKnEgJ60P0?si=i6DT4rRIRsZ1pGlW",
-    "predicted": 101.0,
-    "clearNotes": 111.0
+    "predicted": 101.0
   },
   {
     "type": "Brilliant",
@@ -2870,8 +2666,7 @@ const SONGS = [
     "measured": 74,
     "category": "new_dimension",
     "video": "https://youtu.be/yB08ylHfQng?si=pZFwY2RRnCM2OYuT",
-    "predicted": 76.0,
-    "clearNotes": 86.0
+    "predicted": 76.0
   },
   {
     "type": "Brilliant",
@@ -2884,8 +2679,7 @@ const SONGS = [
     "measured": 93,
     "category": "new_dimension",
     "video": "https://youtu.be/-xnmtYualr4?si=SEqJGkWSPzQjE0l9",
-    "predicted": 90.0,
-    "clearNotes": 100.0
+    "predicted": 90.0
   },
   {
     "type": "Sparkle",
@@ -2898,8 +2692,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 56.0,
-    "clearNotes": 66.0
+    "predicted": 56.0
   },
   {
     "type": "Brilliant",
@@ -2912,8 +2705,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 78.0,
-    "clearNotes": 88.0
+    "predicted": 78.0
   },
   {
     "type": "Flash",
@@ -2926,8 +2718,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 58.0,
-    "clearNotes": 68.0
+    "predicted": 58.0
   },
   {
     "type": "Glitter",
@@ -2940,8 +2731,7 @@ const SONGS = [
     "measured": 80,
     "category": "new_dimension",
     "video": "https://youtu.be/F6Y2z7BtlBM?si=jABXQDsbLDHz2_-v",
-    "predicted": 81.0,
-    "clearNotes": 91.0
+    "predicted": 81.0
   },
   {
     "type": "Glitter",
@@ -2954,8 +2744,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 97.0,
-    "clearNotes": 107.0
+    "predicted": 97.0
   },
   {
     "type": "Flash",
@@ -2968,8 +2757,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 56.0,
-    "clearNotes": 66.0
+    "predicted": 56.0
   },
   {
     "type": "Glitter",
@@ -2982,8 +2770,7 @@ const SONGS = [
     "measured": 75,
     "category": "new_dimension",
     "video": "https://youtu.be/g9Pp5b45YCo?si=ivNyZPn8r7he9S0A",
-    "predicted": 80.0,
-    "clearNotes": 90.0
+    "predicted": 80.0
   },
   {
     "type": "Flash",
@@ -2996,8 +2783,7 @@ const SONGS = [
     "measured": 104,
     "category": "new_dimension",
     "video": "https://youtu.be/qw0zoJpOqQw?si=vYztjSdMyfWE3WAV",
-    "predicted": 106.0,
-    "clearNotes": 116.0
+    "predicted": 106.0
   },
   {
     "type": "Flash",
@@ -3010,8 +2796,7 @@ const SONGS = [
     "measured": 74,
     "category": "new_dimension",
     "video": "https://youtu.be/QiE_mrDMqbk?si=zhN9g92tTnNMDUep",
-    "predicted": 75.0,
-    "clearNotes": 85.0
+    "predicted": 75.0
   },
   {
     "type": "Brilliant",
@@ -3024,8 +2809,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 71.0,
-    "clearNotes": 81.0
+    "predicted": 71.0
   },
   {
     "type": "Brilliant",
@@ -3038,8 +2822,7 @@ const SONGS = [
     "measured": 105,
     "category": "new_dimension",
     "video": "https://youtu.be/yeuMMCHFfUA?si=bIUqgaAyNBLXOb-C",
-    "predicted": 108.0,
-    "clearNotes": 118.0
+    "predicted": 108.0
   },
   {
     "type": "Sparkle",
@@ -3052,8 +2835,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 81.0,
-    "clearNotes": 91.0
+    "predicted": 81.0
   },
   {
     "type": "Sparkle",
@@ -3066,8 +2848,7 @@ const SONGS = [
     "measured": 80,
     "category": "new_dimension",
     "video": "https://youtu.be/maUqiZk7sCk?si=eaLE2Dma927sP_Sy",
-    "predicted": 78.0,
-    "clearNotes": 88.0
+    "predicted": 78.0
   },
   {
     "type": "Flash",
@@ -3080,8 +2861,7 @@ const SONGS = [
     "measured": 72,
     "category": "new_dimension",
     "video": "https://youtu.be/7WzOUpKOHtI?si=gtdElgxFjN0TkBHj",
-    "predicted": 76.0,
-    "clearNotes": 86.0
+    "predicted": 76.0
   },
   {
     "type": "Glitter",
@@ -3094,8 +2874,7 @@ const SONGS = [
     "measured": 86,
     "category": "new_dimension",
     "video": "https://youtu.be/xafCUkCr94I?si=d85wmfxusbd-YBSd",
-    "predicted": 81.0,
-    "clearNotes": 91.0
+    "predicted": 81.0
   },
   {
     "type": "Glitter",
@@ -3108,8 +2887,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": "https://youtu.be/1engaOH1-EA?si=1nJ3XCmxsp8yf9Ww",
-    "predicted": 77.0,
-    "clearNotes": 87.0
+    "predicted": 77.0
   },
   {
     "type": "Sparkle",
@@ -3122,8 +2900,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": "https://youtu.be/M2SlMp8nDF0?si=JTTzVUSHWF3vwA3S",
-    "predicted": 71.0,
-    "clearNotes": 81.0
+    "predicted": 71.0
   },
   {
     "type": "Brilliant",
@@ -3136,8 +2913,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 66.0,
-    "clearNotes": 76.0
+    "predicted": 66.0
   },
   {
     "type": "Flash",
@@ -3150,8 +2926,7 @@ const SONGS = [
     "measured": 103,
     "category": "new_dimension",
     "video": "https://youtu.be/XJA4yTIcSi8?si=ZvPsX922n-R_dMu7",
-    "predicted": 109.0,
-    "clearNotes": 119.0
+    "predicted": 109.0
   },
   {
     "type": "Brilliant",
@@ -3164,8 +2939,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 77.0,
-    "clearNotes": 87.0
+    "predicted": 77.0
   },
   {
     "type": "Flash",
@@ -3178,8 +2952,7 @@ const SONGS = [
     "measured": 62,
     "category": "new_dimension",
     "video": "https://youtu.be/wU4xQ9hyhcA?si=nrPSlUDVggN3HZL6",
-    "predicted": 65.0,
-    "clearNotes": 75.0
+    "predicted": 65.0
   },
   {
     "type": "Glitter",
@@ -3192,8 +2965,7 @@ const SONGS = [
     "measured": 57,
     "category": "new_dimension",
     "video": "https://youtu.be/XqU_u7YF_4k?si=DT0ibUjxmDgR-hQf",
-    "predicted": 56.0,
-    "clearNotes": 66.0
+    "predicted": 56.0
   },
   {
     "type": "Brilliant",
@@ -3206,8 +2978,7 @@ const SONGS = [
     "measured": 98,
     "category": "new_dimension",
     "video": "https://youtu.be/ypuz0XTP_Yw?si=-bc4zHdJ3OHuzBtG",
-    "predicted": 99.0,
-    "clearNotes": 109.0
+    "predicted": 99.0
   },
   {
     "type": "Flash",
@@ -3220,8 +2991,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 72.0,
-    "clearNotes": 82.0
+    "predicted": 72.0
   },
   {
     "type": "Brilliant",
@@ -3234,8 +3004,7 @@ const SONGS = [
     "measured": null,
     "category": "new_dimension",
     "video": null,
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Glitter",
@@ -3248,8 +3017,7 @@ const SONGS = [
     "measured": 85,
     "category": "new_dimension",
     "video": "https://youtu.be/nvW4Sb5j_os?si=EHgZ9zRV5LBZ163p",
-    "predicted": 86.0,
-    "clearNotes": 96.0
+    "predicted": 86.0
   },
   {
     "type": "Sparkle",
@@ -3262,8 +3030,7 @@ const SONGS = [
     "measured": 84,
     "category": "new_dimension",
     "video": "https://youtu.be/5W8iksoImZ0?si=RadE3upquKGY4kBb",
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "Brilliant",
@@ -3276,8 +3043,7 @@ const SONGS = [
     "measured": 85,
     "category": "new_dimension",
     "video": "https://youtu.be/1fxv7EJyDrQ?si=o917z-_sV068A4e8",
-    "predicted": 80.0,
-    "clearNotes": 90.0
+    "predicted": 80.0
   },
   {
     "type": "Brilliant",
@@ -3290,8 +3056,7 @@ const SONGS = [
     "measured": 112,
     "category": "new_dimension",
     "video": "https://youtu.be/igayZQFSmGY?si=fNzUBk-sJJ79XuMA",
-    "predicted": 106.0,
-    "clearNotes": 116.0
+    "predicted": 106.0
   },
   {
     "type": "Flash",
@@ -3304,8 +3069,7 @@ const SONGS = [
     "measured": 111,
     "category": "new_dimension",
     "video": "https://youtu.be/LejZx0toLQc?si=b_Xe4v94YcifbF2R",
-    "predicted": 111.0,
-    "clearNotes": 121.0
+    "predicted": 111.0
   },
   {
     "type": "Glitter",
@@ -3318,8 +3082,7 @@ const SONGS = [
     "measured": 104,
     "category": "new_dimension",
     "video": "https://youtu.be/LXhAtH7jCJU?si=oBePbPTzIGawjaek",
-    "predicted": 109.0,
-    "clearNotes": 119.0
+    "predicted": 109.0
   },
   {
     "type": "Sparkle",
@@ -3332,8 +3095,7 @@ const SONGS = [
     "measured": 107,
     "category": "new_dimension",
     "video": "https://youtu.be/3kSEGCzfomw?si=3YJt9cUK8qg9D5xP",
-    "predicted": 105.0,
-    "clearNotes": 115.0
+    "predicted": 105.0
   },
   {
     "type": "Glitter",
@@ -3346,8 +3108,7 @@ const SONGS = [
     "measured": 83,
     "category": "new_dimension",
     "video": "https://youtu.be/tk7kSTGCa5A?si=EvjRSwA-spA-_bzv",
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "Glitter",
@@ -3360,8 +3121,7 @@ const SONGS = [
     "measured": 90,
     "category": "new_dimension",
     "video": "https://youtu.be/e4JWzY_Iki4?si=wYLh8wMhGAsWHKOA",
-    "predicted": 91.0,
-    "clearNotes": 101.0
+    "predicted": 91.0
   },
   {
     "type": "Glitter",
@@ -3374,8 +3134,7 @@ const SONGS = [
     "measured": 73,
     "category": "new_dimension",
     "video": "https://youtu.be/swjbhhjcaIw?si=pTMzetSaGciJYK56",
-    "predicted": 73.0,
-    "clearNotes": 83.0
+    "predicted": 73.0
   },
   {
     "type": "Brilliant",
@@ -3388,8 +3147,7 @@ const SONGS = [
     "measured": 99,
     "category": "new_dimension",
     "video": "https://youtu.be/4HxEhn3UljA",
-    "predicted": 98.0,
-    "clearNotes": 108.0
+    "predicted": 98.0
   },
   {
     "type": "All",
@@ -3402,8 +3160,7 @@ const SONGS = [
     "measured": 68,
     "category": "others",
     "video": "https://youtu.be/7g4vefHWPvc?si=LivgcBOApU2IiUuq",
-    "predicted": 66.0,
-    "clearNotes": 76.0
+    "predicted": 66.0
   },
   {
     "type": "All",
@@ -3416,8 +3173,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 44.0,
-    "clearNotes": 54.0
+    "predicted": 44.0
   },
   {
     "type": "Brilliant",
@@ -3430,8 +3186,7 @@ const SONGS = [
     "measured": 61,
     "category": "others",
     "video": "https://youtu.be/5eGMuT05V34?si=vDXVzhUiJnl-Oic2",
-    "predicted": 66.0,
-    "clearNotes": 76.0
+    "predicted": 66.0
   },
   {
     "type": "Sparkle",
@@ -3444,8 +3199,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 69.0,
-    "clearNotes": 79.0
+    "predicted": 69.0
   },
   {
     "type": "Flash",
@@ -3458,8 +3212,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 67.0,
-    "clearNotes": 77.0
+    "predicted": 67.0
   },
   {
     "type": "Brilliant",
@@ -3472,8 +3225,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 127.0,
-    "clearNotes": 137.0
+    "predicted": 127.0
   },
   {
     "type": "Glitter",
@@ -3486,8 +3238,7 @@ const SONGS = [
     "measured": 87,
     "category": "others",
     "video": "https://youtu.be/v6xB4TsnL1k?si=4HFlYuhsvrr4dC-o",
-    "predicted": 84.0,
-    "clearNotes": 94.0
+    "predicted": 84.0
   },
   {
     "type": "Sparkle",
@@ -3500,8 +3251,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 113.0,
-    "clearNotes": 123.0
+    "predicted": 113.0
   },
   {
     "type": "Sparkle",
@@ -3514,8 +3264,7 @@ const SONGS = [
     "measured": 59,
     "category": "others",
     "video": "https://youtu.be/BZdA8fqqojc?si=017TRTtHsKgxz6x0",
-    "predicted": 56.0,
-    "clearNotes": 66.0
+    "predicted": 56.0
   },
   {
     "type": "Sparkle",
@@ -3528,8 +3277,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 87.0,
-    "clearNotes": 97.0
+    "predicted": 87.0
   },
   {
     "type": "Sparkle",
@@ -3542,8 +3290,7 @@ const SONGS = [
     "measured": 96,
     "category": "others",
     "video": "https://youtu.be/V-kfyMIHYQw?si=dNTAJpxaa9dlLF0J",
-    "predicted": 98.0,
-    "clearNotes": 108.0
+    "predicted": 98.0
   },
   {
     "type": "Brilliant",
@@ -3556,8 +3303,7 @@ const SONGS = [
     "measured": 53,
     "category": "others",
     "video": "https://youtu.be/Dy_Urf3pbwo?si=m1LYuI1XcJdOBMmW",
-    "predicted": 52.0,
-    "clearNotes": 62.0
+    "predicted": 52.0
   },
   {
     "type": "Brilliant",
@@ -3570,8 +3316,7 @@ const SONGS = [
     "measured": 77,
     "category": "others",
     "video": "https://youtu.be/p7d6v93yPVc",
-    "predicted": 84.0,
-    "clearNotes": 94.0
+    "predicted": 84.0
   },
   {
     "type": "Sparkle",
@@ -3584,8 +3329,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 96.0,
-    "clearNotes": 106.0
+    "predicted": 96.0
   },
   {
     "type": "Glitter",
@@ -3598,8 +3342,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "All",
@@ -3612,8 +3355,7 @@ const SONGS = [
     "measured": 57,
     "category": "others",
     "video": "https://youtu.be/WbBI2QjyTrk?si=HXwT_0D2eFAChgc_",
-    "predicted": 58.0,
-    "clearNotes": 68.0
+    "predicted": 58.0
   },
   {
     "type": "Brilliant",
@@ -3626,8 +3368,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 77.0,
-    "clearNotes": 87.0
+    "predicted": 77.0
   },
   {
     "type": "Glitter",
@@ -3640,8 +3381,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 54.0,
-    "clearNotes": 64.0
+    "predicted": 54.0
   },
   {
     "type": "All",
@@ -3654,8 +3394,7 @@ const SONGS = [
     "measured": 109,
     "category": "others",
     "video": "https://youtu.be/RqGC-mI6A8k?si=CT-UaETRgT9WQEZU",
-    "predicted": 113.0,
-    "clearNotes": 123.0
+    "predicted": 113.0
   },
   {
     "type": "Sparkle",
@@ -3668,8 +3407,7 @@ const SONGS = [
     "measured": 67,
     "category": "others",
     "video": "https://youtu.be/1NfFzQ6ipzA?si=qp2-tsTyzkyuAQc7",
-    "predicted": 72.0,
-    "clearNotes": 82.0
+    "predicted": 72.0
   },
   {
     "type": "All",
@@ -3682,8 +3420,7 @@ const SONGS = [
     "measured": 89,
     "category": "others",
     "video": "https://youtu.be/kPruu3fcEZI?si=aLbN4tkSZLsuwiuZ",
-    "predicted": 91.0,
-    "clearNotes": 101.0
+    "predicted": 91.0
   },
   {
     "type": "All",
@@ -3696,8 +3433,7 @@ const SONGS = [
     "measured": 111,
     "category": "others",
     "video": "https://youtu.be/2MkdWOiUKpQ?si=QlnzDnryT0IQN5Uq",
-    "predicted": 116.0,
-    "clearNotes": 126.0
+    "predicted": 116.0
   },
   {
     "type": "Brilliant",
@@ -3710,8 +3446,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 92.0,
-    "clearNotes": 102.0
+    "predicted": 92.0
   },
   {
     "type": "Glitter",
@@ -3724,8 +3459,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 79.0,
-    "clearNotes": 89.0
+    "predicted": 79.0
   },
   {
     "type": "Glitter",
@@ -3738,8 +3472,7 @@ const SONGS = [
     "measured": 86,
     "category": "others",
     "video": "https://youtu.be/Um2Snuz-uy4?si=ocerjGdxYoFGCTk5",
-    "predicted": 88.0,
-    "clearNotes": 98.0
+    "predicted": 88.0
   },
   {
     "type": "All",
@@ -3752,8 +3485,7 @@ const SONGS = [
     "measured": 103,
     "category": "others",
     "video": "https://youtu.be/uFvTZ6udsRs?si=v1IplzAPa8F8PCYE",
-    "predicted": 114.0,
-    "clearNotes": 124.0
+    "predicted": 114.0
   },
   {
     "type": "All",
@@ -3766,8 +3498,7 @@ const SONGS = [
     "measured": 100,
     "category": "others",
     "video": "https://youtu.be/tLhUaM7Y-c8?si=E8ZTd9s2Th_nqxzU",
-    "predicted": 105.0,
-    "clearNotes": 115.0
+    "predicted": 105.0
   },
   {
     "type": "All",
@@ -3780,8 +3511,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 87.0,
-    "clearNotes": 97.0
+    "predicted": 87.0
   },
   {
     "type": "Sparkle",
@@ -3794,8 +3524,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 87.0,
-    "clearNotes": 97.0
+    "predicted": 87.0
   },
   {
     "type": "All",
@@ -3808,8 +3537,7 @@ const SONGS = [
     "measured": 91,
     "category": "others",
     "video": "https://youtu.be/N7I7l6fLAlE?si=slYdJjtLp6zNwFix",
-    "predicted": 88.0,
-    "clearNotes": 98.0
+    "predicted": 88.0
   },
   {
     "type": "Sparkle",
@@ -3822,8 +3550,7 @@ const SONGS = [
     "measured": 104,
     "category": "others",
     "video": "https://youtu.be/wOKpdmTdyRY?si=C8lbXFln5FVuq5jz",
-    "predicted": 97.0,
-    "clearNotes": 107.0
+    "predicted": 97.0
   },
   {
     "type": "Sparkle",
@@ -3836,8 +3563,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 77.0,
-    "clearNotes": 87.0
+    "predicted": 77.0
   },
   {
     "type": "Flash",
@@ -3850,8 +3576,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 118.0,
-    "clearNotes": 128.0
+    "predicted": 118.0
   },
   {
     "type": "All",
@@ -3864,8 +3589,7 @@ const SONGS = [
     "measured": 129,
     "category": "others",
     "video": "https://youtu.be/kNPHVS4gDNs?si=uU9tJozm-mDltkhl",
-    "predicted": 137.0,
-    "clearNotes": 147.0
+    "predicted": 137.0
   },
   {
     "type": "Brilliant",
@@ -3878,8 +3602,7 @@ const SONGS = [
     "measured": 47,
     "category": "others",
     "video": "https://youtu.be/Q3pKOW2HvdY?si=VcC52PYzQ8RiFMOy",
-    "predicted": 47.0,
-    "clearNotes": 57.0
+    "predicted": 47.0
   },
   {
     "type": "Glitter",
@@ -3892,8 +3615,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 95.0,
-    "clearNotes": 105.0
+    "predicted": 95.0
   },
   {
     "type": "Brilliant",
@@ -3906,8 +3628,7 @@ const SONGS = [
     "measured": 99,
     "category": "others",
     "video": "https://youtu.be/wf5sxYlZIAE?si=xVfs6g8MJQ__faHC",
-    "predicted": 97.0,
-    "clearNotes": 107.0
+    "predicted": 97.0
   },
   {
     "type": "Glitter",
@@ -3920,8 +3641,7 @@ const SONGS = [
     "measured": 108,
     "category": "others",
     "video": "https://youtu.be/5qLQm9m3tgc?si=YF9UwrPItDDJBVqQ",
-    "predicted": 106.0,
-    "clearNotes": 116.0
+    "predicted": 106.0
   },
   {
     "type": "All",
@@ -3934,8 +3654,7 @@ const SONGS = [
     "measured": 105,
     "category": "others",
     "video": "https://youtu.be/fywI-2pTEG4?si=CG19aekVbHlyu-oh",
-    "predicted": 113.0,
-    "clearNotes": 123.0
+    "predicted": 113.0
   },
   {
     "type": "All",
@@ -3948,8 +3667,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 71.0,
-    "clearNotes": 81.0
+    "predicted": 71.0
   },
   {
     "type": "All",
@@ -3962,8 +3680,7 @@ const SONGS = [
     "measured": 89,
     "category": "others",
     "video": "https://youtu.be/YGrLwg4f8Ak?si=_pPbLBs7pjwV0Y6n",
-    "predicted": 91.0,
-    "clearNotes": 101.0
+    "predicted": 91.0
   },
   {
     "type": "Sparkle",
@@ -3976,8 +3693,7 @@ const SONGS = [
     "measured": 89,
     "category": "others",
     "video": "https://youtu.be/sICZ_Yed7PQ?si=dh8SbmUDJSaNOmGu",
-    "predicted": 82.0,
-    "clearNotes": 92.0
+    "predicted": 82.0
   },
   {
     "type": "Brilliant",
@@ -3990,8 +3706,7 @@ const SONGS = [
     "measured": 69,
     "category": "others",
     "video": "https://youtu.be/XAxsfjzjYy0?si=DPqdp_7JuiPfEuJP",
-    "predicted": 67.0,
-    "clearNotes": 77.0
+    "predicted": 67.0
   },
   {
     "type": "All",
@@ -4004,8 +3719,7 @@ const SONGS = [
     "measured": 106,
     "category": "others",
     "video": "https://youtu.be/w1UBqwrN6X4?si=n-d_lJIwTmFNx0IK",
-    "predicted": 108.0,
-    "clearNotes": 118.0
+    "predicted": 108.0
   },
   {
     "type": "Flash",
@@ -4018,8 +3732,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 94.0,
-    "clearNotes": 104.0
+    "predicted": 94.0
   },
   {
     "type": "Flash",
@@ -4032,8 +3745,7 @@ const SONGS = [
     "measured": 98,
     "category": "others",
     "video": "https://youtu.be/VYWclWI1W1g?si=NEk4Szc0tA40feiJ",
-    "predicted": 100.0,
-    "clearNotes": 110.0
+    "predicted": 100.0
   },
   {
     "type": "Flash",
@@ -4046,8 +3758,7 @@ const SONGS = [
     "measured": null,
     "category": "others",
     "video": null,
-    "predicted": 86.0,
-    "clearNotes": 96.0
+    "predicted": 86.0
   },
   {
     "type": "All",
@@ -4060,8 +3771,7 @@ const SONGS = [
     "measured": 98,
     "category": "others",
     "video": "https://youtu.be/UqntUWTtpjM?si=C7iAnC2mjPdlK_fg",
-    "predicted": 100.0,
-    "clearNotes": 110.0
+    "predicted": 100.0
   },
   {
     "type": "Glitter",
@@ -4074,8 +3784,7 @@ const SONGS = [
     "measured": 125,
     "category": "others",
     "video": "https://youtu.be/GuYM8DPXMvQ?si=MbjrJ9_U4KuugnEo",
-    "predicted": 127.0,
-    "clearNotes": 137.0
+    "predicted": 127.0
   },
   {
     "type": "Flash",
@@ -4088,8 +3797,7 @@ const SONGS = [
     "measured": 72,
     "category": "others",
     "video": "https://youtu.be/jVyJe-QNo44?si=3w-vbS4s22BlxQLk",
-    "predicted": 76.0,
-    "clearNotes": 86.0
+    "predicted": 76.0
   },
   {
     "type": "All",
@@ -4102,8 +3810,7 @@ const SONGS = [
     "measured": 125,
     "category": "others",
     "video": "https://youtu.be/lGQHOxTyiy0?si=GRG9U3h0cFx6T_z2",
-    "predicted": 116.0,
-    "clearNotes": 126.0
+    "predicted": 116.0
   },
   {
     "type": "Flash",
@@ -4116,8 +3823,7 @@ const SONGS = [
     "measured": 131,
     "category": "others",
     "video": "https://youtu.be/y5kr3aLLFvc?si=TwIgnQh_ArdGINnG",
-    "predicted": 128.0,
-    "clearNotes": 138.0
+    "predicted": 128.0
   },
   {
     "type": "Sparkle",
@@ -4130,8 +3836,7 @@ const SONGS = [
     "measured": 60,
     "category": "others",
     "video": "https://youtu.be/KFwxsDZRM9A?si=vV2YocFoYiHhLI1-",
-    "predicted": 62.0,
-    "clearNotes": 72.0
+    "predicted": 62.0
   },
   {
     "type": "Brilliant",
@@ -4144,8 +3849,7 @@ const SONGS = [
     "measured": 75,
     "category": "others",
     "video": "https://youtu.be/NI0Piax6irk?si=2_qHUnhCK70hVJ5b",
-    "predicted": 75.0,
-    "clearNotes": 85.0
+    "predicted": 75.0
   },
   {
     "type": "Flash",
@@ -4158,8 +3862,7 @@ const SONGS = [
     "measured": 65,
     "category": "others",
     "video": "https://youtu.be/tbQOph7J-8A?si=o4U7l2NqwyPq-Sgf",
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Flash",
@@ -4172,8 +3875,7 @@ const SONGS = [
     "measured": 128,
     "category": "others",
     "video": "https://youtu.be/SEvHxWd77Cc?si=EQbbnTxJf4vxs9vT",
-    "predicted": 124.0,
-    "clearNotes": 134.0
+    "predicted": 124.0
   },
   {
     "type": "Glitter",
@@ -4186,8 +3888,7 @@ const SONGS = [
     "measured": 132,
     "category": "others",
     "video": "https://youtu.be/7Yn1DNogFtU?si=OMcESI8CFW0h9Otg",
-    "predicted": 133.0,
-    "clearNotes": 143.0
+    "predicted": 133.0
   },
   {
     "type": "Sparkle",
@@ -4200,8 +3901,7 @@ const SONGS = [
     "measured": 71,
     "category": "others",
     "video": "https://youtu.be/-6NJnCkHlIg?si=NTyN4CVprzll_j0U",
-    "predicted": 71.0,
-    "clearNotes": 81.0
+    "predicted": 71.0
   },
   {
     "type": "Flash",
@@ -4214,8 +3914,7 @@ const SONGS = [
     "measured": 66,
     "category": "others",
     "video": "https://youtu.be/PbXpKSAmNoQ?si=ht3jSujYglY6WHcj",
-    "predicted": 64.0,
-    "clearNotes": 74.0
+    "predicted": 64.0
   },
   {
     "type": "Sparkle",
@@ -4228,8 +3927,7 @@ const SONGS = [
     "measured": 76,
     "category": "others",
     "video": "https://youtu.be/-4pHM037Amg?si=Iw9FwIodUw8lZv1G",
-    "predicted": 75.0,
-    "clearNotes": 85.0
+    "predicted": 75.0
   },
   {
     "type": "Glitter",
@@ -4242,8 +3940,7 @@ const SONGS = [
     "measured": 73,
     "category": "others",
     "video": "https://youtu.be/GNsBVexvaAU?si=NlUnECKI_KsfKwxl",
-    "predicted": 70.0,
-    "clearNotes": 80.0
+    "predicted": 70.0
   },
   {
     "type": "Brilliant",
@@ -4256,8 +3953,7 @@ const SONGS = [
     "measured": 132,
     "category": "others",
     "video": "https://youtu.be/pWZPZgVbcMM?si=zpI52u1HqwFY4zgr",
-    "predicted": 136.0,
-    "clearNotes": 146.0
+    "predicted": 136.0
   },
   {
     "type": "Sparkle",
@@ -4270,8 +3966,7 @@ const SONGS = [
     "measured": 77,
     "category": "others",
     "video": "https://youtu.be/R83wURX7lwA?si=-06ZD0ViXPupk8by",
-    "predicted": 79.0,
-    "clearNotes": 89.0
+    "predicted": 79.0
   },
   {
     "type": "Brilliant",
@@ -4284,8 +3979,7 @@ const SONGS = [
     "measured": 104,
     "category": "others",
     "video": "https://youtu.be/_Qnf978dzwo?si=Lf4bo3rkKCNVo8xD",
-    "predicted": 105.0,
-    "clearNotes": 115.0
+    "predicted": 105.0
   },
   {
     "type": "All",
@@ -4298,8 +3992,7 @@ const SONGS = [
     "measured": 122,
     "category": "others",
     "video": "https://youtu.be/4ViA8nIcIBk?si=gM-dhxmCLVcqFku2",
-    "predicted": 121.0,
-    "clearNotes": 131.0
+    "predicted": 121.0
   },
   {
     "type": "Flash",
@@ -4312,8 +4005,7 @@ const SONGS = [
     "measured": 122,
     "category": "others",
     "video": "https://youtu.be/xXfJwP6_-2Q",
-    "predicted": 123.0,
-    "clearNotes": 133.0
+    "predicted": 123.0
   }
 ];
 
