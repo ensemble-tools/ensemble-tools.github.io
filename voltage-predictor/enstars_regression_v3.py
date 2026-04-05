@@ -196,11 +196,22 @@ def export_songs_js(df_pred: pd.DataFrame, result: dict, out_path: str = "songs.
     model = result["model"]
     model_simple = result["model_simple"]
 
-    # 중복 제거 (title + total_notes 기준)
-    df_show = df_pred.drop_duplicates(subset=["title", "total_notes"]).reset_index(drop=True)
+    # title + total_notes 기준으로 그룹핑 — 합동곡은 units 배열로 수집
+    seen: dict = {}
+    for _, row in df_pred.iterrows():
+        key = (str(row["title"]), int(row["total_notes"]))
+        unit = str(row["unit"])
+        if key not in seen:
+            seen[key] = {"row": row, "units": [unit]}
+        else:
+            if unit not in seen[key]["units"]:
+                seen[key]["units"].append(unit)
 
     songs = []
-    for _, row in df_show.iterrows():
+    for key, val in seen.items():
+        row = val["row"]
+        units = val["units"]
+
         et_s = None if pd.isna(row["et_start"]) else int(row["et_start"])
         et_e = None if pd.isna(row["et_end"]) else int(row["et_end"])
         measured_val = None if pd.isna(row["clear_start_measured"]) else int(row["clear_start_measured"])
@@ -214,17 +225,18 @@ def export_songs_js(df_pred: pd.DataFrame, result: dict, out_path: str = "songs.
         duration_str = parse_duration(row.get("duration", None))
 
         songs.append({
-            "type":      str(row["type"]),
-            "unit":      str(row["unit"]),
-            "title":     str(row["title"]),
-            "totalNotes": int(row["total_notes"]),
-            "duration":  duration_str,
-            "etStart":   et_s,
-            "etEnd":     et_e,
-            "measured":  measured_val,
-            "category":  str(row["category"]),
-            "video":     video,
-            "predicted": float(row["clear_start_predicted"]),
+            "type":       str(row["type"]),
+            "unit":       " / ".join(units),   # 표시용: "피네 / 트릭스타"
+            "units":      units,               # 검색/필터용: ["피네", "트릭스타"]
+            "title":      key[0],
+            "totalNotes": key[1],
+            "duration":   duration_str,
+            "etStart":    et_s,
+            "etEnd":      et_e,
+            "measured":   measured_val,
+            "category":   str(row["category"]),
+            "video":      video,
+            "predicted":  float(row["clear_start_predicted"]),
         })
 
     # 모델 파라미터 (프론트에서 직접 계산할 수 있도록)

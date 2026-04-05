@@ -6,6 +6,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "오와라나이",
     "totalNotes": 158,
     "duration": "2:39",
@@ -19,6 +22,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "홀리 엔젤 캐롤",
     "totalNotes": 138,
     "duration": "2:29",
@@ -32,6 +38,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "날개짓 포르티시모",
     "totalNotes": 120,
     "duration": "2:30",
@@ -45,6 +54,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "Neo Sanctuary",
     "totalNotes": 161,
     "duration": "2:31",
@@ -57,7 +69,11 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "피네",
+    "unit": "피네 / 트릭스타",
+    "units": [
+      "피네",
+      "트릭스타"
+    ],
     "title": "크로싱 하트",
     "totalNotes": 100,
     "duration": "2:41",
@@ -71,6 +87,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "애니곡",
     "totalNotes": 140,
     "duration": "2:31",
@@ -84,6 +103,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "미라클 드림 트레버",
     "totalNotes": 125,
     "duration": "2:05",
@@ -97,6 +119,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "Angelic Grace",
     "totalNotes": 135,
     "duration": "2:55",
@@ -110,6 +135,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "네버엔딩 스테이지",
     "totalNotes": 175,
     "duration": "2:36",
@@ -123,6 +151,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "레인보우 서커스",
     "totalNotes": 138,
     "duration": "2:21",
@@ -135,7 +166,11 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "피네",
+    "unit": "피네 / 나이츠",
+    "units": [
+      "피네",
+      "나이츠"
+    ],
     "title": "스타라이트 퍼레이드",
     "totalNotes": 109,
     "duration": "2:32",
@@ -149,6 +184,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "The Tempest Night",
     "totalNotes": 124,
     "duration": "2:32",
@@ -162,6 +200,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "프리마베라",
     "totalNotes": 175,
     "duration": "2:26",
@@ -175,6 +216,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "Feathers of Ark",
     "totalNotes": 171,
     "duration": "2:51",
@@ -188,6 +232,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "Ghostic Treat House",
     "totalNotes": 127,
     "duration": "2:47",
@@ -201,6 +248,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "Dreaming Ocean",
     "totalNotes": 150,
     "duration": "2:45",
@@ -214,6 +264,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "Fairy Tale Library",
     "totalNotes": 144,
     "duration": "2:47",
@@ -227,6 +280,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "온유스",
     "totalNotes": 97,
     "duration": "2:27",
@@ -240,6 +296,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "리벨리온 스타",
     "totalNotes": 111,
     "duration": "2:38",
@@ -253,6 +312,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "인피니트 스타",
     "totalNotes": 118,
     "duration": "2:19",
@@ -265,7 +327,11 @@ const SONGS = [
   },
   {
     "type": "All",
-    "unit": "트릭스타",
+    "unit": "트릭스타 / Eden",
+    "units": [
+      "트릭스타",
+      "Eden"
+    ],
     "title": "키세키(キセキ)",
     "totalNotes": 165,
     "duration": "2:35",
@@ -279,6 +345,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "하트 비터",
     "totalNotes": 125,
     "duration": "2:27",
@@ -292,6 +361,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "브렉스루",
     "totalNotes": 215,
     "duration": "2:32",
@@ -305,6 +377,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "1st 싱어롱",
     "totalNotes": 157,
     "duration": "2:19",
@@ -318,6 +393,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "체리 해피 스트림",
     "totalNotes": 147,
     "duration": "2:07",
@@ -331,6 +409,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "웰컴 투 트릭스타 나이트",
     "totalNotes": 107,
     "duration": "2:18",
@@ -344,6 +425,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "행복의 노래",
     "totalNotes": 164,
     "duration": "2:43",
@@ -357,6 +441,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "Unstoppable Love!",
     "totalNotes": 164,
     "duration": "2:42",
@@ -369,7 +456,11 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "트릭스타",
+    "unit": "트릭스타 / Eden",
+    "units": [
+      "트릭스타",
+      "Eden"
+    ],
     "title": "리플레이",
     "totalNotes": 185,
     "duration": "2:30",
@@ -383,6 +474,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "BIGBANG REFLECTION!!",
     "totalNotes": 109,
     "duration": "2:30",
@@ -396,6 +490,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "Finder Girl (파인더 걸)",
     "totalNotes": 136,
     "duration": "2:40",
@@ -409,6 +506,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "데이드림 리얼리티",
     "totalNotes": 174,
     "duration": "2:32",
@@ -422,6 +522,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "로맨틱 xday",
     "totalNotes": 158,
     "duration": "2:46",
@@ -435,6 +538,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "와챠가나두",
     "totalNotes": 161,
     "duration": "2:48",
@@ -448,6 +554,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "트릭스타",
+    "units": [
+      "트릭스타"
+    ],
     "title": "CELEBRATE!!",
     "totalNotes": 161,
     "duration": "2:45",
@@ -461,6 +570,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "메테오 레인저",
     "totalNotes": 170,
     "duration": "2:35",
@@ -474,6 +586,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "언리미티드 파워",
     "totalNotes": 129,
     "duration": "2:16",
@@ -487,6 +602,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "슈퍼노바 레볼루스타",
     "totalNotes": 136,
     "duration": "2:24",
@@ -500,6 +618,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "유성불꽃",
     "totalNotes": 129,
     "duration": "2:10",
@@ -513,6 +634,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "메테오 스크럼블",
     "totalNotes": 184,
     "duration": "2:37",
@@ -525,7 +649,11 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "유성대",
+    "unit": "유성대 / 나이츠",
+    "units": [
+      "유성대",
+      "나이츠"
+    ],
     "title": "청춘 Emergency",
     "totalNotes": 233,
     "duration": "2:39",
@@ -539,6 +667,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "GROWING STARRY DAYS",
     "totalNotes": 105,
     "duration": "2:12",
@@ -552,6 +683,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "NEW DAYBREAK",
     "totalNotes": 178,
     "duration": "3:01",
@@ -565,6 +699,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "Heart Heat Beat",
     "totalNotes": 154,
     "duration": "2:47",
@@ -578,6 +715,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "유메노사키 유성대가",
     "totalNotes": 164,
     "duration": "2:32",
@@ -590,7 +730,11 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "유성대",
+    "unit": "유성대 / Ra*bits",
+    "units": [
+      "유성대",
+      "Ra*bits"
+    ],
     "title": "햄타로",
     "totalNotes": 86,
     "duration": "2:20",
@@ -604,6 +748,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "유성 할레이션",
     "totalNotes": 155,
     "duration": "2:27",
@@ -617,6 +764,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "열혈☆유성인법첩 (시노부 하코)",
     "totalNotes": 202,
     "duration": "2:36",
@@ -630,6 +780,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "Colors Arise",
     "totalNotes": 205,
     "duration": "2:39",
@@ -643,6 +796,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "RELAX PARADISE",
     "totalNotes": 199,
     "duration": "2:50",
@@ -656,6 +812,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "보쿠라노 스텔라",
     "totalNotes": 150,
     "duration": "2:44",
@@ -669,6 +828,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "WILDLAND SURVIVOR",
     "totalNotes": 100,
     "duration": "2:29",
@@ -682,6 +844,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "유성대",
+    "units": [
+      "유성대"
+    ],
     "title": "OVERFLOW LIGHT UP!!!!!",
     "totalNotes": 185,
     "duration": "2:36",
@@ -695,6 +860,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "Kiss of Life",
     "totalNotes": 142,
     "duration": "2:12",
@@ -708,6 +876,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "날개 모라토리엄",
     "totalNotes": 110,
     "duration": "2:18",
@@ -721,6 +892,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "Distorted Heart",
     "totalNotes": 202,
     "duration": "2:28",
@@ -734,6 +908,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "You're Speculation",
     "totalNotes": 188,
     "duration": "2:18",
@@ -746,7 +923,11 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "알칼로이드",
+    "unit": "알칼로이드 / Valkyrie",
+    "units": [
+      "알칼로이드",
+      "Valkyrie"
+    ],
     "title": "빨치산",
     "totalNotes": 171,
     "duration": "2:42",
@@ -760,6 +941,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "휴머노이드",
     "totalNotes": 162,
     "duration": "2:35",
@@ -773,6 +957,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "Black Out See Saw 워커커",
     "totalNotes": 212,
     "duration": "2:34",
@@ -786,6 +973,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "Across the universe",
     "totalNotes": 122,
     "duration": "2:52",
@@ -798,7 +988,11 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "알칼로이드",
+    "unit": "알칼로이드 / 덥페",
+    "units": [
+      "알칼로이드",
+      "덥페"
+    ],
     "title": "밤달",
     "totalNotes": 138,
     "duration": "2:32",
@@ -812,6 +1006,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "Living on the edge",
     "totalNotes": 188,
     "duration": "2:11",
@@ -825,6 +1022,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "Believe 4 leaves",
     "totalNotes": 145,
     "duration": "2:45",
@@ -838,6 +1038,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "VERMILION",
     "totalNotes": 175,
     "duration": "2:54",
@@ -851,6 +1054,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "UNDYING HOLY LOVE",
     "totalNotes": 156,
     "duration": "2:48",
@@ -864,6 +1070,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "SAKE OF LOVE",
     "totalNotes": 192,
     "duration": "3:12",
@@ -877,6 +1086,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "SunnyTrip Summer",
     "totalNotes": 127,
     "duration": "3:05",
@@ -890,6 +1102,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "프레질",
     "totalNotes": 127,
     "duration": "2:14",
@@ -903,6 +1118,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "피네",
+    "units": [
+      "피네"
+    ],
     "title": "Musica Vita!",
     "totalNotes": 154,
     "duration": "2:37",
@@ -916,6 +1134,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "알칼로이드",
+    "units": [
+      "알칼로이드"
+    ],
     "title": "코토노하 칸타빌레",
     "totalNotes": 222,
     "duration": "2:25",
@@ -929,6 +1150,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "THE GENESIS",
     "totalNotes": 144,
     "duration": "2:34",
@@ -942,6 +1166,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "Dance in the Apocalypse",
     "totalNotes": 183,
     "duration": "2:18",
@@ -954,7 +1181,11 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "Eden",
+    "unit": "Eden / 스위치",
+    "units": [
+      "Eden",
+      "스위치"
+    ],
     "title": "마제스틱",
     "totalNotes": 173,
     "duration": "2:41",
@@ -968,6 +1199,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "Awakening Myth",
     "totalNotes": 202,
     "duration": "2:27",
@@ -981,6 +1215,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "KEEP OUT",
     "totalNotes": 236,
     "duration": "2:56",
@@ -994,6 +1231,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "Psyche’s Butterfly",
     "totalNotes": 174,
     "duration": "2:51",
@@ -1007,6 +1247,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "楽園追放 -Faith Conquest-",
     "totalNotes": 139,
     "duration": "2:23",
@@ -1020,6 +1263,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "EXCEED",
     "totalNotes": 219,
     "duration": "2:36",
@@ -1033,6 +1279,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "Deep Eclipse",
     "totalNotes": 151,
     "duration": "2:46",
@@ -1046,6 +1295,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "Absolute Perfection",
     "totalNotes": 156,
     "duration": "2:49",
@@ -1059,6 +1311,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "원환의 리플랙션(円環のRefraction)",
     "totalNotes": 163,
     "duration": "2:40",
@@ -1072,6 +1327,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Eden",
+    "units": [
+      "Eden"
+    ],
     "title": "할로윈 (大いなる愛の前に全ては巡り来る)",
     "totalNotes": 192,
     "duration": "2:43",
@@ -1085,6 +1343,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Eve",
+    "units": [
+      "Eve"
+    ],
     "title": "Sunlit Smile!",
     "totalNotes": 133,
     "duration": "2:24",
@@ -1098,6 +1359,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Adam",
+    "units": [
+      "Adam"
+    ],
     "title": "The Beast of the End",
     "totalNotes": 161,
     "duration": "2:07",
@@ -1111,6 +1375,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Eve",
+    "units": [
+      "Eve"
+    ],
     "title": "Trap For You",
     "totalNotes": 192,
     "duration": "2:30",
@@ -1124,6 +1391,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Adam",
+    "units": [
+      "Adam"
+    ],
     "title": "Ruler's Truth",
     "totalNotes": 210,
     "duration": "2:21",
@@ -1137,6 +1407,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Adam",
+    "units": [
+      "Adam"
+    ],
     "title": "Melting Rouge Soul",
     "totalNotes": 180,
     "duration": "2:53",
@@ -1150,6 +1423,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Eve",
+    "units": [
+      "Eve"
+    ],
     "title": "Ruby Love",
     "totalNotes": 185,
     "duration": "2:47",
@@ -1163,6 +1439,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "매혹극(魅惑劇)",
     "totalNotes": 129,
     "duration": "2:07",
@@ -1176,6 +1455,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "Mémoire Antique",
     "totalNotes": 121,
     "duration": "2:15",
@@ -1189,6 +1471,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "Last Lament",
     "totalNotes": 110,
     "duration": "2:16",
@@ -1202,6 +1487,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "오늘 밤 달의 저택에서(今宵月の館にて)",
     "totalNotes": 197,
     "duration": "2:23",
@@ -1215,6 +1503,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "개선가(凱旋歌)",
     "totalNotes": 128,
     "duration": "2:31",
@@ -1228,6 +1519,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "예찬가(礼賛歌)",
     "totalNotes": 122,
     "duration": "2:26",
@@ -1241,6 +1535,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "축복의 Library(祝福のLibrary)",
     "totalNotes": 151,
     "duration": "2:51",
@@ -1254,6 +1551,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "아름다운 나이팅게일",
     "totalNotes": 119,
     "duration": "2:48",
@@ -1267,6 +1567,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "홍월 커버",
     "totalNotes": 155,
     "duration": "2:49",
@@ -1280,6 +1583,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "Eternal Weaving",
     "totalNotes": 125,
     "duration": "2:15",
@@ -1293,6 +1599,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "Acanthe",
     "totalNotes": 159,
     "duration": "2:40",
@@ -1306,6 +1615,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "미궁전자회랑(迷宮電子回廊)",
     "totalNotes": 144,
     "duration": "2:53",
@@ -1319,6 +1631,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "Le temps des fleurs",
     "totalNotes": 140,
     "duration": "2:43",
@@ -1332,6 +1647,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "별의 명동이 울려퍼졌을 때 (星の鳴動響きし時に)",
     "totalNotes": 162,
     "duration": "2:51",
@@ -1345,6 +1663,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Valkyrie",
+    "units": [
+      "Valkyrie"
+    ],
     "title": "행복론 (幸福論)",
     "totalNotes": 136,
     "duration": "2:50",
@@ -1358,6 +1679,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "Crazy Roulette",
     "totalNotes": 151,
     "duration": "2:37",
@@ -1371,6 +1695,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "Be The Party Bee!",
     "totalNotes": 153,
     "duration": "2:16",
@@ -1384,6 +1711,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "PARANOIA STREET",
     "totalNotes": 165,
     "duration": "2:29",
@@ -1397,6 +1727,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "RISKY VENOUS",
     "totalNotes": 129,
     "duration": "2:05",
@@ -1410,6 +1743,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "레몬 스퀴시",
     "totalNotes": 122,
     "duration": "2:22",
@@ -1423,6 +1759,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "Noisy:Beep",
     "totalNotes": 161,
     "duration": "2:33",
@@ -1436,6 +1775,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "NA NA NA SUMMER NIGHT BeeAT",
     "totalNotes": 153,
     "duration": "2:43",
@@ -1449,6 +1791,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "Foolish Alien",
     "totalNotes": 183,
     "duration": "2:31",
@@ -1461,7 +1806,11 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "Crazy:B",
+    "unit": "Crazy:B / UNDEAD",
+    "units": [
+      "Crazy:B",
+      "UNDEAD"
+    ],
     "title": "U.S.A",
     "totalNotes": 181,
     "duration": "2:40",
@@ -1475,6 +1824,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "Honeycomb Summer",
     "totalNotes": 172,
     "duration": "2:34",
@@ -1488,6 +1840,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "아리아드네 (指先のアリアドネ)",
     "totalNotes": 151,
     "duration": "2:42",
@@ -1501,6 +1856,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "Helter-Spider",
     "totalNotes": 132,
     "duration": "2:31",
@@ -1514,6 +1872,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "Crazy Anthem",
     "totalNotes": 183,
     "duration": "2:46",
@@ -1527,6 +1888,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "SAKE OF LOVE (사케 오브 러브)",
     "totalNotes": 192,
     "duration": "3:12",
@@ -1540,6 +1904,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "UTAKATA DANCE FLOOR",
     "totalNotes": 145,
     "duration": "2:37",
@@ -1553,6 +1920,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "KING",
     "totalNotes": 217,
     "duration": "2:24",
@@ -1566,6 +1936,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Crazy:B",
+    "units": [
+      "Crazy:B"
+    ],
     "title": "니키 감사제 (ハニートラップ・マリアージュ)",
     "totalNotes": 194,
     "duration": "2:48",
@@ -1579,6 +1952,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "환영☆투・윙크 기예단",
     "totalNotes": 128,
     "duration": "2:16",
@@ -1592,6 +1968,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "TRICK with TREAT!!(with UNDEAD)",
     "totalNotes": 184,
     "duration": "2:37",
@@ -1605,6 +1984,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "Play “Tag”",
     "totalNotes": 125,
     "duration": "2:23",
@@ -1618,6 +2000,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "하트 프리즘・시메트리",
     "totalNotes": 202,
     "duration": "2:37",
@@ -1631,6 +2016,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "Mischievous Party Time!!",
     "totalNotes": 195,
     "duration": "2:31",
@@ -1644,6 +2032,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "레몬 스쿼시 치어스",
     "totalNotes": 122,
     "duration": "2:22",
@@ -1657,6 +2048,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "슈가 스파이스",
     "totalNotes": 178,
     "duration": "2:31",
@@ -1670,6 +2064,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "공중전(トゥウィンクル空中戦)",
     "totalNotes": 239,
     "duration": "2:27",
@@ -1683,6 +2080,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "POLYPHONIC WORLD",
     "totalNotes": 129,
     "duration": "2:25",
@@ -1696,6 +2096,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "2winkle Star Beat☆",
     "totalNotes": 184,
     "duration": "2:29",
@@ -1708,7 +2111,11 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "2wink",
+    "unit": "2wink / 스위치",
+    "units": [
+      "2wink",
+      "스위치"
+    ],
     "title": "텔 유어 월드",
     "totalNotes": 116,
     "duration": "2:44",
@@ -1722,6 +2129,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "Fighting Dreamer",
     "totalNotes": 141,
     "duration": "2:30",
@@ -1735,6 +2145,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "Swee2wink Love Letter",
     "totalNotes": 156,
     "duration": "2:35",
@@ -1748,6 +2161,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "Turbulent Storm",
     "totalNotes": 147,
     "duration": "2:36",
@@ -1761,6 +2177,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "럽미 몬스터(Love×me⇄monsteR)",
     "totalNotes": 217,
     "duration": "2:34",
@@ -1774,6 +2193,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "Twin Wedding Vows",
     "totalNotes": 104,
     "duration": "2:23",
@@ -1787,6 +2209,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "2wink",
+    "units": [
+      "2wink"
+    ],
     "title": "감사제(来来☆2winkイリュージョン)",
     "totalNotes": 181,
     "duration": "2:21",
@@ -1800,6 +2225,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "Melody in the Dark",
     "totalNotes": 152,
     "duration": "2:37",
@@ -1813,6 +2241,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "Valentine Eve's Nightmare",
     "totalNotes": 164,
     "duration": "2:30",
@@ -1826,6 +2257,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "Gate of Abyss",
     "totalNotes": 132,
     "duration": "2:29",
@@ -1839,6 +2273,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "DESTRUCTION ROAD",
     "totalNotes": 119,
     "duration": "2:22",
@@ -1852,6 +2289,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "IMMORAL WORLD",
     "totalNotes": 126,
     "duration": "1:57",
@@ -1864,7 +2304,11 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "UNDEAD",
+    "unit": "UNDEAD / 홍월",
+    "units": [
+      "UNDEAD",
+      "홍월"
+    ],
     "title": "PERFECTLY-IMPERFECT",
     "totalNotes": 193,
     "duration": "2:35",
@@ -1878,6 +2322,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "허니밀크",
     "totalNotes": 154,
     "duration": "2:39",
@@ -1891,6 +2338,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "죄의 밑바닥 (罪の底)",
     "totalNotes": 184,
     "duration": "2:54",
@@ -1904,6 +2354,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "Savage Love Affair",
     "totalNotes": 172,
     "duration": "2:26",
@@ -1917,6 +2370,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "Darkness 4",
     "totalNotes": 106,
     "duration": "2:05",
@@ -1930,6 +2386,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "Nightless World",
     "totalNotes": 111,
     "duration": "2:04",
@@ -1943,6 +2402,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "FORBIDDEN RAIN",
     "totalNotes": 119,
     "duration": "2:15",
@@ -1956,6 +2418,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "Sustain Memories",
     "totalNotes": 137,
     "duration": "2:48",
@@ -1969,6 +2434,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "Resurrection of Soul",
     "totalNotes": 201,
     "duration": "2:46",
@@ -1982,6 +2450,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "SWINGIN' PARONIRIA",
     "totalNotes": 160,
     "duration": "2:28",
@@ -1995,6 +2466,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "UNDEAD",
+    "units": [
+      "UNDEAD"
+    ],
     "title": "Wanderlust Sailing",
     "totalNotes": 208,
     "duration": "2:25",
@@ -2008,6 +2482,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "Joyful X Box*",
     "totalNotes": 100,
     "duration": "2:28",
@@ -2021,6 +2498,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "Love Ra*bits Party!!",
     "totalNotes": 140,
     "duration": "2:27",
@@ -2034,6 +2514,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "멜티 키친",
     "totalNotes": 142,
     "duration": "2:23",
@@ -2047,6 +2530,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "Milky Starry Charm",
     "totalNotes": 142,
     "duration": "2:29",
@@ -2060,6 +2546,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "주머니속 우주",
     "totalNotes": 128,
     "duration": "2:37",
@@ -2073,6 +2562,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "메이드인 도키메키",
     "totalNotes": 161,
     "duration": "2:29",
@@ -2086,6 +2578,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "산토끼 행진곡",
     "totalNotes": 125,
     "duration": "2:16",
@@ -2099,6 +2594,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "히카리 스펙트럼(ヒカリスペクトル)",
     "totalNotes": 163,
     "duration": "2:55",
@@ -2112,6 +2610,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "토끼 숲 음악회",
     "totalNotes": 159,
     "duration": "2:38",
@@ -2125,6 +2626,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "Dream Collection",
     "totalNotes": 112,
     "duration": "2:11",
@@ -2138,6 +2642,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "Love it Love it",
     "totalNotes": 165,
     "duration": "2:43",
@@ -2151,6 +2658,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "FALLIN' LOVE=IT'S WONDERLAND",
     "totalNotes": 190,
     "duration": "2:41",
@@ -2164,6 +2674,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "하레노히Sugar Wave",
     "totalNotes": 160,
     "duration": "2:33",
@@ -2177,6 +2690,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "토모야 클막",
     "totalNotes": 170,
     "duration": "2:43",
@@ -2190,6 +2706,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "JUMPIN' LUCK BEAT",
     "totalNotes": 214,
     "duration": "2:42",
@@ -2203,6 +2722,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "Ra*bits",
+    "units": [
+      "Ra*bits"
+    ],
     "title": "RaRaRa*Station!",
     "totalNotes": 189,
     "duration": "2:55",
@@ -2216,6 +2738,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "백화요란 홍월야",
     "totalNotes": 200,
     "duration": "2:23",
@@ -2229,6 +2754,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "연홍빛 약속",
     "totalNotes": 133,
     "duration": "2:30",
@@ -2242,6 +2770,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "무슨 검",
     "totalNotes": 136,
     "duration": "2:32",
@@ -2255,6 +2786,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "제야회권",
     "totalNotes": 167,
     "duration": "2:23",
@@ -2268,6 +2802,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "월화무쌍 붉은춤(月下無双、紅の舞)",
     "totalNotes": 190,
     "duration": "2:35",
@@ -2281,6 +2818,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "무슨 춤",
     "totalNotes": 144,
     "duration": "2:21",
@@ -2294,6 +2834,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "실",
     "totalNotes": 168,
     "duration": "2:52",
@@ -2307,6 +2850,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "밤까치",
     "totalNotes": 114,
     "duration": "2:18",
@@ -2320,6 +2866,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "백화요란 2025",
     "totalNotes": 206,
     "duration": "2:35",
@@ -2333,6 +2882,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "발키리 커버",
     "totalNotes": 155,
     "duration": "2:49",
@@ -2346,6 +2898,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "홍월 이로하",
     "totalNotes": 168,
     "duration": "2:08",
@@ -2359,6 +2914,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "월광기담",
     "totalNotes": 155,
     "duration": "2:43",
@@ -2372,6 +2930,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "써머버드",
     "totalNotes": 141,
     "duration": "2:40",
@@ -2385,6 +2946,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "금색천야",
     "totalNotes": 217,
     "duration": "2:46",
@@ -2398,6 +2962,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "천상KAGETSU",
     "totalNotes": 198,
     "duration": "2:53",
@@ -2411,6 +2978,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "LOUDEST BUGS",
     "totalNotes": 222,
     "duration": "2:31",
@@ -2424,6 +2994,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "멜로디",
+    "units": [
+      "멜로디"
+    ],
     "title": "Dear World 마피",
     "totalNotes": 180,
     "duration": "2:29",
@@ -2437,6 +3010,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "멜로디",
+    "units": [
+      "멜로디"
+    ],
     "title": "Dear World",
     "totalNotes": 158,
     "duration": "2:41",
@@ -2450,6 +3026,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "멜로디",
+    "units": [
+      "멜로디"
+    ],
     "title": "BUBBLE GUM DANCE",
     "totalNotes": 153,
     "duration": "2:29",
@@ -2463,6 +3042,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "홍월",
+    "units": [
+      "홍월"
+    ],
     "title": "염전염용 천변만화(炎纏焰踊千変万火)",
     "totalNotes": 208,
     "duration": "2:45",
@@ -2476,6 +3058,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Voice of Sword",
     "totalNotes": 135,
     "duration": "2:36",
@@ -2489,6 +3074,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Silent Oath",
     "totalNotes": 106,
     "duration": "2:10",
@@ -2502,6 +3090,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Grateful Allegiance",
     "totalNotes": 96,
     "duration": "2:10",
@@ -2515,6 +3106,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Fight for Judge",
     "totalNotes": 159,
     "duration": "2:32",
@@ -2528,6 +3122,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Promise Swords",
     "totalNotes": 172,
     "duration": "2:48",
@@ -2541,6 +3138,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Article of Faith",
     "totalNotes": 144,
     "duration": "2:26",
@@ -2554,6 +3154,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Wonderful Happiness",
     "totalNotes": 175,
     "duration": "2:49",
@@ -2567,6 +3170,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Castle of my Heart",
     "totalNotes": 159,
     "duration": "2:51",
@@ -2580,6 +3186,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Knights the Phantom Thief 나팬싶",
     "totalNotes": 116,
     "duration": "2:24",
@@ -2593,6 +3202,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Little Romance",
     "totalNotes": 137,
     "duration": "2:41",
@@ -2606,6 +3218,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Mystic Fragrance",
     "totalNotes": 145,
     "duration": "2:20",
@@ -2619,6 +3234,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Coruscate Breeze",
     "totalNotes": 142,
     "duration": "2:49",
@@ -2632,6 +3250,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Or the Beautiful Golden Drop",
     "totalNotes": 189,
     "duration": "2:56",
@@ -2645,6 +3266,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Luminous Crown",
     "totalNotes": 141,
     "duration": "2:40",
@@ -2658,6 +3282,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "Heart Collector",
     "totalNotes": 164,
     "duration": "2:54",
@@ -2671,6 +3298,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "템테 매직",
     "totalNotes": 103,
     "duration": "2:17",
@@ -2684,6 +3314,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "에메랄드 플래닛",
     "totalNotes": 143,
     "duration": "2:29",
@@ -2697,6 +3330,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "노킹 판타지",
     "totalNotes": 106,
     "duration": "2:15",
@@ -2710,6 +3346,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "I ”Witch” You A Happy Halloween! 할로윈 ",
     "totalNotes": 145,
     "duration": "2:28",
@@ -2723,6 +3362,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "매직 포 유어 스위치",
     "totalNotes": 178,
     "duration": "2:36",
@@ -2736,6 +3378,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "갤럭시 데스티니",
     "totalNotes": 103,
     "duration": "2:13",
@@ -2749,6 +3394,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "Seven Days \"Prismagic\" (스위치 트립)",
     "totalNotes": 143,
     "duration": "2:47",
@@ -2762,6 +3410,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "이스터 카니발",
     "totalNotes": 198,
     "duration": "2:33",
@@ -2775,6 +3426,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "A little bit UP!!",
     "totalNotes": 135,
     "duration": "2:46",
@@ -2788,6 +3442,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "오모카게",
     "totalNotes": 130,
     "duration": "1:58",
@@ -2801,6 +3458,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "Brilliant Smile",
     "totalNotes": 198,
     "duration": "2:44",
@@ -2814,6 +3474,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "로맨싱 크루즈",
     "totalNotes": 148,
     "duration": "2:36",
@@ -2827,6 +3490,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "Chocola-Tic After School 스위치 발렌",
     "totalNotes": 142,
     "duration": "2:47",
@@ -2840,6 +3506,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "Wish upon a MUSIC!!",
     "totalNotes": 142,
     "duration": "2:51",
@@ -2853,6 +3522,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "스위치",
+    "units": [
+      "스위치"
+    ],
     "title": "Switching Journey",
     "totalNotes": 146,
     "duration": "2:41",
@@ -2866,6 +3538,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "마무",
+    "units": [
+      "마무"
+    ],
     "title": "블루밍",
     "totalNotes": 141,
     "duration": "2:11",
@@ -2879,6 +3554,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "마무",
+    "units": [
+      "마무"
+    ],
     "title": "엠비셔스",
     "totalNotes": 131,
     "duration": "2:11",
@@ -2892,6 +3570,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "마무",
+    "units": [
+      "마무"
+    ],
     "title": "페스티브",
     "totalNotes": 121,
     "duration": "2:13",
@@ -2905,6 +3586,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "마무",
+    "units": [
+      "마무"
+    ],
     "title": "유쾌통쾌 That's alright! 다라닥닥",
     "totalNotes": 202,
     "duration": "2:32",
@@ -2918,6 +3602,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "마무",
+    "units": [
+      "마무"
+    ],
     "title": "신풍",
     "totalNotes": 141,
     "duration": "2:28",
@@ -2931,6 +3618,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "마무",
+    "units": [
+      "마무"
+    ],
     "title": "핸즈크레프트",
     "totalNotes": 121,
     "duration": "2:45",
@@ -2944,6 +3634,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "마무",
+    "units": [
+      "마무"
+    ],
     "title": "헬로 뉴이어",
     "totalNotes": 101,
     "duration": "2:48",
@@ -2957,6 +3650,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "마무",
+    "units": [
+      "마무"
+    ],
     "title": "할로윈 랑데부",
     "totalNotes": 181,
     "duration": "2:51",
@@ -2970,6 +3666,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "덥페",
+    "units": [
+      "덥페"
+    ],
     "title": "Stippling",
     "totalNotes": 132,
     "duration": "2:14",
@@ -2983,6 +3682,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "덥페",
+    "units": [
+      "덥페"
+    ],
     "title": "주머니 속 우주",
     "totalNotes": 128,
     "duration": "2:37",
@@ -2996,6 +3698,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "덥페",
+    "units": [
+      "덥페"
+    ],
     "title": "네뷸라",
     "totalNotes": 160,
     "duration": "2:46",
@@ -3009,6 +3714,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "덥페",
+    "units": [
+      "덥페"
+    ],
     "title": "=아이=",
     "totalNotes": 151,
     "duration": "2:26",
@@ -3022,6 +3730,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "덥페",
+    "units": [
+      "덥페"
+    ],
     "title": "No name yet",
     "totalNotes": 147,
     "duration": "2:32",
@@ -3035,6 +3746,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "덥페",
+    "units": [
+      "덥페"
+    ],
     "title": "바이바이 버디",
     "totalNotes": 194,
     "duration": "2:43",
@@ -3048,6 +3762,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "에스프리",
+    "units": [
+      "에스프리"
+    ],
     "title": "상애선언",
     "totalNotes": 211,
     "duration": "2:56",
@@ -3061,6 +3778,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "에스프리",
+    "units": [
+      "에스프리"
+    ],
     "title": "스키스키 헌터",
     "totalNotes": 201,
     "duration": "2:43",
@@ -3074,6 +3794,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "에스프리",
+    "units": [
+      "에스프리"
+    ],
     "title": "Be My Princess 비마프",
     "totalNotes": 193,
     "duration": "2:47",
@@ -3087,6 +3810,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "에스프리",
+    "units": [
+      "에스프리"
+    ],
     "title": "베리베리 스위트 화이트",
     "totalNotes": 149,
     "duration": "2:13",
@@ -3100,6 +3826,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "에스프리",
+    "units": [
+      "에스프리"
+    ],
     "title": "칸나 하코",
     "totalNotes": 166,
     "duration": "2:33",
@@ -3113,6 +3842,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "마무",
+    "units": [
+      "마무"
+    ],
     "title": "Light on the Orbit 감사제",
     "totalNotes": 131,
     "duration": "2:41",
@@ -3126,6 +3858,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "나이츠",
+    "units": [
+      "나이츠"
+    ],
     "title": "시크릿 마스커레이드",
     "totalNotes": 183,
     "duration": "2:41",
@@ -3139,6 +3874,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "주년",
+    "units": [
+      "주년"
+    ],
     "title": "BRAND NEW STARS!! 브뉴스",
     "totalNotes": 118,
     "duration": "2:08",
@@ -3152,6 +3890,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "기타",
+    "units": [
+      "기타"
+    ],
     "title": "스타즈 앙상블",
     "totalNotes": 80,
     "duration": "2:39",
@@ -3165,6 +3906,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "진앤아",
+    "units": [
+      "진앤아"
+    ],
     "title": "Rainbow Stairway",
     "totalNotes": 121,
     "duration": "2:25",
@@ -3178,6 +3922,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "추억",
+    "units": [
+      "추억"
+    ],
     "title": "익센파",
     "totalNotes": 127,
     "duration": "2:28",
@@ -3191,6 +3938,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "추억",
+    "units": [
+      "추억"
+    ],
     "title": "제뉴인",
     "totalNotes": 123,
     "duration": "2:13",
@@ -3204,6 +3954,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "추억",
+    "units": [
+      "추억"
+    ],
     "title": "데겜홀",
     "totalNotes": 235,
     "duration": "2:32",
@@ -3217,6 +3970,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "추억",
+    "units": [
+      "추억"
+    ],
     "title": "Crush of Judgment 나킬",
     "totalNotes": 154,
     "duration": "2:24",
@@ -3230,6 +3986,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "추억",
+    "units": [
+      "추억"
+    ],
     "title": "락 로어",
     "totalNotes": 208,
     "duration": "2:40",
@@ -3243,6 +4002,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "추억",
+    "units": [
+      "추억"
+    ],
     "title": "We'll be knights 윌비나",
     "totalNotes": 99,
     "duration": "2:19",
@@ -3256,6 +4018,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "추억",
+    "units": [
+      "추억"
+    ],
     "title": "성소년유희",
     "totalNotes": 160,
     "duration": "2:20",
@@ -3269,6 +4034,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "드림유닛",
+    "units": [
+      "드림유닛"
+    ],
     "title": "반짝 Sign",
     "totalNotes": 179,
     "duration": "2:46",
@@ -3282,6 +4050,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "드림유닛",
+    "units": [
+      "드림유닛"
+    ],
     "title": "세츠나 Drops",
     "totalNotes": 91,
     "duration": "2:32",
@@ -3295,6 +4066,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "드림유닛",
+    "units": [
+      "드림유닛"
+    ],
     "title": "LOCK YOUR GAZE",
     "totalNotes": 157,
     "duration": "2:09",
@@ -3308,6 +4082,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "만우절",
+    "units": [
+      "만우절"
+    ],
     "title": "앙상블 체조",
     "totalNotes": 176,
     "duration": "2:51",
@@ -3321,6 +4098,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "에투제",
     "totalNotes": 151,
     "duration": "2:30",
@@ -3334,6 +4114,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "주년",
+    "units": [
+      "주년"
+    ],
     "title": "웤유스",
     "totalNotes": 103,
     "duration": "2:00",
@@ -3347,6 +4130,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "버틀러",
     "totalNotes": 141,
     "duration": "2:05",
@@ -3360,6 +4146,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "블랑코",
     "totalNotes": 98,
     "duration": "2:09",
@@ -3373,6 +4162,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "새해",
+    "units": [
+      "새해"
+    ],
     "title": "2020 -> 2021",
     "totalNotes": 210,
     "duration": "3:19",
@@ -3386,6 +4178,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "만우절",
+    "units": [
+      "만우절"
+    ],
     "title": "엔드리스 뷔데",
     "totalNotes": 132,
     "duration": "2:31",
@@ -3399,6 +4194,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "주년",
+    "units": [
+      "주년"
+    ],
     "title": "웤유스 어쿠스틱 (Acoustic Ver.)",
     "totalNotes": 167,
     "duration": "3:04",
@@ -3412,6 +4210,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "주년",
+    "units": [
+      "주년"
+    ],
     "title": "6주년 퓨저닉",
     "totalNotes": 214,
     "duration": "2:46",
@@ -3425,6 +4226,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "링어벨",
     "totalNotes": 169,
     "duration": "2:39",
@@ -3438,6 +4242,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "문라디",
     "totalNotes": 146,
     "duration": "2:15",
@@ -3451,6 +4258,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "Noir Neige (흑설)",
     "totalNotes": 166,
     "duration": "2:42",
@@ -3464,6 +4274,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "새해",
+    "units": [
+      "새해"
+    ],
     "title": "2021 -> 2022",
     "totalNotes": 210,
     "duration": "3:25",
@@ -3477,6 +4290,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "기타",
+    "units": [
+      "기타"
+    ],
     "title": "Life is so Drastic (로투쇼)",
     "totalNotes": 194,
     "duration": "2:46",
@@ -3490,6 +4306,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "만우절",
+    "units": [
+      "만우절"
+    ],
     "title": "부쿠부 스타즈",
     "totalNotes": 160,
     "duration": "2:11",
@@ -3503,6 +4322,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "부활절 토끼",
     "totalNotes": 161,
     "duration": "2:29",
@@ -3516,6 +4338,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "주년",
+    "units": [
+      "주년"
+    ],
     "title": "Surprising Thanks!! 7주년",
     "totalNotes": 159,
     "duration": "2:28",
@@ -3529,6 +4354,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "FIST OF SOUL",
     "totalNotes": 176,
     "duration": "2:41",
@@ -3542,6 +4370,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "카페테리아",
     "totalNotes": 142,
     "duration": "2:42",
@@ -3555,6 +4386,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "Have you been naughty or nice?",
     "totalNotes": 218,
     "duration": "2:24",
@@ -3568,6 +4402,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "새해",
+    "units": [
+      "새해"
+    ],
     "title": "2022 -> 2023",
     "totalNotes": 253,
     "duration": "3:40",
@@ -3581,6 +4418,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "만우절",
+    "units": [
+      "만우절"
+    ],
     "title": "앙상블 트레이닝",
     "totalNotes": 83,
     "duration": "2:51",
@@ -3594,6 +4434,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "추억",
+    "units": [
+      "추억"
+    ],
     "title": "익센파 Mix",
     "totalNotes": 175,
     "duration": "2:47",
@@ -3607,6 +4450,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "기타",
+    "units": [
+      "기타"
+    ],
     "title": "Twilight Pentagram 팬타그램",
     "totalNotes": 186,
     "duration": "2:53",
@@ -3620,6 +4466,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "기타",
+    "units": [
+      "기타"
+    ],
     "title": "Dawning Angels",
     "totalNotes": 194,
     "duration": "2:49",
@@ -3633,6 +4482,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "주년",
+    "units": [
+      "주년"
+    ],
     "title": "One with One (8주년)",
     "totalNotes": 208,
     "duration": "2:50",
@@ -3646,6 +4498,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "만우절",
+    "units": [
+      "만우절"
+    ],
     "title": "스크럼블 교차로",
     "totalNotes": 131,
     "duration": "2:30",
@@ -3659,6 +4514,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "주년",
+    "units": [
+      "주년"
+    ],
     "title": "LIMIT BREAK DREAMERS (9주년)",
     "totalNotes": 172,
     "duration": "2:53",
@@ -3672,6 +4530,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "링잉 이블 폰",
     "totalNotes": 149,
     "duration": "2:50",
@@ -3685,6 +4546,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "상실우의(喪失寓意) -LOST BALLADE-",
     "totalNotes": 128,
     "duration": "2:33",
@@ -3698,6 +4562,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "콜라보",
+    "units": [
+      "콜라보"
+    ],
     "title": "We Are Light (에리오스)",
     "totalNotes": 199,
     "duration": "2:41",
@@ -3711,6 +4578,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "콜라보",
+    "units": [
+      "콜라보"
+    ],
     "title": "퓨전",
     "totalNotes": 174,
     "duration": "2:27",
@@ -3724,6 +4594,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "콜라보",
+    "units": [
+      "콜라보"
+    ],
     "title": "B100d Hunter 블러드헌터",
     "totalNotes": 184,
     "duration": "2:29",
@@ -3737,6 +4610,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "타천사",
     "totalNotes": 158,
     "duration": "2:32",
@@ -3750,6 +4626,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "주년",
+    "units": [
+      "주년"
+    ],
     "title": "BRIGHTEST STARS!! (10주년)",
     "totalNotes": 188,
     "duration": "2:27",
@@ -3763,6 +4642,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "콜라보",
+    "units": [
+      "콜라보"
+    ],
     "title": "세이크리드 루인",
     "totalNotes": 234,
     "duration": "2:27",
@@ -3776,6 +4658,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "군연지원 (루리마츠리)",
     "totalNotes": 135,
     "duration": "2:42",
@@ -3789,6 +4674,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "콜라보",
+    "units": [
+      "콜라보"
+    ],
     "title": "RISE STAR'S SPIRITS (에리오스2)",
     "totalNotes": 215,
     "duration": "2:55",
@@ -3802,6 +4690,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "셔플",
+    "units": [
+      "셔플"
+    ],
     "title": "쿠마쿠마 레스큐",
     "totalNotes": 236,
     "duration": "2:38",
@@ -3815,6 +4706,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "셔플_10주년",
+    "units": [
+      "셔플_10주년"
+    ],
     "title": "보쿠노 위크포인트 (1번 셔플)",
     "totalNotes": 111,
     "duration": "2:31",
@@ -3828,6 +4722,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "셔플_10주년",
+    "units": [
+      "셔플_10주년"
+    ],
     "title": "Graceful Punishment (5번 셔플)",
     "totalNotes": 138,
     "duration": "2:28",
@@ -3841,6 +4738,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "셔플_10주년",
+    "units": [
+      "셔플_10주년"
+    ],
     "title": "Deep into you (10번 셔플)",
     "totalNotes": 131,
     "duration": "2:27",
@@ -3854,6 +4754,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "셔플_10주년",
+    "units": [
+      "셔플_10주년"
+    ],
     "title": "러뷰&피스 전설 (3번 셔플)",
     "totalNotes": 229,
     "duration": "2:48",
@@ -3867,6 +4770,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "셔플_10주년",
+    "units": [
+      "셔플_10주년"
+    ],
     "title": "Ai$ 아이도루(8번 셔플)",
     "totalNotes": 244,
     "duration": "2:32",
@@ -3880,6 +4786,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "셔플_10주년",
+    "units": [
+      "셔플_10주년"
+    ],
     "title": "It's (k)not lov? (7번 셔플)",
     "totalNotes": 131,
     "duration": "2:42",
@@ -3893,6 +4802,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "셔플_10주년",
+    "units": [
+      "셔플_10주년"
+    ],
     "title": "그것은 잔상의 소실점 2번",
     "totalNotes": 120,
     "duration": "2:39",
@@ -3906,6 +4818,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "진앤아",
+    "units": [
+      "진앤아"
+    ],
     "title": "하나니나레",
     "totalNotes": 139,
     "duration": "2:21",
@@ -3919,6 +4834,9 @@ const SONGS = [
   {
     "type": "Glitter",
     "unit": "셔플_10주년",
+    "units": [
+      "셔플_10주년"
+    ],
     "title": "9번 셔플",
     "totalNotes": 128,
     "duration": "2:37",
@@ -3932,6 +4850,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "셔플_10주년",
+    "units": [
+      "셔플_10주년"
+    ],
     "title": "Fight is Only Fate (4번 셔플)",
     "totalNotes": 250,
     "duration": "2:39",
@@ -3945,6 +4866,9 @@ const SONGS = [
   {
     "type": "Sparkle",
     "unit": "셔플_10주년",
+    "units": [
+      "셔플_10주년"
+    ],
     "title": "프롤로그(プロローグのそのあとへ) 6번",
     "totalNotes": 144,
     "duration": "2:22",
@@ -3958,6 +4882,9 @@ const SONGS = [
   {
     "type": "Brilliant",
     "unit": "콜라보",
+    "units": [
+      "콜라보"
+    ],
     "title": "오보로(朧)",
     "totalNotes": 193,
     "duration": "2:11",
@@ -3971,6 +4898,9 @@ const SONGS = [
   {
     "type": "All",
     "unit": "주년",
+    "units": [
+      "주년"
+    ],
     "title": "브라스타 메가스피어",
     "totalNotes": 223,
     "duration": "2:30",
@@ -3984,6 +4914,9 @@ const SONGS = [
   {
     "type": "Flash",
     "unit": "만우절",
+    "units": [
+      "만우절"
+    ],
     "title": "페르소나 아비스",
     "totalNotes": 230,
     "duration": "2:37",

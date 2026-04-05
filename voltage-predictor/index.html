@@ -227,7 +227,7 @@ body { font-family: 'Noto Sans KR', 'Inter', sans-serif; background: var(--bg); 
 .songs-table thead tr { border-bottom: 2px solid var(--border); }
 .songs-table th { padding: 10px 12px; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; text-align: left; background: var(--bg); white-space: nowrap; overflow: visible; }
 .songs-table th:nth-child(1) { width: 112px; }  /* Type */
-.songs-table th:nth-child(2) { width: 96px; }   /* Unit */
+.songs-table th:nth-child(2) { width: 165px; }  /* Unit */
 .songs-table th:nth-child(3) { width: auto; }   /* Title */
 .songs-table th:nth-child(4) { width: 84px; }   /* Notes */
 .songs-table th:nth-child(5) { width: 108px; }  /* Duration */
@@ -372,7 +372,7 @@ body { font-family: 'Noto Sans KR', 'Inter', sans-serif; background: var(--bg); 
       <div class="input-grid">
         <div class="input-group">
           <label>총 노트수 <span>*</span></label>
-          <input class="num-input" id="inputNotes" type="number" placeholder="예: 161" min="80" max="350"
+          <input class="num-input" id="inputNotes" type="number" placeholder="예: 161" min="80" max="300"
             oninput="onNotesManualEdit()">
         </div>
         <div class="input-group">
@@ -807,7 +807,8 @@ function renderDropdown(q) {
   if (!q) { dd.classList.remove('open'); return; }
   const ql = q.toLowerCase();
   const results = SONGS.filter(s =>
-    s.title.toLowerCase().includes(ql) || s.unit.toLowerCase().includes(ql)
+    s.title.toLowerCase().includes(ql) ||
+    s.units.some(u => u.toLowerCase().includes(ql))
   ).slice(0,12);
   if (results.length===0) {
     dd.innerHTML='<div class="dropdown-empty">검색 결과가 없어요</div>';
@@ -897,8 +898,8 @@ function runPredict() {
   if (notes < 80) {
     showPredictError('총 노트수가 너무 작습니다. (80 이상)', ['inputNotes']); return;
   }
-  if (notes > 350) {
-    showPredictError('총 노트수가 너무 큽니다. 이 모델은 이지작 전용입니다. (350 이하)', ['inputNotes']); return;
+  if (notes > 300) {
+    showPredictError('총 노트수가 너무 큽니다. 이 모델은 이지작 전용입니다. (300 이하)', ['inputNotes']); return;
   }
 
   // ② ET는 둘 다 입력하거나 둘 다 비워야 함
@@ -1106,7 +1107,9 @@ function buildUnitTree() {
   catOrder.forEach(c => { catUnits[c] = []; });
   SONGS.forEach(s => {
     if (!catUnits[s.category]) catUnits[s.category]=[];
-    if (!catUnits[s.category].includes(s.unit)) catUnits[s.category].push(s.unit);
+    s.units.forEach(u => {
+      if (!catUnits[s.category].includes(u)) catUnits[s.category].push(u);
+    });
   });
 
   const wrap = document.getElementById('unitTree');
@@ -1187,11 +1190,11 @@ function renderTable() {
   const q = (document.getElementById('tableSearch')||{value:''}).value.toLowerCase();
   let list = SONGS.filter(s => {
     if (activeType !== null && s.type !== activeType) return false;
-    if (activeUnits && !activeUnits.has(s.unit)) return false;
+    if (activeUnits && !s.units.some(u => activeUnits.has(u))) return false;
     if (activeDur==='short' && s.durationSec>130) return false;
     if (activeDur==='mid' && (s.durationSec<130||s.durationSec>160)) return false;
     if (activeDur==='long' && (s.durationSec<160||s.durationSec>190)) return false;
-    if (q && !s.title.toLowerCase().includes(q) && !s.unit.toLowerCase().includes(q)) return false;
+    if (q && !s.title.toLowerCase().includes(q) && !s.units.some(u => u.toLowerCase().includes(q))) return false;
     return true;
   });
 
@@ -1283,7 +1286,7 @@ function goPage(p) {
   const totalPages = Math.ceil(
     SONGS.filter(s => {
       if (activeType!==null && s.type!==activeType) return false;
-      if (activeUnits && !activeUnits.has(s.unit)) return false;
+      if (activeUnits && !s.units.some(u => activeUnits.has(u))) return false;
       return true;
     }).length / PAGE_SIZE
   );
