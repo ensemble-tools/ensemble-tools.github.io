@@ -1224,7 +1224,7 @@ function renderTable() {
     const dot = s.measured!==null
       ? `<span class="clear-dot" style="background:#059669"></span>`
       : `<span class="clear-dot" style="background:#d1d5db"></span>`;
-    const clearVal = s.measured!==null ? s.measured+SAFETY : s.predicted+SAFETY;
+    const clearVal = s.measured!==null ? s.measured : s.predicted;
     const video = s.video
       ? `<a class="video-link" href="${s.video}" target="_blank" title="영상 열기">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
