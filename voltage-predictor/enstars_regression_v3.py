@@ -358,10 +358,10 @@ def main():
                 default_js = out_path
                 js_in = input(f"저장 경로 [{default_js}]: ").strip()
                 js_out = js_in if js_in else default_js
-                export_songs_js(df_pred, result, js_out)
+                export_songs_js(df_pred, result, js_out1)
 
             elif cmd == "2":
-                default_csv = path.rsplit(".", 1)[0] + "_결과_v3.csv"
+                default_csv = path.rsplit(".", 1)[0] + "_result_v3.csv"
                 csv_in = input(f"저장 경로 [{default_csv}]: ").strip()
                 csv_out = csv_in if csv_in else default_csv
                 df_show[cols + ["video_url"]].to_csv(csv_out, index=False, encoding="utf-8-sig")
