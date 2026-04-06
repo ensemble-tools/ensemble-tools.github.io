@@ -1,15 +1,17 @@
 // songs.js — Voltage Predictor 곡 데이터 & 모델 파라미터
-// 총 307곡 | R²=0.9688 | MAE=2.65콤보
+// 총 305곡 | R²=0.9688 | MAE=2.65콤보
 // ※ enstars_regression_v3.py 로 자동 생성 — 직접 수정 비권장
 
 const SONGS = [
   {
     "type": "Flash",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "오와라나이",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 158,
     "duration": "2:39",
     "etStart": null,
@@ -21,11 +23,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
-    "title": "홀리 엔젤 캐롤",
+    "title": "Holy Angel's Carol",
+    "titleKo": "Holy Angel's Carol",
+    "titleKoReading": "홀리 엔젤스 캐롤",
     "totalNotes": 138,
     "duration": "2:29",
     "etStart": null,
@@ -37,11 +41,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "날개짓 포르티시모",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 120,
     "duration": "2:30",
     "etStart": null,
@@ -53,11 +59,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "Neo Sanctuary",
+    "titleKo": "Neo Sanctuary",
+    "titleKoReading": "네오 생츄어리",
     "totalNotes": 161,
     "duration": "2:31",
     "etStart": 116,
@@ -69,12 +77,14 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "피네 / 트릭스타",
+    "unit": "fine / Trickstar",
     "units": [
-      "피네",
-      "트릭스타"
+      "fine",
+      "Trickstar"
     ],
     "title": "크로싱 하트",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 100,
     "duration": "2:41",
     "etStart": null,
@@ -86,11 +96,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "애니곡",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 140,
     "duration": "2:31",
     "etStart": null,
@@ -102,11 +114,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
-    "title": "미라클 드림 트레버",
+    "title": "Miracle Dream Traveler",
+    "titleKo": "Miracle Dream Traveler",
+    "titleKoReading": "미라클 드림 트레블러",
     "totalNotes": 125,
     "duration": "2:05",
     "etStart": null,
@@ -118,11 +132,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "Angelic Grace",
+    "titleKo": "Angelic Grace",
+    "titleKoReading": "엔젤릭 그레이스",
     "totalNotes": 135,
     "duration": "2:55",
     "etStart": 66,
@@ -134,11 +150,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
-    "title": "네버엔딩 스테이지",
+    "title": "Never-ending Stage!!!!",
+    "titleKo": "Never-ending Stage!!!!",
+    "titleKoReading": "네버-엔딩 스테이지",
     "totalNotes": 175,
     "duration": "2:36",
     "etStart": null,
@@ -150,11 +168,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
-    "title": "레인보우 서커스",
+    "title": "RAINBOW CIRCUS",
+    "titleKo": "RAINBOW CIRCUS",
+    "titleKoReading": "레인보우 서커스",
     "totalNotes": 138,
     "duration": "2:21",
     "etStart": null,
@@ -166,12 +186,14 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "피네 / 나이츠",
+    "unit": "fine / Knights",
     "units": [
-      "피네",
-      "나이츠"
+      "fine",
+      "Knights"
     ],
     "title": "스타라이트 퍼레이드",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 109,
     "duration": "2:32",
     "etStart": null,
@@ -183,11 +205,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "The Tempest Night",
+    "titleKo": "The Tempest Night",
+    "titleKoReading": "템페스트 나이트",
     "totalNotes": 124,
     "duration": "2:32",
     "etStart": 43,
@@ -199,11 +223,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "프리마베라",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 175,
     "duration": "2:26",
     "etStart": null,
@@ -215,11 +241,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "Feathers of Ark",
+    "titleKo": "Feathers of Ark",
+    "titleKoReading": "페더즈 오브 아크",
     "totalNotes": 171,
     "duration": "2:51",
     "etStart": 99,
@@ -231,11 +259,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "Ghostic Treat House",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 127,
     "duration": "2:47",
     "etStart": null,
@@ -247,11 +277,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "Dreaming Ocean",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 150,
     "duration": "2:45",
     "etStart": 119,
@@ -263,11 +295,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "Fairy Tale Library",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 144,
     "duration": "2:47",
     "etStart": 79,
@@ -279,11 +313,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
-    "title": "온유스",
+    "title": "ONLY YOUR STARS!",
+    "titleKo": "ONLY YOUR STARS!",
+    "titleKoReading": "온리 유어 스타즈",
     "totalNotes": 97,
     "duration": "2:27",
     "etStart": null,
@@ -295,11 +331,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
-    "title": "리벨리온 스타",
+    "title": "Rebellion Star",
+    "titleKo": "Rebellion Star",
+    "titleKoReading": "리벨리온 스타",
     "totalNotes": 111,
     "duration": "2:38",
     "etStart": null,
@@ -311,11 +349,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
     "title": "인피니트 스타",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 118,
     "duration": "2:19",
     "etStart": null,
@@ -327,12 +367,14 @@ const SONGS = [
   },
   {
     "type": "All",
-    "unit": "트릭스타 / Eden",
+    "unit": "Trickstar / Eden",
     "units": [
-      "트릭스타",
+      "Trickstar",
       "Eden"
     ],
-    "title": "키세키(キセキ)",
+    "title": "キセキ",
+    "titleKo": "키세키",
+    "titleKoReading": null,
     "totalNotes": 165,
     "duration": "2:35",
     "etStart": null,
@@ -344,11 +386,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
-    "title": "하트 비터",
+    "title": "HEART→BEATER!!!!",
+    "titleKo": "HEART→BEATER!!!!",
+    "titleKoReading": "하트 비터",
     "totalNotes": 125,
     "duration": "2:27",
     "etStart": null,
@@ -360,11 +404,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
-    "title": "브렉스루",
+    "title": "BREAKTHROUGH!",
+    "titleKo": "BREAKTHROUGH!",
+    "titleKoReading": "브레이크스루",
     "totalNotes": 215,
     "duration": "2:32",
     "etStart": null,
@@ -376,11 +422,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
     "title": "1st 싱어롱",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 157,
     "duration": "2:19",
     "etStart": null,
@@ -392,11 +440,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
-    "title": "체리 해피 스트림",
+    "title": "CHERRY HAPPY STREAM ",
+    "titleKo": "CHERRY HAPPY STREAM ",
+    "titleKoReading": "체리 해피 스트림",
     "totalNotes": 147,
     "duration": "2:07",
     "etStart": null,
@@ -408,11 +458,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
     "title": "웰컴 투 트릭스타 나이트",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 107,
     "duration": "2:18",
     "etStart": null,
@@ -424,11 +476,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
     "title": "행복의 노래",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 164,
     "duration": "2:43",
     "etStart": 113,
@@ -440,11 +494,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
     "title": "Unstoppable Love!",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 164,
     "duration": "2:42",
     "etStart": null,
@@ -456,12 +512,14 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "트릭스타 / Eden",
+    "unit": "Trickstar / Eden",
     "units": [
-      "트릭스타",
+      "Trickstar",
       "Eden"
     ],
-    "title": "리플레이",
+    "title": "(RE)PLAY",
+    "titleKo": "(RE)PLAY",
+    "titleKoReading": "리플레이",
     "totalNotes": 185,
     "duration": "2:30",
     "etStart": null,
@@ -473,11 +531,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
     "title": "BIGBANG REFLECTION!!",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 109,
     "duration": "2:30",
     "etStart": 66,
@@ -489,11 +549,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
     "title": "Finder Girl (파인더 걸)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 136,
     "duration": "2:40",
     "etStart": 42,
@@ -505,11 +567,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
     "title": "데이드림 리얼리티",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 174,
     "duration": "2:32",
     "etStart": null,
@@ -521,11 +585,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
-    "title": "로맨틱 xday",
+    "title": "Romantic Xday!",
+    "titleKo": "Romantic Xday!",
+    "titleKoReading": "로맨틱 엑스데이",
     "totalNotes": 158,
     "duration": "2:46",
     "etStart": null,
@@ -537,11 +603,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
     "title": "와챠가나두",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 161,
     "duration": "2:48",
     "etStart": 95,
@@ -553,11 +621,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "트릭스타",
+    "unit": "Trickstar",
     "units": [
-      "트릭스타"
+      "Trickstar"
     ],
     "title": "CELEBRATE!!",
+    "titleKo": "CELEBRATE!!",
+    "titleKoReading": "셀러브레이트",
     "totalNotes": 161,
     "duration": "2:45",
     "etStart": 126,
@@ -574,6 +644,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "메테오 레인저",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 170,
     "duration": "2:35",
     "etStart": null,
@@ -589,7 +661,9 @@ const SONGS = [
     "units": [
       "유성대"
     ],
-    "title": "언리미티드 파워",
+    "title": "アンリミテッド☆パワー!!!!!",
+    "titleKo": "언리미티드☆파워!!!!!",
+    "titleKoReading": null,
     "totalNotes": 129,
     "duration": "2:16",
     "etStart": null,
@@ -606,6 +680,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "슈퍼노바 레볼루스타",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 136,
     "duration": "2:24",
     "etStart": null,
@@ -621,7 +697,9 @@ const SONGS = [
     "units": [
       "유성대"
     ],
-    "title": "유성불꽃",
+    "title": "流星花火",
+    "titleKo": "유성불꽃",
+    "titleKoReading": null,
     "totalNotes": 129,
     "duration": "2:10",
     "etStart": null,
@@ -638,6 +716,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "메테오 스크럼블",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 184,
     "duration": "2:37",
     "etStart": null,
@@ -649,12 +729,14 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "유성대 / 나이츠",
+    "unit": "유성대 / Knights",
     "units": [
       "유성대",
-      "나이츠"
+      "Knights"
     ],
-    "title": "청춘 Emergency",
+    "title": "青春Emergency",
+    "titleKo": "청춘 Emergency",
+    "titleKoReading": "청춘 이머전시",
     "totalNotes": 233,
     "duration": "2:39",
     "etStart": 112,
@@ -671,6 +753,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "GROWING STARRY DAYS",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 105,
     "duration": "2:12",
     "etStart": null,
@@ -687,6 +771,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "NEW DAYBREAK",
+    "titleKo": "NEW DAYBREAK",
+    "titleKoReading": "뉴 데이브레이크",
     "totalNotes": 178,
     "duration": "3:01",
     "etStart": 106,
@@ -703,6 +789,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "Heart Heat Beat",
+    "titleKo": "Heart Heat Beat",
+    "titleKoReading": "하트 히트 비트",
     "totalNotes": 154,
     "duration": "2:47",
     "etStart": 47,
@@ -718,7 +806,9 @@ const SONGS = [
     "units": [
       "유성대"
     ],
-    "title": "유메노사키 유성대가",
+    "title": "夢ノ咲流星隊歌",
+    "titleKo": "유메노사키 유성대가",
+    "titleKoReading": null,
     "totalNotes": 164,
     "duration": "2:32",
     "etStart": null,
@@ -736,6 +826,8 @@ const SONGS = [
       "Ra*bits"
     ],
     "title": "햄타로",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 86,
     "duration": "2:20",
     "etStart": null,
@@ -751,7 +843,9 @@ const SONGS = [
     "units": [
       "유성대"
     ],
-    "title": "유성 할레이션",
+    "title": "彗星HALATION",
+    "titleKo": "혜성 HALATION",
+    "titleKoReading": "혜성 할레이션",
     "totalNotes": 155,
     "duration": "2:27",
     "etStart": null,
@@ -767,7 +861,9 @@ const SONGS = [
     "units": [
       "유성대"
     ],
-    "title": "열혈☆유성인법첩 (시노부 하코)",
+    "title": "熱血☆流星忍法帖",
+    "titleKo": "열혈☆유성인법첩",
+    "titleKoReading": null,
     "totalNotes": 202,
     "duration": "2:36",
     "etStart": 100,
@@ -784,6 +880,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "Colors Arise",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 205,
     "duration": "2:39",
     "etStart": null,
@@ -800,6 +898,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "RELAX PARADISE",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 199,
     "duration": "2:50",
     "etStart": 100,
@@ -816,6 +916,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "보쿠라노 스텔라",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 150,
     "duration": "2:44",
     "etStart": 25,
@@ -832,6 +934,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "WILDLAND SURVIVOR",
+    "titleKo": "WILDLAND SURVIVOR",
+    "titleKoReading": "와일드랜드 서바이버",
     "totalNotes": 100,
     "duration": "2:29",
     "etStart": 21,
@@ -848,6 +952,8 @@ const SONGS = [
       "유성대"
     ],
     "title": "OVERFLOW LIGHT UP!!!!!",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 185,
     "duration": "2:36",
     "etStart": 59,
@@ -859,11 +965,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "Kiss of Life",
+    "titleKo": "Kiss of Life",
+    "titleKoReading": "키스 오브 라이프",
     "totalNotes": 142,
     "duration": "2:12",
     "etStart": null,
@@ -875,11 +983,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
-    "title": "날개 모라토리엄",
+    "title": "翼モラトリアム",
+    "titleKo": "날개 모라토리엄",
+    "titleKoReading": null,
     "totalNotes": 110,
     "duration": "2:18",
     "etStart": null,
@@ -891,11 +1001,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "Distorted Heart",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 202,
     "duration": "2:28",
     "etStart": null,
@@ -907,11 +1019,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
-    "title": "You're Speculation",
+    "title": "You’re Speculation",
+    "titleKo": "You’re Speculation",
+    "titleKoReading": "유어 스페큘레이션",
     "totalNotes": 188,
     "duration": "2:18",
     "etStart": null,
@@ -923,12 +1037,14 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "알칼로이드 / Valkyrie",
+    "unit": "ALKALOID / Valkyrie",
     "units": [
-      "알칼로이드",
+      "ALKALOID",
       "Valkyrie"
     ],
     "title": "빨치산",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 171,
     "duration": "2:42",
     "etStart": null,
@@ -940,11 +1056,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "휴머노이드",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 162,
     "duration": "2:35",
     "etStart": null,
@@ -956,11 +1074,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "Black Out See Saw 워커커",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 212,
     "duration": "2:34",
     "etStart": 57,
@@ -972,11 +1092,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "Across the universe",
+    "titleKo": "Across the universe",
+    "titleKoReading": "어크로스 더 유니버스",
     "totalNotes": 122,
     "duration": "2:52",
     "etStart": 1,
@@ -988,12 +1110,14 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "알칼로이드 / 덥페",
+    "unit": "ALKALOID / DF",
     "units": [
-      "알칼로이드",
-      "덥페"
+      "ALKALOID",
+      "DF"
     ],
     "title": "밤달",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 138,
     "duration": "2:32",
     "etStart": null,
@@ -1005,11 +1129,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "Living on the edge",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 188,
     "duration": "2:11",
     "etStart": null,
@@ -1021,11 +1147,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "Believe 4 leaves",
+    "titleKo": "Believe 4 leaves",
+    "titleKoReading": "빌리브 포 리브즈",
     "totalNotes": 145,
     "duration": "2:45",
     "etStart": null,
@@ -1037,11 +1165,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "VERMILION",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 175,
     "duration": "2:54",
     "etStart": 127,
@@ -1053,11 +1183,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "UNDYING HOLY LOVE",
+    "titleKo": "UNDYING HOLY LOVE",
+    "titleKoReading": "언다잉 홀리 러브",
     "totalNotes": 156,
     "duration": "2:48",
     "etStart": 114,
@@ -1069,11 +1201,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "SAKE OF LOVE",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 192,
     "duration": "3:12",
     "etStart": 28,
@@ -1085,11 +1219,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "SunnyTrip Summer",
+    "titleKo": "SunnyTrip Summer",
+    "titleKoReading": "서니트립 서머",
     "totalNotes": 127,
     "duration": "3:05",
     "etStart": 87,
@@ -1101,11 +1237,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
-    "title": "프레질",
+    "title": "フラジール",
+    "titleKo": "프래질",
+    "titleKoReading": null,
     "totalNotes": 127,
     "duration": "2:14",
     "etStart": null,
@@ -1117,11 +1255,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "피네",
+    "unit": "fine",
     "units": [
-      "피네"
+      "fine"
     ],
     "title": "Musica Vita!",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 154,
     "duration": "2:37",
     "etStart": 102,
@@ -1133,11 +1273,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "알칼로이드",
+    "unit": "ALKALOID",
     "units": [
-      "알칼로이드"
+      "ALKALOID"
     ],
     "title": "코토노하 칸타빌레",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 222,
     "duration": "2:25",
     "etStart": 29,
@@ -1154,6 +1296,8 @@ const SONGS = [
       "Eden"
     ],
     "title": "THE GENESIS",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 144,
     "duration": "2:34",
     "etStart": null,
@@ -1170,6 +1314,8 @@ const SONGS = [
       "Eden"
     ],
     "title": "Dance in the Apocalypse",
+    "titleKo": "Dance in the Apocalypse",
+    "titleKoReading": "댄스 인 아포칼립스",
     "totalNotes": 183,
     "duration": "2:18",
     "etStart": null,
@@ -1181,12 +1327,14 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "Eden / 스위치",
+    "unit": "Eden / Switch",
     "units": [
       "Eden",
-      "스위치"
+      "Switch"
     ],
-    "title": "마제스틱",
+    "title": "Majestic Magic",
+    "titleKo": "Majestic Magic",
+    "titleKoReading": "마제스틱 매직",
     "totalNotes": 173,
     "duration": "2:41",
     "etStart": null,
@@ -1203,6 +1351,8 @@ const SONGS = [
       "Eden"
     ],
     "title": "Awakening Myth",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 202,
     "duration": "2:27",
     "etStart": null,
@@ -1219,6 +1369,8 @@ const SONGS = [
       "Eden"
     ],
     "title": "KEEP OUT",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 236,
     "duration": "2:56",
     "etStart": 51,
@@ -1234,7 +1386,9 @@ const SONGS = [
     "units": [
       "Eden"
     ],
-    "title": "Psyche’s Butterfly",
+    "title": "Psyche's Butterfly",
+    "titleKo": "Psyche's Butterfly",
+    "titleKoReading": "프시케의 나비",
     "totalNotes": 174,
     "duration": "2:51",
     "etStart": 103,
@@ -1251,6 +1405,8 @@ const SONGS = [
       "Eden"
     ],
     "title": "楽園追放 -Faith Conquest-",
+    "titleKo": "낙원추방 -Faith Conquest-",
+    "titleKoReading": "콘퀘스트",
     "totalNotes": 139,
     "duration": "2:23",
     "etStart": 62,
@@ -1267,6 +1423,8 @@ const SONGS = [
       "Eden"
     ],
     "title": "EXCEED",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 219,
     "duration": "2:36",
     "etStart": 57,
@@ -1283,6 +1441,8 @@ const SONGS = [
       "Eden"
     ],
     "title": "Deep Eclipse",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 151,
     "duration": "2:46",
     "etStart": null,
@@ -1299,6 +1459,8 @@ const SONGS = [
       "Eden"
     ],
     "title": "Absolute Perfection",
+    "titleKo": "Absolute Perfection",
+    "titleKoReading": "앱솔루트 퍼펙션",
     "totalNotes": 156,
     "duration": "2:49",
     "etStart": 102,
@@ -1315,6 +1477,8 @@ const SONGS = [
       "Eden"
     ],
     "title": "원환의 리플랙션(円環のRefraction)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 163,
     "duration": "2:40",
     "etStart": 50,
@@ -1331,6 +1495,8 @@ const SONGS = [
       "Eden"
     ],
     "title": "할로윈 (大いなる愛の前に全ては巡り来る)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 192,
     "duration": "2:43",
     "etStart": 130,
@@ -1347,6 +1513,8 @@ const SONGS = [
       "Eve"
     ],
     "title": "Sunlit Smile!",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 133,
     "duration": "2:24",
     "etStart": 88,
@@ -1363,6 +1531,8 @@ const SONGS = [
       "Adam"
     ],
     "title": "The Beast of the End",
+    "titleKo": "The Beast of the End",
+    "titleKoReading": "비스트 오브 디 엔드",
     "totalNotes": 161,
     "duration": "2:07",
     "etStart": 113,
@@ -1379,6 +1549,8 @@ const SONGS = [
       "Eve"
     ],
     "title": "Trap For You",
+    "titleKo": "Trap For You",
+    "titleKoReading": "트랩 포 유",
     "totalNotes": 192,
     "duration": "2:30",
     "etStart": 74,
@@ -1395,6 +1567,8 @@ const SONGS = [
       "Adam"
     ],
     "title": "Ruler's Truth",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 210,
     "duration": "2:21",
     "etStart": 132,
@@ -1411,6 +1585,8 @@ const SONGS = [
       "Adam"
     ],
     "title": "Melting Rouge Soul",
+    "titleKo": "Melting Rouge Soul",
+    "titleKoReading": "멜팅 루즈 소울",
     "totalNotes": 180,
     "duration": "2:53",
     "etStart": 38,
@@ -1427,6 +1603,8 @@ const SONGS = [
       "Eve"
     ],
     "title": "Ruby Love",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 185,
     "duration": "2:47",
     "etStart": 120,
@@ -1442,7 +1620,9 @@ const SONGS = [
     "units": [
       "Valkyrie"
     ],
-    "title": "매혹극(魅惑劇)",
+    "title": "魅惑劇",
+    "titleKo": "매혹극",
+    "titleKoReading": null,
     "totalNotes": 129,
     "duration": "2:07",
     "etStart": null,
@@ -1459,6 +1639,8 @@ const SONGS = [
       "Valkyrie"
     ],
     "title": "Mémoire Antique",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 121,
     "duration": "2:15",
     "etStart": null,
@@ -1475,6 +1657,8 @@ const SONGS = [
       "Valkyrie"
     ],
     "title": "Last Lament",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 110,
     "duration": "2:16",
     "etStart": 57,
@@ -1491,6 +1675,8 @@ const SONGS = [
       "Valkyrie"
     ],
     "title": "오늘 밤 달의 저택에서(今宵月の館にて)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 197,
     "duration": "2:23",
     "etStart": null,
@@ -1506,7 +1692,9 @@ const SONGS = [
     "units": [
       "Valkyrie"
     ],
-    "title": "개선가(凱旋歌)",
+    "title": "凱旋歌",
+    "titleKo": "개선가",
+    "titleKoReading": null,
     "totalNotes": 128,
     "duration": "2:31",
     "etStart": null,
@@ -1522,7 +1710,9 @@ const SONGS = [
     "units": [
       "Valkyrie"
     ],
-    "title": "예찬가(礼賛歌)",
+    "title": "礼賛歌",
+    "titleKo": "예찬가",
+    "titleKoReading": null,
     "totalNotes": 122,
     "duration": "2:26",
     "etStart": null,
@@ -1538,7 +1728,9 @@ const SONGS = [
     "units": [
       "Valkyrie"
     ],
-    "title": "축복의 Library(祝福のLibrary)",
+    "title": "祝福のLibrary",
+    "titleKo": "축복의 Library",
+    "titleKoReading": null,
     "totalNotes": 151,
     "duration": "2:51",
     "etStart": null,
@@ -1554,7 +1746,9 @@ const SONGS = [
     "units": [
       "Valkyrie"
     ],
-    "title": "아름다운 나이팅게일",
+    "title": "麗しのナイチンゲール",
+    "titleKo": "아름다운 나이팅게일",
+    "titleKoReading": null,
     "totalNotes": 119,
     "duration": "2:48",
     "etStart": 66,
@@ -1566,11 +1760,14 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "Valkyrie",
+    "unit": "Valkyrie / 홍월",
     "units": [
-      "Valkyrie"
+      "Valkyrie",
+      "홍월"
     ],
-    "title": "홍월 커버",
+    "title": "勇侠青春謳",
+    "titleKo": "용협청춘구",
+    "titleKoReading": null,
     "totalNotes": 155,
     "duration": "2:49",
     "etStart": null,
@@ -1587,6 +1784,8 @@ const SONGS = [
       "Valkyrie"
     ],
     "title": "Eternal Weaving",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 125,
     "duration": "2:15",
     "etStart": 84,
@@ -1603,6 +1802,8 @@ const SONGS = [
       "Valkyrie"
     ],
     "title": "Acanthe",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 159,
     "duration": "2:40",
     "etStart": 1,
@@ -1619,6 +1820,8 @@ const SONGS = [
       "Valkyrie"
     ],
     "title": "미궁전자회랑(迷宮電子回廊)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 144,
     "duration": "2:53",
     "etStart": 40,
@@ -1635,6 +1838,8 @@ const SONGS = [
       "Valkyrie"
     ],
     "title": "Le temps des fleurs",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 140,
     "duration": "2:43",
     "etStart": 26,
@@ -1651,6 +1856,8 @@ const SONGS = [
       "Valkyrie"
     ],
     "title": "별의 명동이 울려퍼졌을 때 (星の鳴動響きし時に)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 162,
     "duration": "2:51",
     "etStart": 83,
@@ -1667,6 +1874,8 @@ const SONGS = [
       "Valkyrie"
     ],
     "title": "행복론 (幸福論)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 136,
     "duration": "2:50",
     "etStart": 40,
@@ -1683,6 +1892,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "Crazy Roulette",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 151,
     "duration": "2:37",
     "etStart": null,
@@ -1699,6 +1910,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "Be The Party Bee!",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 153,
     "duration": "2:16",
     "etStart": null,
@@ -1715,6 +1928,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "PARANOIA STREET",
+    "titleKo": "PARANOIA STREET",
+    "titleKoReading": "파라노이아 스트리트",
     "totalNotes": 165,
     "duration": "2:29",
     "etStart": null,
@@ -1730,7 +1945,9 @@ const SONGS = [
     "units": [
       "Crazy:B"
     ],
-    "title": "RISKY VENOUS",
+    "title": "RISKY VENUS",
+    "titleKo": "RISKY VENUS",
+    "titleKoReading": "리스키 비너스",
     "totalNotes": 129,
     "duration": "2:05",
     "etStart": null,
@@ -1747,6 +1964,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "레몬 스퀴시",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 122,
     "duration": "2:22",
     "etStart": null,
@@ -1763,6 +1982,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "Noisy:Beep",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 161,
     "duration": "2:33",
     "etStart": null,
@@ -1779,6 +2000,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "NA NA NA SUMMER NIGHT BeeAT",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 153,
     "duration": "2:43",
     "etStart": 46,
@@ -1795,6 +2018,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "Foolish Alien",
+    "titleKo": "Foolish Alien",
+    "titleKoReading": "풀리쉬 에일리언",
     "totalNotes": 183,
     "duration": "2:31",
     "etStart": null,
@@ -1811,7 +2036,9 @@ const SONGS = [
       "Crazy:B",
       "UNDEAD"
     ],
-    "title": "U.S.A",
+    "title": "U.S.A.",
+    "titleKo": "U.S.A.",
+    "titleKoReading": "아메리카",
     "totalNotes": 181,
     "duration": "2:40",
     "etStart": null,
@@ -1828,6 +2055,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "Honeycomb Summer",
+    "titleKo": "Honeycomb Summer",
+    "titleKoReading": "허니콤 서머",
     "totalNotes": 172,
     "duration": "2:34",
     "etStart": null,
@@ -1843,7 +2072,9 @@ const SONGS = [
     "units": [
       "Crazy:B"
     ],
-    "title": "아리아드네 (指先のアリアドネ)",
+    "title": "指先のアリアドネ",
+    "titleKo": "손끝의 아리아드네",
+    "titleKoReading": null,
     "totalNotes": 151,
     "duration": "2:42",
     "etStart": null,
@@ -1860,6 +2091,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "Helter-Spider",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 132,
     "duration": "2:31",
     "etStart": 45,
@@ -1876,6 +2109,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "Crazy Anthem",
+    "titleKo": "Crazy Anthem",
+    "titleKoReading": "크레이지 어텀",
     "totalNotes": 183,
     "duration": "2:46",
     "etStart": 57,
@@ -1892,6 +2127,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "SAKE OF LOVE (사케 오브 러브)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 192,
     "duration": "3:12",
     "etStart": 28,
@@ -1908,6 +2145,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "UTAKATA DANCE FLOOR",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 145,
     "duration": "2:37",
     "etStart": 90,
@@ -1924,6 +2163,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "KING",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 217,
     "duration": "2:24",
     "etStart": null,
@@ -1940,6 +2181,8 @@ const SONGS = [
       "Crazy:B"
     ],
     "title": "니키 감사제 (ハニートラップ・マリアージュ)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 194,
     "duration": "2:48",
     "etStart": 117,
@@ -1955,7 +2198,9 @@ const SONGS = [
     "units": [
       "2wink"
     ],
-    "title": "환영☆투・윙크 기예단",
+    "title": "歓迎☆トゥ・ウィンク雑技団",
+    "titleKo": "환영☆투・윙크 기예단",
+    "titleKoReading": null,
     "totalNotes": 128,
     "duration": "2:16",
     "etStart": null,
@@ -1972,6 +2217,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "TRICK with TREAT!!(with UNDEAD)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 184,
     "duration": "2:37",
     "etStart": null,
@@ -1988,6 +2235,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "Play “Tag”",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 125,
     "duration": "2:23",
     "etStart": 92,
@@ -2003,7 +2252,9 @@ const SONGS = [
     "units": [
       "2wink"
     ],
-    "title": "하트 프리즘・시메트리",
+    "title": "ハートプリズム・シンメトリー",
+    "titleKo": "하트 프리즘・시메트리",
+    "titleKoReading": null,
     "totalNotes": 202,
     "duration": "2:37",
     "etStart": 140,
@@ -2020,6 +2271,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "Mischievous Party Time!!",
+    "titleKo": "Mischievous Party Time!!",
+    "titleKoReading": "미스치버스 파티 타임",
     "totalNotes": 195,
     "duration": "2:31",
     "etStart": 122,
@@ -2036,6 +2289,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "레몬 스쿼시 치어스",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 122,
     "duration": "2:22",
     "etStart": null,
@@ -2052,6 +2307,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "슈가 스파이스",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 178,
     "duration": "2:31",
     "etStart": 116,
@@ -2067,7 +2324,9 @@ const SONGS = [
     "units": [
       "2wink"
     ],
-    "title": "공중전(トゥウィンクル空中戦)",
+    "title": "トゥウィンクル空中戦",
+    "titleKo": "트윙클 공중전",
+    "titleKoReading": null,
     "totalNotes": 239,
     "duration": "2:27",
     "etStart": null,
@@ -2084,6 +2343,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "POLYPHONIC WORLD",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 129,
     "duration": "2:25",
     "etStart": 66,
@@ -2100,6 +2361,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "2winkle Star Beat☆",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 184,
     "duration": "2:29",
     "etStart": 42,
@@ -2111,12 +2374,14 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "2wink / 스위치",
+    "unit": "2wink / Switch",
     "units": [
       "2wink",
-      "스위치"
+      "Switch"
     ],
     "title": "텔 유어 월드",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 116,
     "duration": "2:44",
     "etStart": null,
@@ -2133,6 +2398,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "Fighting Dreamer",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 141,
     "duration": "2:30",
     "etStart": 50,
@@ -2149,6 +2416,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "Swee2wink Love Letter",
+    "titleKo": "Swee2wink Love Letter",
+    "titleKoReading": "스위투윙크 러브레터",
     "totalNotes": 156,
     "duration": "2:35",
     "etStart": null,
@@ -2165,6 +2434,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "Turbulent Storm",
+    "titleKo": "Turbulent Storm",
+    "titleKoReading": "터뷸런트 스톰",
     "totalNotes": 147,
     "duration": "2:36",
     "etStart": null,
@@ -2181,6 +2452,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "럽미 몬스터(Love×me⇄monsteR)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 217,
     "duration": "2:34",
     "etStart": 136,
@@ -2197,6 +2470,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "Twin Wedding Vows",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 104,
     "duration": "2:23",
     "etStart": 48,
@@ -2213,6 +2488,8 @@ const SONGS = [
       "2wink"
     ],
     "title": "감사제(来来☆2winkイリュージョン)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 181,
     "duration": "2:21",
     "etStart": 106,
@@ -2229,6 +2506,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "Melody in the Dark",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 152,
     "duration": "2:37",
     "etStart": null,
@@ -2245,6 +2524,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "Valentine Eve's Nightmare",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 164,
     "duration": "2:30",
     "etStart": null,
@@ -2260,7 +2541,9 @@ const SONGS = [
     "units": [
       "UNDEAD"
     ],
-    "title": "Gate of Abyss",
+    "title": "Gate of the Abyss",
+    "titleKo": "Gate of the Abyss",
+    "titleKoReading": "게이트 오브 어비스",
     "totalNotes": 132,
     "duration": "2:29",
     "etStart": null,
@@ -2277,6 +2560,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "DESTRUCTION ROAD",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 119,
     "duration": "2:22",
     "etStart": null,
@@ -2293,6 +2578,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "IMMORAL WORLD",
+    "titleKo": "IMMORAL WORLD",
+    "titleKoReading": "임모랄 월드",
     "totalNotes": 126,
     "duration": "1:57",
     "etStart": null,
@@ -2310,6 +2597,8 @@ const SONGS = [
       "홍월"
     ],
     "title": "PERFECTLY-IMPERFECT",
+    "titleKo": "PERFECTLY-IMPERFECT",
+    "titleKoReading": "퍼펙틀리-임퍼펙트",
     "totalNotes": 193,
     "duration": "2:35",
     "etStart": null,
@@ -2326,6 +2615,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "허니밀크",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 154,
     "duration": "2:39",
     "etStart": null,
@@ -2342,6 +2633,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "죄의 밑바닥 (罪の底)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 184,
     "duration": "2:54",
     "etStart": 79,
@@ -2358,6 +2651,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "Savage Love Affair",
+    "titleKo": "Savage Love Affair",
+    "titleKoReading": "새비지 러브 어페어",
     "totalNotes": 172,
     "duration": "2:26",
     "etStart": 56,
@@ -2374,6 +2669,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "Darkness 4",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 106,
     "duration": "2:05",
     "etStart": null,
@@ -2390,6 +2687,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "Nightless World",
+    "titleKo": "Nightless World",
+    "titleKoReading": "나이트리스 월드",
     "totalNotes": 111,
     "duration": "2:04",
     "etStart": 57,
@@ -2406,6 +2705,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "FORBIDDEN RAIN",
+    "titleKo": "FORBIDDEN RAIN",
+    "titleKoReading": "포비든 레인",
     "totalNotes": 119,
     "duration": "2:15",
     "etStart": null,
@@ -2422,6 +2723,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "Sustain Memories",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 137,
     "duration": "2:48",
     "etStart": 31,
@@ -2438,6 +2741,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "Resurrection of Soul",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 201,
     "duration": "2:46",
     "etStart": 119,
@@ -2454,6 +2759,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "SWINGIN' PARONIRIA",
+    "titleKo": "SWINGIN' PARONIRIA",
+    "titleKoReading": "스윙인 파로니리아",
     "totalNotes": 160,
     "duration": "2:28",
     "etStart": 114,
@@ -2470,6 +2777,8 @@ const SONGS = [
       "UNDEAD"
     ],
     "title": "Wanderlust Sailing",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 208,
     "duration": "2:25",
     "etStart": 125,
@@ -2485,7 +2794,9 @@ const SONGS = [
     "units": [
       "Ra*bits"
     ],
-    "title": "Joyful X Box*",
+    "title": "Joyful×Box*",
+    "titleKo": "Joyful×Box*",
+    "titleKoReading": "조이풀 박스",
     "totalNotes": 100,
     "duration": "2:28",
     "etStart": null,
@@ -2502,6 +2813,8 @@ const SONGS = [
       "Ra*bits"
     ],
     "title": "Love Ra*bits Party!!",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 140,
     "duration": "2:27",
     "etStart": null,
@@ -2517,7 +2830,9 @@ const SONGS = [
     "units": [
       "Ra*bits"
     ],
-    "title": "멜티 키친",
+    "title": "メルティ♡キッチン",
+    "titleKo": "멜티♡키친",
+    "titleKoReading": null,
     "totalNotes": 142,
     "duration": "2:23",
     "etStart": null,
@@ -2534,6 +2849,8 @@ const SONGS = [
       "Ra*bits"
     ],
     "title": "Milky Starry Charm",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 142,
     "duration": "2:29",
     "etStart": null,
@@ -2545,11 +2862,14 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "Ra*bits",
+    "unit": "Ra*bits / DF",
     "units": [
-      "Ra*bits"
+      "Ra*bits",
+      "DF"
     ],
-    "title": "주머니속 우주",
+    "title": "ポケットに宇宙",
+    "titleKo": "주머니 속의 우주",
+    "titleKoReading": null,
     "totalNotes": 128,
     "duration": "2:37",
     "etStart": null,
@@ -2566,6 +2886,8 @@ const SONGS = [
       "Ra*bits"
     ],
     "title": "메이드인 도키메키",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 161,
     "duration": "2:29",
     "etStart": null,
@@ -2581,7 +2903,9 @@ const SONGS = [
     "units": [
       "Ra*bits"
     ],
-    "title": "산토끼 행진곡",
+    "title": "野うさぎマーチ♪",
+    "titleKo": "산토끼 행진곡♪",
+    "titleKoReading": null,
     "totalNotes": 125,
     "duration": "2:16",
     "etStart": null,
@@ -2597,7 +2921,9 @@ const SONGS = [
     "units": [
       "Ra*bits"
     ],
-    "title": "히카리 스펙트럼(ヒカリスペクトル)",
+    "title": "ヒカリスペクトル",
+    "titleKo": "빛 스펙트럼",
+    "titleKoReading": "히카리 스펙트럼",
     "totalNotes": 163,
     "duration": "2:55",
     "etStart": 133,
@@ -2613,7 +2939,9 @@ const SONGS = [
     "units": [
       "Ra*bits"
     ],
-    "title": "토끼 숲 음악회",
+    "title": "うさぎの森の音楽会",
+    "titleKo": "토끼 숲의 음악회",
+    "titleKoReading": null,
     "totalNotes": 159,
     "duration": "2:38",
     "etStart": 28,
@@ -2630,6 +2958,8 @@ const SONGS = [
       "Ra*bits"
     ],
     "title": "Dream Collection",
+    "titleKo": "Dream Collection",
+    "titleKoReading": "드림 컬렉션",
     "totalNotes": 112,
     "duration": "2:11",
     "etStart": null,
@@ -2646,6 +2976,8 @@ const SONGS = [
       "Ra*bits"
     ],
     "title": "Love it Love it",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 165,
     "duration": "2:43",
     "etStart": null,
@@ -2662,6 +2994,8 @@ const SONGS = [
       "Ra*bits"
     ],
     "title": "FALLIN' LOVE=IT'S WONDERLAND",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 190,
     "duration": "2:41",
     "etStart": 114,
@@ -2677,7 +3011,9 @@ const SONGS = [
     "units": [
       "Ra*bits"
     ],
-    "title": "하레노히Sugar Wave",
+    "title": "ハレノヒSugar Wave",
+    "titleKo": "특별한 날 Sugar Wave",
+    "titleKoReading": "하레노히 슈가 웨이브",
     "totalNotes": 160,
     "duration": "2:33",
     "etStart": 58,
@@ -2694,6 +3030,8 @@ const SONGS = [
       "Ra*bits"
     ],
     "title": "토모야 클막",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 170,
     "duration": "2:43",
     "etStart": 42,
@@ -2710,6 +3048,8 @@ const SONGS = [
       "Ra*bits"
     ],
     "title": "JUMPIN' LUCK BEAT",
+    "titleKo": "JUMPIN' LUCK BEAT",
+    "titleKoReading": "점핀 럭 비트",
     "totalNotes": 214,
     "duration": "2:42",
     "etStart": 81,
@@ -2726,6 +3066,8 @@ const SONGS = [
       "Ra*bits"
     ],
     "title": "RaRaRa*Station!",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 189,
     "duration": "2:55",
     "etStart": 126,
@@ -2741,7 +3083,9 @@ const SONGS = [
     "units": [
       "홍월"
     ],
-    "title": "백화요란 홍월야",
+    "title": "百花繚乱、紅月夜",
+    "titleKo": "백화요란, 홍월야",
+    "titleKoReading": null,
     "totalNotes": 200,
     "duration": "2:23",
     "etStart": null,
@@ -2758,6 +3102,8 @@ const SONGS = [
       "홍월"
     ],
     "title": "연홍빛 약속",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 133,
     "duration": "2:30",
     "etStart": null,
@@ -2774,6 +3120,8 @@ const SONGS = [
       "홍월"
     ],
     "title": "무슨 검",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 136,
     "duration": "2:32",
     "etStart": null,
@@ -2789,7 +3137,9 @@ const SONGS = [
     "units": [
       "홍월"
     ],
-    "title": "제야회권",
+    "title": "祭夜絵巻",
+    "titleKo": "축제의 밤 그림 두루마리(제야회권)",
+    "titleKoReading": null,
     "totalNotes": 167,
     "duration": "2:23",
     "etStart": null,
@@ -2806,6 +3156,8 @@ const SONGS = [
       "홍월"
     ],
     "title": "월화무쌍 붉은춤(月下無双、紅の舞)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 190,
     "duration": "2:35",
     "etStart": null,
@@ -2821,7 +3173,9 @@ const SONGS = [
     "units": [
       "홍월"
     ],
-    "title": "무슨 춤",
+    "title": "剣戟の舞",
+    "titleKo": "검극의 춤",
+    "titleKoReading": null,
     "totalNotes": 144,
     "duration": "2:21",
     "etStart": null,
@@ -2838,6 +3192,8 @@ const SONGS = [
       "홍월"
     ],
     "title": "실",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 168,
     "duration": "2:52",
     "etStart": 64,
@@ -2853,7 +3209,9 @@ const SONGS = [
     "units": [
       "홍월"
     ],
-    "title": "밤까치",
+    "title": "夜空、然りとて鵲は",
+    "titleKo": "밤하늘, 그럼에도 까치는",
+    "titleKoReading": null,
     "totalNotes": 114,
     "duration": "2:18",
     "etStart": null,
@@ -2869,7 +3227,9 @@ const SONGS = [
     "units": [
       "홍월"
     ],
-    "title": "백화요란 2025",
+    "title": "百花繚乱、紅月夜 (2025 ver.)",
+    "titleKo": "백화요란, 홍월야 (2025 ver.)",
+    "titleKoReading": null,
     "totalNotes": 206,
     "duration": "2:35",
     "etStart": 117,
@@ -2880,28 +3240,14 @@ const SONGS = [
     "predicted": 112.0
   },
   {
-    "type": "Sparkle",
-    "unit": "홍월",
-    "units": [
-      "홍월"
-    ],
-    "title": "발키리 커버",
-    "totalNotes": 155,
-    "duration": "2:49",
-    "etStart": null,
-    "etEnd": null,
-    "measured": null,
-    "category": "rhythm_link",
-    "video": null,
-    "predicted": 84.0
-  },
-  {
     "type": "Glitter",
     "unit": "홍월",
     "units": [
       "홍월"
     ],
     "title": "홍월 이로하",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 168,
     "duration": "2:08",
     "etStart": 119,
@@ -2918,6 +3264,8 @@ const SONGS = [
       "홍월"
     ],
     "title": "월광기담",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 155,
     "duration": "2:43",
     "etStart": null,
@@ -2934,6 +3282,8 @@ const SONGS = [
       "홍월"
     ],
     "title": "써머버드",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 141,
     "duration": "2:40",
     "etStart": null,
@@ -2949,7 +3299,9 @@ const SONGS = [
     "units": [
       "홍월"
     ],
-    "title": "금색천야",
+    "title": "金色千夜夢舞台",
+    "titleKo": "금색천야몽무대",
+    "titleKoReading": null,
     "totalNotes": 217,
     "duration": "2:46",
     "etStart": null,
@@ -2965,7 +3317,9 @@ const SONGS = [
     "units": [
       "홍월"
     ],
-    "title": "천상KAGETSU",
+    "title": "天翔KAGETSU",
+    "titleKo": "천상 KAGETSU",
+    "titleKoReading": null,
     "totalNotes": 198,
     "duration": "2:53",
     "etStart": 55,
@@ -2982,6 +3336,8 @@ const SONGS = [
       "홍월"
     ],
     "title": "LOUDEST BUGS",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 222,
     "duration": "2:31",
     "etStart": 78,
@@ -2993,11 +3349,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "멜로디",
+    "unit": "MELLOW DEAR US",
     "units": [
-      "멜로디"
+      "MELLOW DEAR US"
     ],
-    "title": "Dear World 마피",
+    "title": "Dear World (マスターピース ver.)",
+    "titleKo": "Dear World (마스터피스 ver)",
+    "titleKoReading": "디어 월드 마스터피스",
     "totalNotes": 180,
     "duration": "2:29",
     "etStart": 0,
@@ -3009,11 +3367,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "멜로디",
+    "unit": "MELLOW DEAR US",
     "units": [
-      "멜로디"
+      "MELLOW DEAR US"
     ],
     "title": "Dear World",
+    "titleKo": "Dear World",
+    "titleKoReading": "디어 월드",
     "totalNotes": 158,
     "duration": "2:41",
     "etStart": 82,
@@ -3025,11 +3385,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "멜로디",
+    "unit": "MELLOW DEAR US",
     "units": [
-      "멜로디"
+      "MELLOW DEAR US"
     ],
     "title": "BUBBLE GUM DANCE",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 153,
     "duration": "2:29",
     "etStart": 58,
@@ -3045,7 +3407,9 @@ const SONGS = [
     "units": [
       "홍월"
     ],
-    "title": "염전염용 천변만화(炎纏焰踊千変万火)",
+    "title": "炎纏焰踊千変万火",
+    "titleKo": "염전염용 천변만화",
+    "titleKoReading": null,
     "totalNotes": 208,
     "duration": "2:45",
     "etStart": 1,
@@ -3057,11 +3421,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Voice of Sword",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 135,
     "duration": "2:36",
     "etStart": 58,
@@ -3073,11 +3439,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Silent Oath",
+    "titleKo": "Silent Oath",
+    "titleKoReading": "사일런트 오쓰",
     "totalNotes": 106,
     "duration": "2:10",
     "etStart": null,
@@ -3089,11 +3457,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
-    "title": "Grateful Allegiance",
+    "title": "Grateful allegiance",
+    "titleKo": "Grateful allegiance",
+    "titleKoReading": "그레이트풀 얼리전스",
     "totalNotes": 96,
     "duration": "2:10",
     "etStart": 62,
@@ -3105,11 +3475,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Fight for Judge",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 159,
     "duration": "2:32",
     "etStart": 91,
@@ -3121,11 +3493,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Promise Swords",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 172,
     "duration": "2:48",
     "etStart": 88,
@@ -3137,11 +3511,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Article of Faith",
+    "titleKo": "Article of Faith",
+    "titleKoReading": "아티클 오브 페이스",
     "totalNotes": 144,
     "duration": "2:26",
     "etStart": 106,
@@ -3153,11 +3529,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Wonderful Happiness",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 175,
     "duration": "2:49",
     "etStart": 55,
@@ -3169,11 +3547,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Castle of my Heart",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 159,
     "duration": "2:51",
     "etStart": 1,
@@ -3185,11 +3565,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
-    "title": "Knights the Phantom Thief 나팬싶",
+    "title": "Knights the Phantom Thief",
+    "titleKo": "Knights the Phantom Thief",
+    "titleKoReading": "나이츠 더 팬텀 시프",
     "totalNotes": 116,
     "duration": "2:24",
     "etStart": 80,
@@ -3201,11 +3583,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Little Romance",
+    "titleKo": "Little Romance",
+    "titleKoReading": "리틀 로망스",
     "totalNotes": 137,
     "duration": "2:41",
     "etStart": 97,
@@ -3217,11 +3601,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Mystic Fragrance",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 145,
     "duration": "2:20",
     "etStart": 93,
@@ -3233,11 +3619,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Coruscate Breeze",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 142,
     "duration": "2:49",
     "etStart": 104,
@@ -3249,11 +3637,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Or the Beautiful Golden Drop",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 189,
     "duration": "2:56",
     "etStart": 69,
@@ -3265,11 +3655,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Luminous Crown",
+    "titleKo": "Luminous Crown",
+    "titleKoReading": "루미너스 크라운",
     "totalNotes": 141,
     "duration": "2:40",
     "etStart": 48,
@@ -3281,11 +3673,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
     "title": "Heart Collector",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 164,
     "duration": "2:54",
     "etStart": 107,
@@ -3297,11 +3691,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
-    "title": "템테 매직",
+    "title": "Temptation Magic",
+    "titleKo": "Temptation Magic",
+    "titleKoReading": "템테이션 매직",
     "totalNotes": 103,
     "duration": "2:17",
     "etStart": null,
@@ -3313,11 +3709,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
-    "title": "에메랄드 플래닛",
+    "title": "エメラルドプラネット",
+    "titleKo": "에메랄드 플래닛",
+    "titleKoReading": null,
     "totalNotes": 143,
     "duration": "2:29",
     "etStart": null,
@@ -3329,11 +3727,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
     "title": "노킹 판타지",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 106,
     "duration": "2:15",
     "etStart": null,
@@ -3345,11 +3745,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
     "title": "I ”Witch” You A Happy Halloween! 할로윈 ",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 145,
     "duration": "2:28",
     "etStart": 103,
@@ -3361,11 +3763,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
     "title": "매직 포 유어 스위치",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 178,
     "duration": "2:36",
     "etStart": null,
@@ -3377,11 +3781,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
     "title": "갤럭시 데스티니",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 103,
     "duration": "2:13",
     "etStart": null,
@@ -3393,11 +3799,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
     "title": "Seven Days \"Prismagic\" (스위치 트립)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 143,
     "duration": "2:47",
     "etStart": 115,
@@ -3409,11 +3817,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
     "title": "이스터 카니발",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 198,
     "duration": "2:33",
     "etStart": 62,
@@ -3425,11 +3835,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
     "title": "A little bit UP!!",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 135,
     "duration": "2:46",
     "etStart": 108,
@@ -3441,11 +3853,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
-    "title": "오모카게",
+    "title": "オモイノカケラ",
+    "titleKo": "마음의 조각",
+    "titleKoReading": "오모이노카케라",
     "totalNotes": 130,
     "duration": "1:58",
     "etStart": null,
@@ -3457,11 +3871,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
     "title": "Brilliant Smile",
+    "titleKo": "Brilliant Smile",
+    "titleKoReading": "브릴리언트 스마일",
     "totalNotes": 198,
     "duration": "2:44",
     "etStart": 151,
@@ -3473,11 +3889,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
-    "title": "로맨싱 크루즈",
+    "title": "Romancing Cruise",
+    "titleKo": "Romancing Cruise",
+    "titleKoReading": "로맨싱 크루즈",
     "totalNotes": 148,
     "duration": "2:36",
     "etStart": null,
@@ -3489,11 +3907,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
-    "title": "Chocola-Tic After School 스위치 발렌",
+    "title": "Chocola-Tic After School",
+    "titleKo": "Chocola-Tic After School",
+    "titleKoReading": "쇼콜라틱 애프터 스쿨",
     "totalNotes": 142,
     "duration": "2:47",
     "etStart": 101,
@@ -3505,11 +3925,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
     "title": "Wish upon a MUSIC!!",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 142,
     "duration": "2:51",
     "etStart": 35,
@@ -3521,11 +3943,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "스위치",
+    "unit": "Switch",
     "units": [
-      "스위치"
+      "Switch"
     ],
     "title": "Switching Journey",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 146,
     "duration": "2:41",
     "etStart": 122,
@@ -3537,43 +3961,49 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "마무",
+    "unit": "MaM",
     "units": [
-      "마무"
+      "MaM"
     ],
     "title": "블루밍",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 141,
     "duration": "2:11",
     "etStart": null,
     "etEnd": null,
     "measured": null,
     "category": "new_dimension",
-    "video": "https://youtu.be/1engaOH1-EA?si=1nJ3XCmxsp8yf9Ww",
+    "video": null,
     "predicted": 77.0
   },
   {
     "type": "Sparkle",
-    "unit": "마무",
+    "unit": "MaM",
     "units": [
-      "마무"
+      "MaM"
     ],
-    "title": "엠비셔스",
+    "title": "君印 Be Ambitious!!",
+    "titleKo": "너의 정표 Be Ambitious!!",
+    "titleKoReading": "앰비셔스",
     "totalNotes": 131,
     "duration": "2:11",
     "etStart": null,
     "etEnd": null,
     "measured": null,
     "category": "new_dimension",
-    "video": "https://youtu.be/M2SlMp8nDF0?si=JTTzVUSHWF3vwA3S",
+    "video": null,
     "predicted": 71.0
   },
   {
     "type": "Brilliant",
-    "unit": "마무",
+    "unit": "MaM",
     "units": [
-      "마무"
+      "MaM"
     ],
-    "title": "페스티브",
+    "title": "Festive!",
+    "titleKo": "Festive!",
+    "titleKoReading": "페스티브",
     "totalNotes": 121,
     "duration": "2:13",
     "etStart": null,
@@ -3585,11 +4015,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "마무",
+    "unit": "MaM",
     "units": [
-      "마무"
+      "MaM"
     ],
     "title": "유쾌통쾌 That's alright! 다라닥닥",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 202,
     "duration": "2:32",
     "etStart": 124,
@@ -3601,11 +4033,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "마무",
+    "unit": "MaM",
     "units": [
-      "마무"
+      "MaM"
     ],
-    "title": "신풍",
+    "title": "辻風に吹かれて",
+    "titleKo": "선풍에 휘날려",
+    "titleKoReading": null,
     "totalNotes": 141,
     "duration": "2:28",
     "etStart": null,
@@ -3617,11 +4051,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "마무",
+    "unit": "MaM",
     "units": [
-      "마무"
+      "MaM"
     ],
     "title": "핸즈크레프트",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 121,
     "duration": "2:45",
     "etStart": 62,
@@ -3633,11 +4069,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "마무",
+    "unit": "MaM",
     "units": [
-      "마무"
+      "MaM"
     ],
     "title": "헬로 뉴이어",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 101,
     "duration": "2:48",
     "etStart": 57,
@@ -3649,11 +4087,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "마무",
+    "unit": "MaM",
     "units": [
-      "마무"
+      "MaM"
     ],
-    "title": "할로윈 랑데부",
+    "title": "ハロウィン・ランデブー",
+    "titleKo": "할로윈・랑데부",
+    "titleKoReading": null,
     "totalNotes": 181,
     "duration": "2:51",
     "etStart": 119,
@@ -3665,11 +4105,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "덥페",
+    "unit": "DF",
     "units": [
-      "덥페"
+      "DF"
     ],
     "title": "Stippling",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 132,
     "duration": "2:14",
     "etStart": null,
@@ -3680,28 +4122,14 @@ const SONGS = [
     "predicted": 72.0
   },
   {
-    "type": "Brilliant",
-    "unit": "덥페",
-    "units": [
-      "덥페"
-    ],
-    "title": "주머니 속 우주",
-    "totalNotes": 128,
-    "duration": "2:37",
-    "etStart": null,
-    "etEnd": null,
-    "measured": null,
-    "category": "new_dimension",
-    "video": null,
-    "predicted": 70.0
-  },
-  {
     "type": "Glitter",
-    "unit": "덥페",
+    "unit": "DF",
     "units": [
-      "덥페"
+      "DF"
     ],
     "title": "네뷸라",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 160,
     "duration": "2:46",
     "etStart": 58,
@@ -3713,11 +4141,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "덥페",
+    "unit": "DF",
     "units": [
-      "덥페"
+      "DF"
     ],
-    "title": "=아이=",
+    "title": "=EYE=",
+    "titleKo": "=EYE=",
+    "titleKoReading": "아이",
     "totalNotes": 151,
     "duration": "2:26",
     "etStart": 55,
@@ -3729,11 +4159,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "덥페",
+    "unit": "DF",
     "units": [
-      "덥페"
+      "DF"
     ],
     "title": "No name yet",
+    "titleKo": "No name yet",
+    "titleKoReading": "노 네임 옛",
     "totalNotes": 147,
     "duration": "2:32",
     "etStart": 96,
@@ -3745,11 +4177,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "덥페",
+    "unit": "DF",
     "units": [
-      "덥페"
+      "DF"
     ],
-    "title": "바이바이 버디",
+    "title": "Bye-Bye Buddy",
+    "titleKo": "Bye-Bye Buddy",
+    "titleKoReading": "바이바이 버디",
     "totalNotes": 194,
     "duration": "2:43",
     "etStart": 148,
@@ -3761,11 +4195,13 @@ const SONGS = [
   },
   {
     "type": "Flash",
-    "unit": "에스프리",
+    "unit": "S-Pri",
     "units": [
-      "에스프리"
+      "S-Pri"
     ],
     "title": "상애선언",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 211,
     "duration": "2:56",
     "etStart": 36,
@@ -3777,11 +4213,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "에스프리",
+    "unit": "S-Pri",
     "units": [
-      "에스프리"
+      "S-Pri"
     ],
     "title": "스키스키 헌터",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 201,
     "duration": "2:43",
     "etStart": 125,
@@ -3793,11 +4231,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "에스프리",
+    "unit": "S-Pri",
     "units": [
-      "에스프리"
+      "S-Pri"
     ],
-    "title": "Be My Princess 비마프",
+    "title": "Be My Princess♡",
+    "titleKo": "Be My Princess♡",
+    "titleKoReading": "비 마이 프린세스",
     "totalNotes": 193,
     "duration": "2:47",
     "etStart": 140,
@@ -3809,11 +4249,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "에스프리",
+    "unit": "S-Pri",
     "units": [
-      "에스프리"
+      "S-Pri"
     ],
     "title": "베리베리 스위트 화이트",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 149,
     "duration": "2:13",
     "etStart": 105,
@@ -3825,11 +4267,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "에스프리",
+    "unit": "S-Pri",
     "units": [
-      "에스프리"
+      "S-Pri"
     ],
     "title": "칸나 하코",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 166,
     "duration": "2:33",
     "etStart": 121,
@@ -3841,11 +4285,13 @@ const SONGS = [
   },
   {
     "type": "Glitter",
-    "unit": "마무",
+    "unit": "MaM",
     "units": [
-      "마무"
+      "MaM"
     ],
     "title": "Light on the Orbit 감사제",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 131,
     "duration": "2:41",
     "etStart": 85,
@@ -3857,11 +4303,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "나이츠",
+    "unit": "Knights",
     "units": [
-      "나이츠"
+      "Knights"
     ],
-    "title": "시크릿 마스커레이드",
+    "title": "Secret Masquerade",
+    "titleKo": "Secret Masquerade",
+    "titleKoReading": "시크릿 마스커레이드",
     "totalNotes": 183,
     "duration": "2:41",
     "etStart": 97,
@@ -3877,7 +4325,9 @@ const SONGS = [
     "units": [
       "주년"
     ],
-    "title": "BRAND NEW STARS!! 브뉴스",
+    "title": "BRAND NEW STARS!!",
+    "titleKo": "BRAND NEW STARS!!",
+    "titleKoReading": "브랜드 뉴 스타즈 5주년",
     "totalNotes": 118,
     "duration": "2:08",
     "etStart": 68,
@@ -3893,7 +4343,9 @@ const SONGS = [
     "units": [
       "기타"
     ],
-    "title": "스타즈 앙상블",
+    "title": "Stars' Ensemble!",
+    "titleKo": "Stars' Ensemble!",
+    "titleKoReading": "스타즈 앙상블",
     "totalNotes": 80,
     "duration": "2:39",
     "etStart": null,
@@ -3905,11 +4357,13 @@ const SONGS = [
   },
   {
     "type": "Brilliant",
-    "unit": "진앤아",
+    "unit": "Jin & Akiomi",
     "units": [
-      "진앤아"
+      "Jin & Akiomi"
     ],
     "title": "Rainbow Stairway",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 121,
     "duration": "2:25",
     "etStart": 41,
@@ -3925,7 +4379,9 @@ const SONGS = [
     "units": [
       "추억"
     ],
-    "title": "익센파",
+    "title": "Eccentric Party Night!!",
+    "titleKo": "Eccentric Party Night!!",
+    "titleKoReading": "익센트릭 파티 나이트",
     "totalNotes": 127,
     "duration": "2:28",
     "etStart": null,
@@ -3942,6 +4398,8 @@ const SONGS = [
       "추억"
     ],
     "title": "제뉴인",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 123,
     "duration": "2:13",
     "etStart": null,
@@ -3957,7 +4415,9 @@ const SONGS = [
     "units": [
       "추억"
     ],
-    "title": "데겜홀",
+    "title": "Death Game Holic",
+    "titleKo": "Death Game Holic",
+    "titleKoReading": "데스 게임 홀릭",
     "totalNotes": 235,
     "duration": "2:32",
     "etStart": null,
@@ -3974,6 +4434,8 @@ const SONGS = [
       "추억"
     ],
     "title": "Crush of Judgment 나킬",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 154,
     "duration": "2:24",
     "etStart": 65,
@@ -3989,7 +4451,9 @@ const SONGS = [
     "units": [
       "추억"
     ],
-    "title": "락 로어",
+    "title": "ROCK ROAR",
+    "titleKo": "ROCK ROAR",
+    "titleKoReading": "락 로어",
     "totalNotes": 208,
     "duration": "2:40",
     "etStart": null,
@@ -4005,7 +4469,9 @@ const SONGS = [
     "units": [
       "추억"
     ],
-    "title": "We'll be knights 윌비나",
+    "title": "We'll be \"Knights\"",
+    "titleKo": "We'll be \"Knights\"",
+    "titleKoReading": "윌 비 나이츠",
     "totalNotes": 99,
     "duration": "2:19",
     "etStart": 67,
@@ -4021,7 +4487,9 @@ const SONGS = [
     "units": [
       "추억"
     ],
-    "title": "성소년유희",
+    "title": "聖少年遊戯",
+    "titleKo": "성소년 유희",
+    "titleKoReading": null,
     "totalNotes": 160,
     "duration": "2:20",
     "etStart": null,
@@ -4037,7 +4505,9 @@ const SONGS = [
     "units": [
       "드림유닛"
     ],
-    "title": "반짝 Sign",
+    "title": "瞬きSign☆",
+    "titleKo": "깜빡 Sign☆",
+    "titleKoReading": "깜빡 사인",
     "totalNotes": 179,
     "duration": "2:46",
     "etStart": 119,
@@ -4053,7 +4523,9 @@ const SONGS = [
     "units": [
       "드림유닛"
     ],
-    "title": "세츠나 Drops",
+    "title": "セツナDrops",
+    "titleKo": "찰나 Drops",
+    "titleKoReading": "세츠나 드롭스",
     "totalNotes": 91,
     "duration": "2:32",
     "etStart": 53,
@@ -4070,6 +4542,8 @@ const SONGS = [
       "드림유닛"
     ],
     "title": "LOCK YOUR GAZE",
+    "titleKo": "LOCK YOUR GAZE",
+    "titleKoReading": "락 유어 게이즈",
     "totalNotes": 157,
     "duration": "2:09",
     "etStart": 35,
@@ -4085,7 +4559,9 @@ const SONGS = [
     "units": [
       "만우절"
     ],
-    "title": "앙상블 체조",
+    "title": "あんさんぶる体操!!",
+    "titleKo": "앙상블 체조!!",
+    "titleKoReading": null,
     "totalNotes": 176,
     "duration": "2:51",
     "etStart": null,
@@ -4102,6 +4578,8 @@ const SONGS = [
       "셔플"
     ],
     "title": "에투제",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 151,
     "duration": "2:30",
     "etStart": null,
@@ -4117,7 +4595,9 @@ const SONGS = [
     "units": [
       "주년"
     ],
-    "title": "웤유스",
+    "title": "Walk with your smile",
+    "titleKo": "Walk with your smile",
+    "titleKoReading": "워크 위드 유어 스마일 5주년",
     "totalNotes": 103,
     "duration": "2:00",
     "etStart": 57,
@@ -4133,7 +4613,9 @@ const SONGS = [
     "units": [
       "셔플"
     ],
-    "title": "버틀러",
+    "title": "Midnight Butlers",
+    "titleKo": "Midnight Butlers",
+    "titleKoReading": "미드나이트 버틀러즈",
     "totalNotes": 141,
     "duration": "2:05",
     "etStart": null,
@@ -4150,6 +4632,8 @@ const SONGS = [
       "셔플"
     ],
     "title": "블랑코",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 98,
     "duration": "2:09",
     "etStart": null,
@@ -4165,7 +4649,9 @@ const SONGS = [
     "units": [
       "새해"
     ],
-    "title": "2020 -> 2021",
+    "title": "年越しあんさんぶる！！2020→2021",
+    "titleKo": "새해맞이 앙상블!! 2020→2021",
+    "titleKoReading": null,
     "totalNotes": 210,
     "duration": "3:19",
     "etStart": 100,
@@ -4181,7 +4667,9 @@ const SONGS = [
     "units": [
       "만우절"
     ],
-    "title": "엔드리스 뷔데",
+    "title": "エンドレスヴィーデ",
+    "titleKo": "엔들리스 뷔데",
+    "titleKoReading": null,
     "totalNotes": 132,
     "duration": "2:31",
     "etStart": 0,
@@ -4197,7 +4685,9 @@ const SONGS = [
     "units": [
       "주년"
     ],
-    "title": "웤유스 어쿠스틱 (Acoustic Ver.)",
+    "title": "Walk with your smile (Acoustic Ver.)",
+    "titleKo": "Walk with your smile (Acoustic Ver.)",
+    "titleKoReading": "워크 위드 유어 스마일 어쿠스틱",
     "totalNotes": 167,
     "duration": "3:04",
     "etStart": 0,
@@ -4213,7 +4703,9 @@ const SONGS = [
     "units": [
       "주년"
     ],
-    "title": "6주년 퓨저닉",
+    "title": "FUSIONIC STARS!!",
+    "titleKo": "FUSIONIC STARS!!",
+    "titleKoReading": "퓨저닉 스타즈 6주년",
     "totalNotes": 214,
     "duration": "2:46",
     "etStart": 111,
@@ -4229,7 +4721,9 @@ const SONGS = [
     "units": [
       "셔플"
     ],
-    "title": "링어벨",
+    "title": "Aisle, be with you",
+    "titleKo": "Aisle, be with you",
+    "titleKoReading": "아일 비 위드 유 링어벨",
     "totalNotes": 169,
     "duration": "2:39",
     "etStart": null,
@@ -4246,6 +4740,8 @@ const SONGS = [
       "셔플"
     ],
     "title": "문라디",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 146,
     "duration": "2:15",
     "etStart": null,
@@ -4262,6 +4758,8 @@ const SONGS = [
       "셔플"
     ],
     "title": "Noir Neige (흑설)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 166,
     "duration": "2:42",
     "etStart": 38,
@@ -4277,7 +4775,9 @@ const SONGS = [
     "units": [
       "새해"
     ],
-    "title": "2021 -> 2022",
+    "title": "年越しあんさんぶる！！2021→2022",
+    "titleKo": "새해맞이 앙상블!! 2021→2022",
+    "titleKoReading": null,
     "totalNotes": 210,
     "duration": "3:25",
     "etStart": 135,
@@ -4293,7 +4793,9 @@ const SONGS = [
     "units": [
       "기타"
     ],
-    "title": "Life is so Drastic (로투쇼)",
+    "title": "Life is so Dramatic!!",
+    "titleKo": "Life is so Dramatic!!",
+    "titleKoReading": "라이프 이즈 소 드라마틱 극장판",
     "totalNotes": 194,
     "duration": "2:46",
     "etStart": 0,
@@ -4309,7 +4811,9 @@ const SONGS = [
     "units": [
       "만우절"
     ],
-    "title": "부쿠부 스타즈",
+    "title": "BUKUBU NEW STARS!!",
+    "titleKo": "BUKUBU NEW STARS!!",
+    "titleKoReading": "부쿠부 뉴 스타즈 만우절",
     "totalNotes": 160,
     "duration": "2:11",
     "etStart": null,
@@ -4325,7 +4829,9 @@ const SONGS = [
     "units": [
       "셔플"
     ],
-    "title": "부활절 토끼",
+    "title": "パラダイム・リバーシ！",
+    "titleKo": "패러다임 ・ 리버시!",
+    "titleKoReading": null,
     "totalNotes": 161,
     "duration": "2:29",
     "etStart": null,
@@ -4341,7 +4847,9 @@ const SONGS = [
     "units": [
       "주년"
     ],
-    "title": "Surprising Thanks!! 7주년",
+    "title": "Surprising Thanks!!",
+    "titleKo": "Surprising Thanks!!",
+    "titleKoReading": "서프라이징 땡스 7주년",
     "totalNotes": 159,
     "duration": "2:28",
     "etStart": 122,
@@ -4358,6 +4866,8 @@ const SONGS = [
       "셔플"
     ],
     "title": "FIST OF SOUL",
+    "titleKo": "FIST OF SOUL",
+    "titleKoReading": "피스트 오브 소울",
     "totalNotes": 176,
     "duration": "2:41",
     "etStart": 137,
@@ -4373,7 +4883,9 @@ const SONGS = [
     "units": [
       "셔플"
     ],
-    "title": "카페테리아",
+    "title": "Heart aid Cafeteria",
+    "titleKo": "Heart aid Cafeteria",
+    "titleKoReading": "하트 에이드 카페테리아",
     "totalNotes": 142,
     "duration": "2:42",
     "etStart": null,
@@ -4390,6 +4902,8 @@ const SONGS = [
       "셔플"
     ],
     "title": "Have you been naughty or nice?",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 218,
     "duration": "2:24",
     "etStart": null,
@@ -4405,7 +4919,9 @@ const SONGS = [
     "units": [
       "새해"
     ],
-    "title": "2022 -> 2023",
+    "title": "年越しあんさんぶる！！2022→2023",
+    "titleKo": "새해맞이 앙상블!! 2022→2023",
+    "titleKoReading": null,
     "totalNotes": 253,
     "duration": "3:40",
     "etStart": 187,
@@ -4422,6 +4938,8 @@ const SONGS = [
       "만우절"
     ],
     "title": "앙상블 트레이닝",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 83,
     "duration": "2:51",
     "etStart": 47,
@@ -4438,6 +4956,8 @@ const SONGS = [
       "추억"
     ],
     "title": "익센파 Mix",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 175,
     "duration": "2:47",
     "etStart": null,
@@ -4454,6 +4974,8 @@ const SONGS = [
       "기타"
     ],
     "title": "Twilight Pentagram 팬타그램",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 186,
     "duration": "2:53",
     "etStart": 1,
@@ -4470,6 +4992,8 @@ const SONGS = [
       "기타"
     ],
     "title": "Dawning Angels",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 194,
     "duration": "2:49",
     "etStart": 136,
@@ -4485,7 +5009,9 @@ const SONGS = [
     "units": [
       "주년"
     ],
-    "title": "One with One (8주년)",
+    "title": "One with One",
+    "titleKo": "One with One",
+    "titleKoReading": "원 위드 원 8주년",
     "totalNotes": 208,
     "duration": "2:50",
     "etStart": 0,
@@ -4501,7 +5027,9 @@ const SONGS = [
     "units": [
       "만우절"
     ],
-    "title": "스크럼블 교차로",
+    "title": "両片思いの交差点で、君にまた逢いたくて",
+    "titleKo": "양방향 짝사랑의 교차점에서, 너와 다시 만나고 싶어서",
+    "titleKoReading": null,
     "totalNotes": 131,
     "duration": "2:30",
     "etStart": null,
@@ -4517,7 +5045,9 @@ const SONGS = [
     "units": [
       "주년"
     ],
-    "title": "LIMIT BREAK DREAMERS (9주년)",
+    "title": "LIMIT BREAK DREAMERS",
+    "titleKo": "LIMIT BREAK DREAMERS",
+    "titleKoReading": "리밋 브레이크 드리머즈 9주년",
     "totalNotes": 172,
     "duration": "2:53",
     "etStart": 58,
@@ -4533,7 +5063,9 @@ const SONGS = [
     "units": [
       "셔플"
     ],
-    "title": "링잉 이블 폰",
+    "title": "Ringing evil phone",
+    "titleKo": "Ringing evil phone",
+    "titleKoReading": "링잉 이블 폰",
     "totalNotes": 149,
     "duration": "2:50",
     "etStart": 98,
@@ -4549,7 +5081,9 @@ const SONGS = [
     "units": [
       "셔플"
     ],
-    "title": "상실우의(喪失寓意) -LOST BALLADE-",
+    "title": "喪失寓意 -LOST BALLADE-",
+    "titleKo": "우의상실 -LOST BALLADE-",
+    "titleKoReading": "상실우의 로스트 발라드",
     "totalNotes": 128,
     "duration": "2:33",
     "etStart": 25,
@@ -4565,7 +5099,9 @@ const SONGS = [
     "units": [
       "콜라보"
     ],
-    "title": "We Are Light (에리오스)",
+    "title": "We Are Light",
+    "titleKo": "We Are Light",
+    "titleKoReading": "위 어 라이트 에리오스",
     "totalNotes": 199,
     "duration": "2:41",
     "etStart": 0,
@@ -4582,6 +5118,8 @@ const SONGS = [
       "콜라보"
     ],
     "title": "퓨전",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 174,
     "duration": "2:27",
     "etStart": null,
@@ -4598,6 +5136,8 @@ const SONGS = [
       "콜라보"
     ],
     "title": "B100d Hunter 블러드헌터",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 184,
     "duration": "2:29",
     "etStart": 0,
@@ -4614,6 +5154,8 @@ const SONGS = [
       "셔플"
     ],
     "title": "타천사",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 158,
     "duration": "2:32",
     "etStart": null,
@@ -4629,7 +5171,9 @@ const SONGS = [
     "units": [
       "주년"
     ],
-    "title": "BRIGHTEST STARS!! (10주년)",
+    "title": "BRIGHTEST STARS!!",
+    "titleKo": "BRIGHTEST STARS!!",
+    "titleKoReading": "브라이티스트 스타즈 10주년",
     "totalNotes": 188,
     "duration": "2:27",
     "etStart": 56,
@@ -4646,6 +5190,8 @@ const SONGS = [
       "콜라보"
     ],
     "title": "세이크리드 루인",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 234,
     "duration": "2:27",
     "etStart": 0,
@@ -4662,6 +5208,8 @@ const SONGS = [
       "셔플"
     ],
     "title": "군연지원 (루리마츠리)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 135,
     "duration": "2:42",
     "etStart": 72,
@@ -4677,7 +5225,9 @@ const SONGS = [
     "units": [
       "콜라보"
     ],
-    "title": "RISE STAR'S SPIRITS (에리오스2)",
+    "title": "RISE STAR'S SPIRITS",
+    "titleKo": "RISE STAR'S SPIRITS",
+    "titleKoReading": "라이즈 스타즈 스피리츠 에리오스",
     "totalNotes": 215,
     "duration": "2:55",
     "etStart": 0,
@@ -4694,6 +5244,8 @@ const SONGS = [
       "셔플"
     ],
     "title": "쿠마쿠마 레스큐",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 236,
     "duration": "2:38",
     "etStart": 163,
@@ -4709,7 +5261,9 @@ const SONGS = [
     "units": [
       "셔플_10주년"
     ],
-    "title": "보쿠노 위크포인트 (1번 셔플)",
+    "title": "僕のウィーク・ポイント",
+    "titleKo": "나의 위크 ・ 포인트",
+    "titleKoReading": "보쿠노 위크포인트 1번",
     "totalNotes": 111,
     "duration": "2:31",
     "etStart": 72,
@@ -4725,7 +5279,9 @@ const SONGS = [
     "units": [
       "셔플_10주년"
     ],
-    "title": "Graceful Punishment (5번 셔플)",
+    "title": "Graceful Punishment",
+    "titleKo": "Graceful Punishment",
+    "titleKoReading": "그레이스풀 퍼니쉬먼트 5번",
     "totalNotes": 138,
     "duration": "2:28",
     "etStart": 70,
@@ -4742,6 +5298,8 @@ const SONGS = [
       "셔플_10주년"
     ],
     "title": "Deep into you (10번 셔플)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 131,
     "duration": "2:27",
     "etStart": 34,
@@ -4758,6 +5316,8 @@ const SONGS = [
       "셔플_10주년"
     ],
     "title": "러뷰&피스 전설 (3번 셔플)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 229,
     "duration": "2:48",
     "etStart": 75,
@@ -4774,6 +5334,8 @@ const SONGS = [
       "셔플_10주년"
     ],
     "title": "Ai$ 아이도루(8번 셔플)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 244,
     "duration": "2:32",
     "etStart": 142,
@@ -4789,7 +5351,9 @@ const SONGS = [
     "units": [
       "셔플_10주년"
     ],
-    "title": "It's (k)not lov? (7번 셔플)",
+    "title": "It's (k)not lov?",
+    "titleKo": "It's (k)not lov?",
+    "titleKoReading": "이츠 낫 러브 7번",
     "totalNotes": 131,
     "duration": "2:42",
     "etStart": 56,
@@ -4806,6 +5370,8 @@ const SONGS = [
       "셔플_10주년"
     ],
     "title": "그것은 잔상의 소실점 2번",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 120,
     "duration": "2:39",
     "etStart": 26,
@@ -4817,11 +5383,13 @@ const SONGS = [
   },
   {
     "type": "Sparkle",
-    "unit": "진앤아",
+    "unit": "Jin & Akiomi",
     "units": [
-      "진앤아"
+      "Jin & Akiomi"
     ],
-    "title": "하나니나레",
+    "title": "ハナニナレ！",
+    "titleKo": "꽃이 되어라!",
+    "titleKoReading": "하나니나레",
     "totalNotes": 139,
     "duration": "2:21",
     "etStart": 58,
@@ -4838,6 +5406,8 @@ const SONGS = [
       "셔플_10주년"
     ],
     "title": "9번 셔플",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 128,
     "duration": "2:37",
     "etStart": 61,
@@ -4854,6 +5424,8 @@ const SONGS = [
       "셔플_10주년"
     ],
     "title": "Fight is Only Fate (4번 셔플)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 250,
     "duration": "2:39",
     "etStart": 162,
@@ -4869,7 +5441,9 @@ const SONGS = [
     "units": [
       "셔플_10주년"
     ],
-    "title": "프롤로그(プロローグのそのあとへ) 6번",
+    "title": "プロローグのそのあとへ",
+    "titleKo": "프롤로그 그 이후에",
+    "titleKoReading": "6번",
     "totalNotes": 144,
     "duration": "2:22",
     "etStart": 83,
@@ -4886,6 +5460,8 @@ const SONGS = [
       "콜라보"
     ],
     "title": "오보로(朧)",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 193,
     "duration": "2:11",
     "etStart": 0,
@@ -4901,7 +5477,9 @@ const SONGS = [
     "units": [
       "주년"
     ],
-    "title": "브라스타 메가스피어",
+    "title": "BRIGHTEST STARS!! (Mainstream Megasphere ver.)",
+    "titleKo": "BRIGHTEST STARS!! (Mainstream Megasphere ver.)",
+    "titleKoReading": "브라이티스트 스타즈 메가스피어",
     "totalNotes": 223,
     "duration": "2:30",
     "etStart": 0,
@@ -4918,6 +5496,8 @@ const SONGS = [
       "만우절"
     ],
     "title": "페르소나 아비스",
+    "titleKo": null,
+    "titleKoReading": null,
     "totalNotes": 230,
     "duration": "2:37",
     "etStart": 122,

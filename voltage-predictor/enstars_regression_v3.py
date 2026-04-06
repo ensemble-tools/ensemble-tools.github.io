@@ -40,13 +40,17 @@ R² = 0.9663 / MAE = 2.79노트 / LOO-MAE = 2.86노트 (167곡)
 import json
 import sys
 import re
+import requests
 import pandas as pd
 import numpy as np
 from pathlib import Path
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score, mean_absolute_error
+import os
+from dotenv import load_dotenv
 
 _HERE = Path(__file__).parent
+load_dotenv(_HERE / ".env")
 CSV_PATH = str(_HERE / "es_regression.xlsx")
 SAFETY_MARGIN = 10
 FAIL_URL = "https://youtu.be/Cs8hEmAl8eI"
@@ -65,6 +69,88 @@ def parse_duration(val) -> str | None:
     if len(parts) == 2:
         return s[:5]
     return s
+
+
+def extract_video_id(url: str) -> str | None:
+    """youtu.be 또는 youtube.com URL에서 video ID 추출."""
+    import urllib.parse
+    if not url:
+        return None
+    parsed = urllib.parse.urlparse(url)
+    if parsed.netloc in ("youtu.be",):
+        vid = parsed.path.lstrip("/").split("/")[0]
+        return vid if vid else None
+    if "youtube.com" in parsed.netloc:
+        qs = urllib.parse.parse_qs(parsed.query)
+        ids = qs.get("v", [])
+        return ids[0] if ids else None
+    return None
+
+
+def fetch_clear_seconds(video_id: str, api_key: str) -> int | None:
+    """YouTube API로 영상 설명란을 가져와 Clear 타임스탬프를 초로 반환 (-2초 적용)."""
+    url = "https://www.googleapis.com/youtube/v3/videos"
+    resp = requests.get(url, params={"part": "snippet", "id": video_id, "key": api_key})
+    resp.raise_for_status()
+    items = resp.json().get("items", [])
+    if not items:
+        return None
+    description = items[0]["snippet"]["description"]
+    match = re.search(r"(\d{2}):(\d{2}) Clear\([^)]+\)", description)
+    if not match:
+        return None
+    minutes, seconds = int(match.group(1)), int(match.group(2))
+    total = minutes * 60 + seconds - 2
+    return max(0, total)
+
+
+def fill_clear_urls(path: str, api_key: str):
+    """엑셀에서 video_url을 읽어 video_url_clear를 채우고 저장."""
+    import openpyxl
+    wb = openpyxl.load_workbook(path)
+    ws = wb.active
+
+    # 헤더 행에서 열 인덱스 찾기 (1-based)
+    header = [cell.value for cell in ws[1]]
+    try:
+        col_url = header.index("video_url") + 1
+        col_clear = header.index("video_url_clear") + 1
+    except ValueError as e:
+        print(f"  오류: 헤더를 찾을 수 없음 — {e}")
+        return
+
+    filled = 0
+    skipped_existing = 0
+    not_found = 0
+
+    for row in ws.iter_rows(min_row=2):
+        url_cell = row[col_url - 1]
+        clear_cell = row[col_clear - 1]
+
+        if not url_cell.value:
+            continue
+        if clear_cell.value:
+            skipped_existing += 1
+            continue
+
+        video_id = extract_video_id(str(url_cell.value))
+        if not video_id:
+            not_found += 1
+            continue
+
+        t = fetch_clear_seconds(video_id, api_key)
+        if t is None:
+            not_found += 1
+            continue
+
+        clear_cell.value = f"https://youtu.be/{video_id}?t={t}"
+        filled += 1
+
+    wb.save(path)
+    print(f"\n✓ video_url_clear 채우기 완료: {path}")
+    print(f"  채운 항목: {filled}개")
+    print(f"  이미 있어서 건너뜀: {skipped_existing}개")
+    print(f"  타임스탬프 못 찾음: {not_found}개")
 
 
 # ── 데이터 로드 ────────────────────────────────────────────
@@ -93,7 +179,7 @@ def train_model(df: pd.DataFrame) -> dict:
 
     before = len(measured)
     measured = measured.drop_duplicates(
-        subset=["title", "total_notes", "clear_start_measured"]
+        subset=["title_ja", "total_notes", "clear_start_measured"]
     )
     after = len(measured)
     if before != after:
@@ -199,7 +285,7 @@ def export_songs_js(df_pred: pd.DataFrame, result: dict, out_path: str = "songs.
     # title + total_notes 기준으로 그룹핑 — 합동곡은 units 배열로 수집
     seen: dict = {}
     for _, row in df_pred.iterrows():
-        key = (str(row["title"]), int(row["total_notes"]))
+        key = (str(row["title_ja"]), int(row["total_notes"]))
         unit = str(row["unit"])
         if key not in seen:
             seen[key] = {"row": row, "units": [unit]}
@@ -224,19 +310,24 @@ def export_songs_js(df_pred: pd.DataFrame, result: dict, out_path: str = "songs.
 
         duration_str = parse_duration(row.get("duration", None))
 
+        title_ko = row.get("title_ko", None)
+        title_ko_reading = row.get("title_ko_reading", None)
+
         songs.append({
-            "type":       str(row["type"]),
-            "unit":       " / ".join(units),   # 표시용: "피네 / 트릭스타"
-            "units":      units,               # 검색/필터용: ["피네", "트릭스타"]
-            "title":      key[0],
-            "totalNotes": key[1],
-            "duration":   duration_str,
-            "etStart":    et_s,
-            "etEnd":      et_e,
-            "measured":   measured_val,
-            "category":   str(row["category"]),
-            "video":      video,
-            "predicted":  float(row["clear_start_predicted"]),
+            "type":           str(row["type"]),
+            "unit":           " / ".join(units),   # 표시용: "피네 / 트릭스타"
+            "units":          units,               # 검색/필터용: ["피네", "트릭스타"]
+            "title":          key[0],              # 일본어 원문
+            "titleKo":        str(title_ko) if pd.notna(title_ko) else None,   # 한국어 표시용
+            "titleKoReading": str(title_ko_reading) if pd.notna(title_ko_reading) else None,  # 한국어 독음 (검색 전용)
+            "totalNotes":     key[1],
+            "duration":       duration_str,
+            "etStart":        et_s,
+            "etEnd":          et_e,
+            "measured":       measured_val,
+            "category":       str(row["category"]),
+            "video":          video,
+            "predicted":      float(row["clear_start_predicted"]),
         })
 
     # 모델 파라미터 (프론트에서 직접 계산할 수 있도록)
@@ -343,9 +434,9 @@ def main():
         return
 
     # 전체 예측 결과 표시
-    df_show = df_pred.drop_duplicates(subset=["title", "total_notes"])
+    df_show = df_pred.drop_duplicates(subset=["title_ja", "total_notes"])
     cols = [
-        "category", "type", "unit", "title", "total_notes", "duration",
+        "category", "type", "unit", "title_ja", "total_notes", "duration",
         "clear_start_measured", "clear_start_predicted", "clear_notes",
         "clear_ratio", "model_used",
     ]
@@ -357,12 +448,13 @@ def main():
     print("  1) songs.js 저장")
     print("  2) CSV 저장")
     print("  3) 새 곡 예측")
+    print("  4) video_url_clear 채우기")
     print("  q) 종료")
     print("────────────────────────────────────")
 
     while True:
         try:
-            cmd = input("선택 (1/2/3/q): ").strip().lower()
+            cmd = input("선택 (1/2/3/4/q): ").strip().lower()
             if cmd == "q":
                 break
 
@@ -397,6 +489,16 @@ def main():
                     start_pt, clear, ratio, used = predict_one(result, n, s, e)
                     print(f"  → 시작점: {start_pt}콤보 ({ratio:.1f}%)")
                     print(f"  → 클리어: {clear}콤보  (모델: {used})\n")
+
+            elif cmd == "4":
+                api_key = os.getenv("YT_API_KEY", "").strip()
+                if not api_key:
+                    api_key = input("YouTube API 키 입력: ").strip()
+                if not api_key:
+                    print("  API 키가 없습니다. .env 파일에 YT_API_KEY를 설정하거나 입력해 주세요.")
+                else:
+                    fill_clear_urls(path, api_key)
+
         except KeyboardInterrupt:
             print("\n종료.")
             break
