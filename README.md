@@ -6,7 +6,7 @@ It helps users search songs and estimate the starting combo point needed to clea
 This project is a React-based rewrite of the original HTML/JavaScript version, with improved maintainability, multilingual support, mobile usability, and progressive web app support.
 
 ## Live Demo
-https://ensemble-tools.github.io/ansta-easyjak/react/
+https://ansta-easyjak.github.io/
 
 ## Features
 
@@ -73,6 +73,6 @@ License information will be provided in the repository.
 ## Legacy Version
 
 The original HTML/JavaScript version is still available for reference:
-https://ensemble-tools.github.io/ansta-easyjak/
+https://ansta-easyjak.github.io/legacy/en.html
 
 The React version is the actively maintained version of this project.
